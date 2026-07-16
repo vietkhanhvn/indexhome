@@ -1,0 +1,2364 @@
+<html lang="vi" prefix="og: https://ogp.me/ns#" class="js" style="--flatsome--header--sticky-height: 70px;"><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-17153279804&amp;cx=c&amp;gtm=4e67e0"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PH3T4JKR"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=AW-17055271757&amp;cx=c&amp;gtm=4e67e1h2"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=GT-5TGJQFKZ&amp;cx=c&amp;gtm=4e67e1h2"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head><script bis_use="true" type="text/javascript" charset="utf-8" nonce="" data-dynamic-id="dbb262a9-de12-469e-abff-568c6d0e4b19" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/200.js"></script><script bis_use="true" type="text/javascript" charset="utf-8" nonce="" data-dynamic-id="dbb262a9-de12-469e-abff-568c6d0e4b19" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/101.js"></script><link rel="prefetch"><script src="https://homemoney.vn/wp-includes/js/wp-emoji-release.min.js?ver=7.0.1" defer=""></script></head><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17127537713/?random=1784198698638&amp;cv=11&amp;fst=1784198698638&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be67e1h2za200xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=115938466~115938468~118897920~118897930~119724322&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Flocalhost%2FHomemoney%2F&amp;rcb=12&amp;frm=0&amp;tiba=HOMEMONEY-%20Vay%20ti%E1%BB%81n%20b%E1%BA%B1ng%20%C4%91%C4%83ng%20k%C3%BD%20xe%2C%20c%E1%BA%A7m%20c%E1%BB%91%20xe%20l%C3%A3i%20su%E1%BA%A5t%20th%E1%BA%A5p&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=2141190297.1784198669&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CMicrosoft%2520Edge%3B150.0.4078.65&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;ept=9&amp;rfmt=3&amp;fmt=4"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17055271757/?random=1784198698874&amp;cv=11&amp;fst=1784198698874&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be67e1h2v9220259847za200xec&amp;gcd=13l3l3l3l5l1&amp;dma=0&amp;tag_exp=115616986~115938466~115938469~118395335~118897920~118897930~119724322&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Flocalhost%2FHomemoney%2F&amp;rcb=17&amp;frm=0&amp;tiba=HOMEMONEY-%20Vay%20ti%E1%BB%81n%20b%E1%BA%B1ng%20%C4%91%C4%83ng%20k%C3%BD%20xe%2C%20c%E1%BA%A7m%20c%E1%BB%91%20xe%20l%C3%A3i%20su%E1%BA%A5t%20th%E1%BA%A5p&amp;did=dZTNiMT&amp;gdid=dZTNiMT&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=2141190297.1784198669&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CMicrosoft%2520Edge%3B150.0.4078.65&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;ept=9&amp;rfmt=3&amp;fmt=4"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17103816865/?random=1784198698886&amp;cv=11&amp;fst=1784198698886&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be67e1h2v9220259847za200xec&amp;gcd=13l3l3l3l5l1&amp;dma=0&amp;tag_exp=115616986~115938466~115938469~118395335~118897920~118897930~119724322&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Flocalhost%2FHomemoney%2F&amp;rcb=17&amp;frm=0&amp;tiba=HOMEMONEY-%20Vay%20ti%E1%BB%81n%20b%E1%BA%B1ng%20%C4%91%C4%83ng%20k%C3%BD%20xe%2C%20c%E1%BA%A7m%20c%E1%BB%91%20xe%20l%C3%A3i%20su%E1%BA%A5t%20th%E1%BA%A5p&amp;did=dZTNiMT&amp;gdid=dZTNiMT&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=2141190297.1784198669&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CMicrosoft%2520Edge%3B150.0.4078.65&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;ept=9&amp;rfmt=3&amp;fmt=4"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17153279804/?random=1784198699131&amp;cv=11&amp;fst=1784198699131&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be67e0v9231848811z89231847936za20gzb9231847936zd9231847936xec&amp;gcd=13l3l3l3l5l1&amp;dma=0&amp;tag_exp=115616985~115938466~115938469~118897920~118897930~119724322&amp;u_w=1536&amp;u_h=864&amp;url=https%3A%2F%2Flocalhost%2FHomemoney%2F&amp;rcb=1&amp;frm=0&amp;tiba=HOMEMONEY-%20Vay%20ti%E1%BB%81n%20b%E1%BA%B1ng%20%C4%91%C4%83ng%20k%C3%BD%20xe%2C%20c%E1%BA%A7m%20c%E1%BB%91%20xe%20l%C3%A3i%20su%E1%BA%A5t%20th%E1%BA%A5p&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=2141190297.1784198669&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.115%7CMicrosoft%2520Edge%3B150.0.4078.65&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;gap.plf=5&amp;ept=9&amp;rfmt=3&amp;fmt=4"></script><body __processed_4d886fb2-a915-4d81-8c83-685f6e67f63c__="true" class="home wp-singular page-template page-template-page-blank page-template-page-blank-php page page-id-96 wp-theme-flatsome wp-child-theme-flatsome-child lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJlbmFibGVkIiwiRkFDRUJPT0siOiJlbmFibGVkIiwiVFdJVFRFUiI6ImVuYWJsZWQiLCJSRURESVQiOiJlbmFibGVkIiwiUElOVEVSRVNUIjoiZW5hYmxlZCIsIklOU1RBR1JBTSI6ImVuYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZW5hYmxlZCIsIkNPTkZJRyI6ImRpc2FibGVkIn0sInZlcnNpb24iOiIyLjEuMiIsInNjb3JlIjoyMDEwMjB9XQ=="><br>
+
+	<meta charset="UTF-8">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://homemoney.vn/xmlrpc.php">
+<style>
+    #signup-seed {
+      position: fixed;
+      bottom: 80px;
+      left: 20px;
+      background-color: rgba(0, 128, 0, 0.9);
+      color: #fff;
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      z-index: 9999;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      animation: fadeInUp 0.4s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+  <!-- Event snippet for Lượt mua hàng conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17103816865/zO50CPzbpMwaEKGR3ts_',
+      'value': 1.0,
+      'currency': 'USD',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-17127537713">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17127537713');
+</script>
+<!-- Event snippet for Lượt mua hàng conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17127537713/2ZOyCOKwt88aELH4hec_',
+      'transaction_id': ''
+  });
+</script>
+
+
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Chế độ đồng ý Google tag (gtag.js) dataLayer được thêm bởi Site Kit -->
+<script id="google_gtagjs-js-consent-mode-data-layer">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK"],"wait_for_update":500});
+window._googlesitekitConsentCategoryMap = {"statistics":["analytics_storage"],"marketing":["ad_storage","ad_user_data","ad_personalization"],"functional":["functionality_storage","security_storage"],"preferences":["personalization_storage"]};
+window._googlesitekitConsents = {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK"],"wait_for_update":500};
+</script>
+<!-- Kết thúc thẻ Google (gtag.js) chế độ đồng ý dataLayer được thêm bởi Site Kit -->
+
+<!-- Tối ưu hóa công cụ tìm kiếm bởi Rank Math - https://rankmath.com/ -->
+<title>HOMEMONEY- Vay tiền bằng đăng ký xe, cầm cố xe lãi suất thấp</title>
+<meta name="description" content="Home Money cung cấp dịch vụ tài chính: Vay tiền bằng đăng ký xe, cầm xe ô tô, cầm xe máy. Quy trình vay minh bạch, tiện lợi và nhanh chóng">
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://homemoney.vn">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HOMEMONEY- Vay tiền bằng đăng ký xe, cầm cố xe lãi suất thấp">
+<meta property="og:description" content="Home Money cung cấp dịch vụ tài chính: Vay tiền bằng đăng ký xe, cầm xe ô tô, cầm xe máy. Quy trình vay minh bạch, tiện lợi và nhanh chóng">
+<meta property="og:url" content="https://homemoney.vn">
+<meta property="og:site_name" content="Home Money - Tài Chính Cho Mọi Nhà">
+<meta property="og:updated_time" content="2026-01-07T17:42:48+07:00">
+<meta property="article:published_time" content="2024-12-26T03:05:07+07:00">
+<meta property="article:modified_time" content="2026-01-07T17:42:48+07:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HOMEMONEY- Vay tiền bằng đăng ký xe, cầm cố xe lãi suất thấp">
+<meta name="twitter:description" content="Home Money cung cấp dịch vụ tài chính: Vay tiền bằng đăng ký xe, cầm xe ô tô, cầm xe máy. Quy trình vay minh bạch, tiện lợi và nhanh chóng">
+<meta name="twitter:label1" content="Được viết bởi">
+<meta name="twitter:data1" content="admin">
+<meta name="twitter:label2" content="Thời gian để đọc">
+<meta name="twitter:data2" content="5 phút">
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://homemoney.vn/#person","name":"Home Money - T\u00e0i Ch\u00ednh Cho M\u1ecdi Nh\u00e0"},{"@type":"WebSite","@id":"https://homemoney.vn/#website","url":"https://homemoney.vn","name":"Home Money - T\u00e0i Ch\u00ednh Cho M\u1ecdi Nh\u00e0","publisher":{"@id":"https://homemoney.vn/#person"},"inLanguage":"vi","potentialAction":{"@type":"SearchAction","target":"https://homemoney.vn/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://homemoney.vn/wp-content/uploads/2025/12/xe-oto-fix.png","url":"https://homemoney.vn/wp-content/uploads/2025/12/xe-oto-fix.png","width":"200","height":"200","inLanguage":"vi"},{"@type":"WebPage","@id":"https://homemoney.vn#webpage","url":"https://homemoney.vn","name":"HOMEMONEY- Vay ti\u1ec1n b\u1eb1ng \u0111\u0103ng k\u00fd xe, c\u1ea7m c\u1ed1 xe l\u00e3i su\u1ea5t th\u1ea5p","datePublished":"2024-12-26T03:05:07+07:00","dateModified":"2026-01-07T17:42:48+07:00","about":{"@id":"https://homemoney.vn/#person"},"isPartOf":{"@id":"https://homemoney.vn/#website"},"primaryImageOfPage":{"@id":"https://homemoney.vn/wp-content/uploads/2025/12/xe-oto-fix.png"},"inLanguage":"vi"},{"@type":"Person","@id":"https://homemoney.vn/author/admin","name":"admin","url":"https://homemoney.vn/author/admin","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/d56339482c1bd87f9a003412905fbc1ee559ea686d239f8e0881b4cdbd977e84?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/d56339482c1bd87f9a003412905fbc1ee559ea686d239f8e0881b4cdbd977e84?s=96&amp;d=mm&amp;r=g","caption":"admin","inLanguage":"vi"},"sameAs":["http://localhost/homemoney"]},{"@type":"Article","headline":"HOMEMONEY- Vay ti\u1ec1n b\u1eb1ng \u0111\u0103ng k\u00fd xe, c\u1ea7m c\u1ed1 xe l\u00e3i su\u1ea5t th\u1ea5p","keywords":"c\u1ea7m \u0111\u0103ng k\u00fd xe,c\u1ea7m \u00f4 t\u00f4,vay ti\u1ec1n b\u1eb1ng \u0111\u0103ng k\u00fd xe","datePublished":"2024-12-26T03:05:07+07:00","dateModified":"2026-01-07T17:42:48+07:00","author":{"@id":"https://homemoney.vn/author/admin","name":"admin"},"publisher":{"@id":"https://homemoney.vn/#person"},"description":"Home Money cung c\u1ea5p d\u1ecbch v\u1ee5 t\u00e0i ch\u00ednh: Vay ti\u1ec1n b\u1eb1ng \u0111\u0103ng k\u00fd xe, c\u1ea7m xe \u00f4 t\u00f4, c\u1ea7m xe m\u00e1y. Quy tr\u00ecnh vay minh b\u1ea1ch, ti\u1ec7n l\u1ee3i v\u00e0 nhanh ch\u00f3ng","name":"HOMEMONEY- Vay ti\u1ec1n b\u1eb1ng \u0111\u0103ng k\u00fd xe, c\u1ea7m c\u1ed1 xe l\u00e3i su\u1ea5t th\u1ea5p","@id":"https://homemoney.vn#richSnippet","isPartOf":{"@id":"https://homemoney.vn#webpage"},"image":{"@id":"https://homemoney.vn/wp-content/uploads/2025/12/xe-oto-fix.png"},"inLanguage":"vi","mainEntityOfPage":{"@id":"https://homemoney.vn#webpage"}}]}</script>
+<!-- /Plugin SEO WordPress Rank Math -->
+
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="prefetch" href="https://homemoney.vn/wp-content/themes/flatsome/assets/js/flatsome.js?ver=8e60d746741250b4dd4e">
+<link rel="prefetch" href="https://homemoney.vn/wp-content/themes/flatsome/assets/js/chunk.slider.js?ver=3.19.4">
+<link rel="prefetch" href="https://homemoney.vn/wp-content/themes/flatsome/assets/js/chunk.popups.js?ver=3.19.4">
+<link rel="prefetch" href="https://homemoney.vn/wp-content/themes/flatsome/assets/js/chunk.tooltips.js?ver=3.19.4">
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin Home Money - Tài Chính Cho Mọi Nhà »" href="https://homemoney.vn/feed">
+<link rel="alternate" type="application/rss+xml" title="Home Money - Tài Chính Cho Mọi Nhà » Dòng bình luận" href="https://homemoney.vn/comments/feed">
+<link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed" href="https://homemoney.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhomemoney.vn%2F">
+<link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed" href="https://homemoney.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhomemoney.vn%2F&amp;format=xml">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: #00b74f;--wp--preset--color--secondary: #d26e4b;--wp--preset--color--success: #7a9c59;--wp--preset--color--alert: #b20000;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: none;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-success-color{color: var(--wp--preset--color--success) !important;}.has-alert-color{color: var(--wp--preset--color--alert) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-success-background-color{background-color: var(--wp--preset--color--success) !important;}.has-alert-background-color{background-color: var(--wp--preset--color--alert) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-success-border-color{border-color: var(--wp--preset--color--success) !important;}.has-alert-border-color{border-color: var(--wp--preset--color--alert) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel="stylesheet" id="contact-form-7-css" href="https://homemoney.vn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6" media="all">
+<link rel="stylesheet" id="hmn-car-valuation-style-css" href="https://homemoney.vn/wp-content/plugins/hmn-car-valuation-full/assets/style.css?ver=1784198535" media="all">
+<link rel="stylesheet" id="wpcf7-redirect-script-frontend-css" href="https://homemoney.vn/wp-content/plugins/wpcf7-redirect/build/assets/frontend-script.css?ver=2c532d7e2be36f6af233" media="all">
+<link rel="stylesheet" id="pzf-style-css" href="https://homemoney.vn/wp-content/plugins/button-contact-vr/legacy/css/style.css?ver=1" media="all">
+<link rel="stylesheet" id="hm-vaynhanh-css" href="https://homemoney.vn/wp-content/themes/flatsome-child/css/hm-vaynhanh.css?ver=1.0" media="all">
+<link rel="stylesheet" id="flatsome-main-css" href="https://homemoney.vn/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.19.4" media="all">
+<style id="flatsome-main-inline-css">
+@font-face {
+				font-family: "fl-icons";
+				font-display: block;
+				src: url(https://homemoney.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot?v=3.19.4);
+				src:
+					url(https://homemoney.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot#iefix?v=3.19.4) format("embedded-opentype"),
+					url(https://homemoney.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2?v=3.19.4) format("woff2"),
+					url(https://homemoney.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf?v=3.19.4) format("truetype"),
+					url(https://homemoney.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff?v=3.19.4) format("woff"),
+					url(https://homemoney.vn/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg?v=3.19.4#fl-icons) format("svg");
+			}
+/*# sourceURL=flatsome-main-inline-css */
+</style>
+<link rel="stylesheet" id="flatsome-style-css" href="https://homemoney.vn/wp-content/themes/flatsome-child/style.css?ver=3.0" media="all">
+<script id="jquery-core-js" src="https://homemoney.vn/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://homemoney.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+
+<!-- Đoạn mã Google tag (gtag.js) được thêm bởi Site Kit -->
+
+<!-- Đoạn mã Google Ads được thêm bởi Site Kit -->
+
+<!-- Đoạn mã Google Analytics được thêm bởi Site Kit -->
+<script id="google_gtagjs-js" src="https://www.googletagmanager.com/gtag/js?id=GT-5TGJQFKZ" async=""></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["homemoney.vn"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-5TGJQFKZ");
+gtag("config", "AW-17055271757");
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); } 
+//# sourceURL=google_gtagjs-js-after
+</script>
+
+<!-- Kết thúc đoạn mã Google tag (gtag.js) được thêm bởi Site Kit -->
+<link rel="https://api.w.org/" href="https://homemoney.vn/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://homemoney.vn/wp-json/wp/v2/pages/96"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://homemoney.vn/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 7.0.1">
+<link rel="shortlink" href="https://homemoney.vn/">
+<meta name="generator" content="Site Kit by Google 1.152.1"><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PH3T4JKR');</script>
+<!-- End Google Tag Manager --><link rel="icon" href="https://homemoney.vn/wp-content/uploads/2025/01/cropped-home-icon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://homemoney.vn/wp-content/uploads/2025/01/cropped-home-icon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://homemoney.vn/wp-content/uploads/2025/01/cropped-home-icon-180x180.png">
+<meta name="msapplication-TileImage" content="https://homemoney.vn/wp-content/uploads/2025/01/cropped-home-icon-270x270.png">
+<style id="custom-css" type="text/css">:root {--primary-color: #00b74f;--fs-color-primary: #00b74f;--fs-color-secondary: #d26e4b;--fs-color-success: #7a9c59;--fs-color-alert: #b20000;--fs-experimental-link-color: #00b74f;--fs-experimental-link-color-hover: #00b74f;}.tooltipster-base {--tooltip-color: #fff;--tooltip-bg-color: #000;}.off-canvas-right .mfp-content, .off-canvas-left .mfp-content {--drawer-width: 300px;}.container-width, .full-width .ubermenu-nav, .container, .row{max-width: 1310px}.row.row-collapse{max-width: 1280px}.row.row-small{max-width: 1302.5px}.row.row-large{max-width: 1340px}.header-main{height: 90px}#logo img{max-height: 90px}#logo{width:255px;}.header-bottom{min-height: 55px}.header-top{min-height: 30px}.transparent .header-main{height: 90px}.transparent #logo img{max-height: 90px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 90px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.header-bottom {background-color: #f1f1f1}.top-bar-nav > li > a{line-height: 16px }.header-main .nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.header-top{background-color:#ffffff!important;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family: Lexend, sans-serif;}body {font-weight: 400;font-style: normal;}.nav > li > a {font-family: Lexend, sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family: Lexend, sans-serif;}.nav > li > a,.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;font-style: normal;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: Lexend, sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2 {font-weight: 700;font-style: normal;}.alt-font{font-family: "Dancing Script", sans-serif;}.alt-font {font-weight: 400!important;font-style: normal!important;}.header:not(.transparent) .top-bar-nav > li > a {color: #000000;}.header:not(.transparent) .header-nav-main.nav > li > a {color: #000000;}.header:not(.transparent) .header-nav-main.nav > li > a:hover,.header:not(.transparent) .header-nav-main.nav > li.active > a,.header:not(.transparent) .header-nav-main.nav > li.current > a,.header:not(.transparent) .header-nav-main.nav > li > a.active,.header:not(.transparent) .header-nav-main.nav > li > a.current{color: #00b74f;}.header-nav-main.nav-line-bottom > li > a:before,.header-nav-main.nav-line-grow > li > a:before,.header-nav-main.nav-line > li > a:before,.header-nav-main.nav-box > li > a:hover,.header-nav-main.nav-box > li.active > a,.header-nav-main.nav-pills > li > a:hover,.header-nav-main.nav-pills > li.active > a{color:#FFF!important;background-color: #00b74f;}.footer-1{background-color: #f9f9f9}.nav-vertical-fly-out > li + li {border-top-width: 1px; border-top-style: solid;}/* Custom CSS */.row-service{width: 65%;}.form-row{width: 100%;}.column-half, .column-full{float: left;position: relative;padding-right: 0.65rem;width:100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box}.clearfix:after {content: "";display: table;clear: both;} /**---------------- Media query ----------------**/@media only screen and (min-width: 48em) { .column-half{width: 50%;}}.buttom-slide{float: left;}.giuseart_tabs > .nav .tab {margin-top: 1px;width: 180px;background: #f4f7f8;}.giuseart_tabs .nav{margin-bottom:0px}.giuseart_tabs > .nav .tab a {text-align:center;display: inline-block;border:none;overflow: hidden;position: relative;padding: 10px 10px;font-size: 15px;color: black;width: 180px;border-top-color: #00b74f;}.giuseart_tabs > .nav .tab.active a {background: #f4f7f8;border: none;box-shadow: none;}.giuseart_tabs .nav-vertical > li + li {border-top: 0;}.giuseart_tabs > .nav .tab a > img {margin: 0 auto;}.giuseart_tabs > .nav .tab a > img:nth-child(2) {display: none;}.giuseart_tabs > .nav .tab.active a > img:nth-child(1) {display: none;}.giuseart_tabs > .nav .tab.active a > img:nth-child(2) {display: block;}.giuseart_tabs > .nav .tab a:before {display: none;}.giuseart_tabs .nav h3 {text-transform: none;letter-spacing: 0;font-weight: normal;font-size: 15px;color: black;text-align: center;}.giuseart_tabs .nav .active h3 {color: #00b74f;border-top-color: #00b74f;}.giuseart_tabs > .tab-panels {width: 100%;padding:20px;}.giuseart_tabs .tab-panels .row {margin: 0;}.giuseart_tabs .tab-panels .panel .row .col {padding: 0 5px 5px;}.giuseart_tabs .nav.nav-vertical a{border-top: 1px solid #d2d2d2;text-align:center}.giuseart_tabs .nav-vertical{margin-bottom:0}.row .align-center .row-1024 {margin: auto;width: 1024px;}#image_461526749{float: right;}.fKUsnt {padding: 8px 12px;width: 90%;position: relative;border-radius: 8px;background-color: rgb(255, 255, 255);margin-bottom: 10px;height: 65px;}.hupLqN {margin: 0px;margin-top: -25px;}.blJiCe {margin: 0px;}.blJiCe .text {color: rgb(0, 0, 0);cursor: pointer;font-size: 16px;font-style: inherit;font-weight: 600;line-height: 36px;opacity: 1;text-align: start;text-transform: initial;overflow-wrap: initial;}.fKUsnt img {position: absolute;right: 10px;top: 35%;width: 24px;height: 24px;}.hupLqN .text:hover {color: rgb(152, 162, 179);text-decoration: initial;}.hupLqN .text {color: rgb(152, 162, 179);cursor: pointer;font-size: 14px;font-style: italic;font-weight: 400;line-height: 20px;opacity: 1;text-align: start;text-transform: initial;overflow-wrap: initial;}.gap-2 {gap: .8rem;}/* step by step */.customstep {position: relative;border-top: solid 2px #00b74f;border-bottom: solid 1px #00b74f;border-bottom-width: 15px;border-left: solid 1px #00b74f;border-right: solid 2px #00b74f;border-radius: 15px;margin-top: 3.5rem;img{position: absolute;display: flex;top: -79px;}}.left{ margin-left: 90px;}.accordion_title{color: #00B64E;}.background_row{background: linear-gradient(90deg,#c50500,#00b74f);}/* Fields */div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container-full .wpforms-form input[type=datetime], div.wpforms-container-full .wpforms-form input[type=datetime-local], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=month], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=range], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=time], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form input[type=week], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea {background-color: transparent; /* Remove background fill */text-transform: uppercase; /* Make text all uppercase */border-radius: 0; /* Remove corner curve */border: 2px solid #fff; /* 2px white border */color: #fff; /* White text */height: 45px; /* Increase input height */}::-webkit-input-placeholder { /* WebKit, Blink, Edge */color:#fff;}:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color:#fff; opacity:1;}::-moz-placeholder { /* Mozilla Firefox 19+ */ color:#fff; opacity:1;}:-ms-input-placeholder { /* Internet Explorer 10-11 */ color:#fff;}::-ms-input-placeholder { /* Microsoft Edge */ color:#fff;}/* Button */div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button { text-transform: uppercase; padding: 10px 60px; color: white; background: #444; font-weight: normal;}/************************************************************ *HOME MONEY – CATEGORY "tuyen-dung" *Layout giống TrueMoney: filter + 2 cột job ************************************************************//* ---------- Token màu dùng chung ---------- */:root {--hm-green: #00b74f;--hm-orange: #ff9b30; /* badge NEW */--hm-red:#ff2c1f; /* badge HOT */--hm-border: #e4e4e7;--hm-text: #1f2933;--hm-text-sub: #4b5563;--hm-bg-soft: #fcfcfc;}/* Giới hạn vùng content cho trang này */body.category-tuyen-dung #content.hm-job-archive .section-content {max-width: 1180px;margin: 0 auto;padding: 36px 0 70px;color: var(--hm-text);}/* Reset nhỏ để không bị Flatsome đè */body.category-tuyen-dung .hm-job-archive a {color: inherit;text-decoration: none;}/* ========================================================= 1. HEADER TRÊN CÙNG ========================================================= */body.category-tuyen-dung .hm-job-archive__header {margin-bottom: 24px;text-align: center;}body.category-tuyen-dung .hm-job-archive__title {margin: 0 0 6px;font-size: 32px;line-height: 1.25;font-weight: 800;}body.category-tuyen-dung .hm-job-archive__desc {margin: 0 0 16px;font-size: 15px;color: var(--hm-text-sub);}/* ========================================================= 2. FORM FILTER (TÌM KIẾM + NGÀNH NGHỀ + NÚT) ========================================================= */body.category-tuyen-dung .hm-job-archive__filter {display: grid;grid-template-columns: minmax(0, 2.4fr) minmax(0, 1.6fr) 160px;align-items: stretch;gap: 0;background: #fff;border-radius: 12px;border: 1px solid var(--hm-border);box-shadow: 0 18px 40px rgba(15, 23, 42, .08);overflow: hidden;margin-bottom: 30px;}/* 2 ô input */body.category-tuyen-dung .hm-job-archive__search-input,body.category-tuyen-dung .hm-job-archive__select {position: relative;display: flex;align-items: center;padding: 0 18px;background: #fff;}/* đường phân cách giữa search & select */body.category-tuyen-dung .hm-job-archive__search-input {border-right: 1px solid var(--hm-border);}/* icon kính lúp ở ô search */body.category-tuyen-dung .hm-job-archive__search-icon {flex-shrink: 0;width: 20px;height: 20px;border-radius: 999px;margin-right: 10px;position: relative;font-size: 0; /* ẩn emoji text */}/* tạo icon dạng TrueMoney */body.category-tuyen-dung .hm-job-archive__search-icon::before {content: "";position: absolute;inset: 0;border-radius: inherit;background: var(--hm-orange);}body.category-tuyen-dung .hm-job-archive__search-icon::after {content: "";position: absolute;left: 5px;top: 4px;width: 9px;height: 9px;border-radius: 999px;border: 2px solid #fff;box-sizing: border-box;}/* input text */body.category-tuyen-dung .hm-job-archive__search-input input {border: none;outline: none;background: transparent;width: 100%;font-size: 15px;color: var(--hm-text);}body.category-tuyen-dung .hm-job-archive__search-input input::placeholder {color: #9ca3af;}/* select ngành nghề */body.category-tuyen-dung .hm-job-archive__select select {border: none;outline: none;background: transparent;width: 100%;font-size: 15px;color: #9ca3af;padding-right: 26px; /* chừa chỗ cho caret */appearance: none;/* ẩn caret mặc định */}/* caret ▼ */body.category-tuyen-dung .hm-job-archive__select::after {content: "▾";position: absolute;right: 16px;font-size: 14px;color: #9ca3af;}/* Nút TÌM KIẾM */body.category-tuyen-dung .hm-job-archive__submit {border: none;outline: none;background: var(--hm-green);color: #fff;font-weight: 700;font-size: 15px;text-transform: uppercase;letter-spacing: .06em;cursor: pointer;display: flex;align-items: center;justify-content: center;gap: 8px;}body.category-tuyen-dung .hm-job-archive__submit:hover {filter: brightness(0.96);}/* ========================================================= 3. KHỐI 2 CỘT JOB ========================================================= */body.category-tuyen-dung .hm-job-archive__columns {background: #fff;border-radius: 12px;border: 1px solid var(--hm-border);box-shadow: 0 16px 40px rgba(15, 23, 42, .08);overflow: hidden;display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));}/* đường chia dọc 2 cột */body.category-tuyen-dung .hm-job-archive__column:nth-child(2) {border-left: 1px solid var(--hm-border);}/* header mỗi cột */body.category-tuyen-dung .hm-job-archive__column {padding: 22px 30px 18px;}body.category-tuyen-dung .hm-job-archive__column-header {display: flex;justify-content: space-between;align-items: baseline;margin-bottom: 18px;}body.category-tuyen-dung .hm-job-archive__column-header h2 {margin: 0;font-size: 24px;font-weight: 800;}body.category-tuyen-dung .hm-job-archive__count {font-size: 15px;color: var(--hm-text-sub);}/* ========================================================= 4. CARD TỪNG JOB ========================================================= *//* <a class="hm-job-card"> ... */body.category-tuyen-dung .hm-job-card {display: flex;flex-direction: row;align-items: center;gap: 16px;padding: 18px 0;border-top: 1px solid #f3f4f6;color: var(--hm-text);text-decoration: none;transition: background .15s ease, transform .1s ease;}body.category-tuyen-dung .hm-job-card:first-of-type {border-top: none;}body.category-tuyen-dung .hm-job-card:hover {background: var(--hm-bg-soft);}/* Tiêu đề job */body.category-tuyen-dung .hm-job-card__title {flex: 1 1 auto;min-width: 0;margin: 0 0 4px;font-size: 16px;font-weight: 800;text-transform: uppercase;line-height: 1.3;}/* meta: loại công việc + cấp bậc */body.category-tuyen-dung .hm-job-card__meta {flex: 1 1 auto;min-width: 0;display: flex;flex-wrap: wrap;gap: 8px;font-size: 14px;color: var(--hm-text-sub);}body.category-tuyen-dung .hm-job-card__meta span::before {content: "• ";}/* Badge NEW / HOT */body.category-tuyen-dung .hm-job-card__badges {flex-shrink: 0;display: inline-flex;align-items: center;gap: 8px;}body.category-tuyen-dung .hm-badge-new,body.category-tuyen-dung .hm-badge-hot {display: inline-flex;align-items: center;justify-content: center;padding: 6px 16px;border-radius: 999px;font-size: 14px;font-weight: 700;color: #fff;}body.category-tuyen-dung .hm-badge-new {background: var(--hm-orange);}body.category-tuyen-dung .hm-badge-hot {background: var(--hm-red);}/* ========================================================= 5. RESPONSIVE ========================================================= */@media (max-width: 1024px) {/* filter xếp dọc */body.category-tuyen-dung .hm-job-archive__filter {grid-template-columns: 1fr;}body.category-tuyen-dung .hm-job-archive__search-input,body.category-tuyen-dung .hm-job-archive__select {padding: 10px 16px;border-right: none;border-bottom: 1px solid var(--hm-border);}/* 2 cột job xếp dọc */body.category-tuyen-dung .hm-job-archive__columns {grid-template-columns: 1fr;}body.category-tuyen-dung .hm-job-archive__column:nth-child(2) {border-left: none;border-top: 1px solid var(--hm-border);}body.category-tuyen-dung .hm-job-archive__column {padding: 18px 18px 12px;}body.category-tuyen-dung .hm-job-card__title {font-size: 16px;}}@media (max-width: 640px) {body.category-tuyen-dung #content.hm-job-archive .section-content {padding: 24px 0 50px;}/* Job card xếp dọc, badge xuống dưới */body.category-tuyen-dung .hm-job-card {flex-direction: column;align-items: flex-start;}body.category-tuyen-dung .hm-job-card__badges {margin-top: 8px;}}/********************************************** * FIX 1 – Chiều cao 3 ô filter phải đều nhau **********************************************/body.category-tuyen-dung .hm-job-archive__filter {height: 60px;/* cố định như TrueMoney */}body.category-tuyen-dung .hm-job-archive__search-input input,body.category-tuyen-dung .hm-job-archive__select select {height: 60px;line-height: 60px;padding: 0 0 0 4px !important;}/* Icon search căn giữa */body.category-tuyen-dung .hm-job-archive__search-input {display: flex;align-items: center;}/* Nút tìm kiếm bo tròn đều */body.category-tuyen-dung .hm-job-archive__submit {width: 100%;border-radius: 10px;}/************************************/* Đưa meta xuống dưới tiêu đề */body.category-tuyen-dung .hm-job-card {display: flex;flex-direction: column;align-items: flex-start;gap: 6px; /* khoảng cách đẹp giữa title – meta – badge */}body.category-tuyen-dung .hm-job-card__title {margin-bottom: 4px;}/* Meta xuống 1 dòng – đặt ngay dưới title */body.category-tuyen-dung .hm-job-card__meta {order: 2; /* ép meta nằm dưới title */margin-bottom: 6px;}/* Badge nằm dưới meta */body.category-tuyen-dung .hm-job-card__badges {order: 3;}/* Style meta như Truemoney – gọn */body.category-tuyen-dung .hm-job-card__meta {display: flex;gap: 20px;white-space: nowrap;}/************************************************************ *SINGLE TUYỂN DỤNG – HOME MONEY *Layout 2 cột giống TrueMoney ************************************************************//* Nền chung cho trang tuyển dụng */.hm-single-job {background: #f5f7fb;}.hm-single-job .hm-job-container {max-width: 1180px;margin: 0 auto;padding: 40px 0 70px;color: #111827;font-size: 15px;}/* Xóa padding mặc định row của Flatsome nếu có */.hm-single-job .hm-job-main-row {margin-left: 0;margin-right: 0;}/* Cột trái – phải */.hm-single-job .hm-job-left {padding-right: 30px;}.hm-single-job .hm-job-right {padding-left: 30px;}/* ========================================================= HEADER BÊN TRÁI ========================================================= */.hm-single-job .hm-job-header {margin-bottom: 24px;}.hm-single-job .hm-job-department {margin: 0 0 4px;font-size: 13px;font-weight: 700;text-transform: uppercase;letter-spacing: .09em;color: #6b7280;}.hm-single-job .hm-job-title {margin: 0 0 8px;font-size: 32px;line-height: 1.25;font-weight: 800;}/* Subtitle dưới title: Phòng ban / Hình thức */.hm-single-job .hm-job-subtitle {display: inline-flex;align-items: center;gap: 8px;font-size: 15px;color: #4b5563;margin-bottom: 10px;}.hm-single-job .hm-job-subtitle-item {display: inline-flex;align-items: center;}.hm-single-job .hm-job-dot {color: #9ca3af;}/* Badge NEW / HOT */.hm-single-job .hm-job-badges {display: inline-flex;align-items: center;gap: 10px;margin-top: 4px;}.hm-single-job .hm-badge {display: inline-flex;align-items: center;justify-content: center;min-width: 60px;padding: 6px 18px;border-radius: 999px;font-size: 13px;font-weight: 700;color: #fff;text-transform: uppercase;}.hm-single-job .hm-badge-new {background: #ff9b30;}.hm-single-job .hm-badge-hot {background: #ff2c1f;}/* ========================================================= LƯỚI 4 Ô THÔNG TIN NHANH ========================================================= */.hm-single-job .hm-job-meta-grid {margin-top: 20px;margin-bottom: 30px;padding: 18px 22px;background: #f4fbf7;border-radius: 14px;border: 1px solid #d1fae5;display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));grid-row-gap: 16px;grid-column-gap: 30px;}.hm-single-job .hm-job-meta-item {position: relative;padding-left: 26px;}.hm-single-job .hm-job-meta-item::before {content: "";position: absolute;left: 0;top: 10px;width: 12px;height: 12px;border-radius: 999px;border: 2px solid #10b981;background: #e0ffef;box-sizing: border-box;}.hm-single-job .hm-job-meta-label {font-size: 13px;font-weight: 600;text-transform: uppercase;letter-spacing: .06em;color: #6b7280;margin-bottom: 2px;}.hm-single-job .hm-job-meta-value {font-size: 15px;font-weight: 500;color: #111827;}/* ========================================================= NỘI DUNG CHI TIẾT BÊN TRÁI ========================================================= */.hm-single-job .hm-job-content {background: #fff;border-radius: 14px;padding: 24px 26px 28px;box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);}.hm-single-job .hm-job-section-title {margin: 0 0 12px;font-size: 22px;font-weight: 800;}.hm-single-job .hm-job-section-body {line-height: 1.7;color: #374151;}/* Bỏ margin thừa do Flatsome chèn vào content */.hm-single-job .hm-job-section-body > *:first-child {margin-top: 0;}/* ========================================================= SIDEBAR PHẢI – THÔNG TIN CHUNG + FORM ========================================================= */.hm-single-job .hm-job-sidebar-card {background: #fff;border-radius: 14px;padding: 20px 22px 24px;box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);margin-bottom: 20px;}.hm-single-job .hm-job-sidebar-title {margin: 0 0 14px;font-size: 18px;font-weight: 800;}/* Danh sách thông tin tóm tắt */.hm-single-job .hm-job-summary-list {list-style: none;padding: 0;margin: 0 0 18px;font-size: 14px;}.hm-single-job .hm-job-summary-list li {display: flex;justify-content: space-between;align-items: baseline;padding: 6px 0;border-bottom: 1px solid #f3f4f6;}.hm-single-job .hm-job-summary-list li:last-child {border-bottom: none;}.hm-single-job .hm-job-summary-list span {color: #6b7280;}.hm-single-job .hm-job-summary-list strong {font-weight: 600;}/* Nút ỨNG TUYỂN NGAY */.hm-single-job .hm-job-apply-btn.button {width: 100%;margin: 0;border-radius: 999px;background: #00b74f;text-transform: uppercase;letter-spacing: .08em;font-weight: 700;font-size: 14px;padding: 11px 0;}.hm-single-job .hm-job-apply-btn.button:hover {filter: brightness(0.96);}/* Form ứng tuyển */.hm-single-job .hm-job-apply-form-inner {font-size: 14px;}/* Đồng bộ input của Contact Form 7 trong card */.hm-single-job .hm-job-apply-form-inner input[type="text"],.hm-single-job .hm-job-apply-form-inner input[type="email"],.hm-single-job .hm-job-apply-form-inner input[type="tel"],.hm-single-job .hm-job-apply-form-inner textarea,.hm-single-job .hm-job-apply-form-inner select {width: 100%;border-radius: 10px;border: 1px solid #d1d5db;padding: 8px 10px;font-size: 14px;}.hm-single-job .hm-job-apply-form-inner input[type="submit"],.hm-single-job .hm-job-apply-form-inner button[type="submit"] {background: #00b74f;border-radius: 999px;border: none;padding: 10px 18px;color: #fff;font-weight: 700;text-transform: uppercase;letter-spacing: .06em;cursor: pointer;}/* ========================================================= RESPONSIVE ========================================================= *//* Tablet & mobile: 1 cột, sidebar xuống dưới */@media (max-width: 980px) {.hm-single-job .hm-job-left,.hm-single-job .hm-job-right {padding-left: 0;padding-right: 0;}.hm-single-job .hm-job-right {margin-top: 24px;}.hm-single-job .hm-job-meta-grid {grid-template-columns: 1fr;}}/* Mobile nhỏ hơn */@media (max-width: 640px) {.hm-single-job .hm-job-container {padding: 24px 0 50px;}.hm-single-job .hm-job-title {font-size: 26px;}.hm-single-job .hm-job-content {padding: 20px 18px 24px;}.hm-single-job .hm-job-sidebar-card {padding: 18px 16px 22px;}}/* ==== CONTAINER CHUNG ==== */.row-service{width: 65%;}.form-row{width: 100%;}.column-half, .column-full{float: left;position: relative;padding-right: 0.65rem;width:100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box}.clearfix:after {content: "";display: table;clear: both;} /**---------------- Media query ----------------**/@media only screen and (min-width: 48em) { .column-half{width: 50%;}}.buttom-slide{float: left;}.giuseart_tabs > .nav .tab {margin-top: 1px;width: 180px;background: #f4f7f8;}.giuseart_tabs .nav{margin-bottom:0px}.giuseart_tabs > .nav .tab a {text-align:center;display: inline-block;border:none;overflow: hidden;position: relative;padding: 10px 10px;font-size: 15px;color: black;width: 180px;border-top-color: #00b74f;}.giuseart_tabs > .nav .tab.active a {background: #f4f7f8;border: none;box-shadow: none;}.giuseart_tabs .nav-vertical > li + li {border-top: 0;}.giuseart_tabs > .nav .tab a > img {margin: 0 auto;}.giuseart_tabs > .nav .tab a > img:nth-child(2) {display: none;}.giuseart_tabs > .nav .tab.active a > img:nth-child(1) {display: none;}.giuseart_tabs > .nav .tab.active a > img:nth-child(2) {display: block;}.giuseart_tabs > .nav .tab a:before {display: none;}.giuseart_tabs .nav h3 {text-transform: none;letter-spacing: 0;font-weight: normal;font-size: 15px;color: black;text-align: center;}.giuseart_tabs .nav .active h3 {color: #00b74f;border-top-color: #00b74f;}.giuseart_tabs > .tab-panels {width: 100%;padding:20px;}.giuseart_tabs .tab-panels .row {margin: 0;}.giuseart_tabs .tab-panels .panel .row .col {padding: 0 5px 5px;}.giuseart_tabs .nav.nav-vertical a{border-top: 1px solid #d2d2d2;text-align:center}.giuseart_tabs .nav-vertical{margin-bottom:0}.row .align-center .row-1024 {margin: auto;width: 1024px;}#image_461526749{float: right;}.fKUsnt {padding: 8px 12px;width: 90%;position: relative;border-radius: 8px;background-color: rgb(255, 255, 255);margin-bottom: 10px;height: 65px;}.hupLqN {margin: 0px;margin-top: -25px;}.blJiCe {margin: 0px;}.blJiCe .text {color: rgb(0, 0, 0);cursor: pointer;font-size: 16px;font-style: inherit;font-weight: 600;line-height: 36px;opacity: 1;text-align: start;text-transform: initial;overflow-wrap: initial;}.fKUsnt img {position: absolute;right: 10px;top: 35%;width: 24px;height: 24px;}.hupLqN .text:hover {color: rgb(152, 162, 179);text-decoration: initial;}.hupLqN .text {color: rgb(152, 162, 179);cursor: pointer;font-size: 14px;font-style: italic;font-weight: 400;line-height: 20px;opacity: 1;text-align: start;text-transform: initial;overflow-wrap: initial;}.gap-2 {gap: .8rem;}/* step by step */.customstep {position: relative;border-top: solid 2px #00b74f;border-bottom: solid 1px #00b74f;border-bottom-width: 15px;border-left: solid 1px #00b74f;border-right: solid 2px #00b74f;border-radius: 15px;margin-top: 3.5rem;img{position: absolute;display: flex;top: -79px;}}.left{ margin-left: 90px;}.accordion_title{color: #00B64E;}.background_row{background: linear-gradient(90deg,#c50500,#00b74f);}/* Fields */div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container-full .wpforms-form input[type=datetime], div.wpforms-container-full .wpforms-form input[type=datetime-local], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=month], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=range], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=time], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form input[type=week], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea {background-color: transparent; /* Remove background fill */text-transform: uppercase; /* Make text all uppercase */border-radius: 0; /* Remove corner curve */border: 2px solid #fff; /* 2px white border */color: #fff; /* White text */height: 45px; /* Increase input height */}::-webkit-input-placeholder { /* WebKit, Blink, Edge */color:#fff;}:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color:#fff; opacity:1;}::-moz-placeholder { /* Mozilla Firefox 19+ */ color:#fff; opacity:1;}:-ms-input-placeholder { /* Internet Explorer 10-11 */ color:#fff;}::-ms-input-placeholder { /* Microsoft Edge */ color:#fff;}/* Button */div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button { text-transform: uppercase; padding: 10px 60px; color: white; background: #444; font-weight: normal;}/************************************************************ *HOME MONEY – CATEGORY "tuyen-dung" *Layout giống TrueMoney: filter + 2 cột job ************************************************************//* ---------- Token màu dùng chung ---------- */:root {--hm-green: #00b74f;--hm-orange: #ff9b30; /* badge NEW */--hm-red:#ff2c1f; /* badge HOT */--hm-border: #e4e4e7;--hm-text: #1f2933;--hm-text-sub: #4b5563;--hm-bg-soft: #fcfcfc;}/* Giới hạn vùng content cho trang này */body.category-tuyen-dung #content.hm-job-archive .section-content {max-width: 1180px;margin: 0 auto;padding: 36px 0 70px;color: var(--hm-text);}/* Reset nhỏ để không bị Flatsome đè */body.category-tuyen-dung .hm-job-archive a {color: inherit;text-decoration: none;}/* ========================================================= 1. HEADER TRÊN CÙNG ========================================================= */body.category-tuyen-dung .hm-job-archive__header {margin-bottom: 24px;text-align: center;}body.category-tuyen-dung .hm-job-archive__title {margin: 0 0 6px;font-size: 32px;line-height: 1.25;font-weight: 800;}body.category-tuyen-dung .hm-job-archive__desc {margin: 0 0 16px;font-size: 15px;color: var(--hm-text-sub);}/* ========================================================= 2. FORM FILTER (TÌM KIẾM + NGÀNH NGHỀ + NÚT) ========================================================= */body.category-tuyen-dung .hm-job-archive__filter {display: grid;grid-template-columns: minmax(0, 2.4fr) minmax(0, 1.6fr) 160px;align-items: stretch;gap: 0;background: #fff;border-radius: 12px;border: 1px solid var(--hm-border);box-shadow: 0 18px 40px rgba(15, 23, 42, .08);overflow: hidden;margin-bottom: 30px;}/* 2 ô input */body.category-tuyen-dung .hm-job-archive__search-input,body.category-tuyen-dung .hm-job-archive__select {position: relative;display: flex;align-items: center;padding: 0 18px;background: #fff;}/* đường phân cách giữa search & select */body.category-tuyen-dung .hm-job-archive__search-input {border-right: 1px solid var(--hm-border);}/* icon kính lúp ở ô search */body.category-tuyen-dung .hm-job-archive__search-icon {flex-shrink: 0;width: 20px;height: 20px;border-radius: 999px;margin-right: 10px;position: relative;font-size: 0; /* ẩn emoji text */}/* tạo icon dạng TrueMoney */body.category-tuyen-dung .hm-job-archive__search-icon::before {content: "";position: absolute;inset: 0;border-radius: inherit;background: var(--hm-orange);}body.category-tuyen-dung .hm-job-archive__search-icon::after {content: "";position: absolute;left: 5px;top: 4px;width: 9px;height: 9px;border-radius: 999px;border: 2px solid #fff;box-sizing: border-box;}/* input text */body.category-tuyen-dung .hm-job-archive__search-input input {border: none;outline: none;background: transparent;width: 100%;font-size: 15px;color: var(--hm-text);}body.category-tuyen-dung .hm-job-archive__search-input input::placeholder {color: #9ca3af;}/* select ngành nghề */body.category-tuyen-dung .hm-job-archive__select select {border: none;outline: none;background: transparent;width: 100%;font-size: 15px;color: #9ca3af;padding-right: 26px; /* chừa chỗ cho caret */appearance: none;/* ẩn caret mặc định */}/* caret ▼ */body.category-tuyen-dung .hm-job-archive__select::after {content: "▾";position: absolute;right: 16px;font-size: 14px;color: #9ca3af;}/* Nút TÌM KIẾM */body.category-tuyen-dung .hm-job-archive__submit {border: none;outline: none;background: var(--hm-green);color: #fff;font-weight: 700;font-size: 15px;text-transform: uppercase;letter-spacing: .06em;cursor: pointer;display: flex;align-items: center;justify-content: center;gap: 8px;}body.category-tuyen-dung .hm-job-archive__submit:hover {filter: brightness(0.96);}/* ========================================================= 3. KHỐI 2 CỘT JOB ========================================================= */body.category-tuyen-dung .hm-job-archive__columns {background: #fff;border-radius: 12px;border: 1px solid var(--hm-border);box-shadow: 0 16px 40px rgba(15, 23, 42, .08);overflow: hidden;display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));}/* đường chia dọc 2 cột */body.category-tuyen-dung .hm-job-archive__column:nth-child(2) {border-left: 1px solid var(--hm-border);}/* header mỗi cột */body.category-tuyen-dung .hm-job-archive__column {padding: 22px 30px 18px;}body.category-tuyen-dung .hm-job-archive__column-header {display: flex;justify-content: space-between;align-items: baseline;margin-bottom: 18px;}body.category-tuyen-dung .hm-job-archive__column-header h2 {margin: 0;font-size: 24px;font-weight: 800;}body.category-tuyen-dung .hm-job-archive__count {font-size: 15px;color: var(--hm-text-sub);}/* ========================================================= 4. CARD TỪNG JOB ========================================================= *//* <a class="hm-job-card"> ... */body.category-tuyen-dung .hm-job-card {display: flex;flex-direction: row;align-items: center;gap: 16px;padding: 18px 0;border-top: 1px solid #f3f4f6;color: var(--hm-text);text-decoration: none;transition: background .15s ease, transform .1s ease;}body.category-tuyen-dung .hm-job-card:first-of-type {border-top: none;}body.category-tuyen-dung .hm-job-card:hover {background: var(--hm-bg-soft);}/* Tiêu đề job */body.category-tuyen-dung .hm-job-card__title {flex: 1 1 auto;min-width: 0;margin: 0 0 4px;font-size: 16px;font-weight: 800;text-transform: uppercase;line-height: 1.3;}/* meta: loại công việc + cấp bậc */body.category-tuyen-dung .hm-job-card__meta {flex: 1 1 auto;min-width: 0;display: flex;flex-wrap: wrap;gap: 8px;font-size: 14px;color: var(--hm-text-sub);}body.category-tuyen-dung .hm-job-card__meta span::before {content: "• ";}/* Badge NEW / HOT */body.category-tuyen-dung .hm-job-card__badges {flex-shrink: 0;display: inline-flex;align-items: center;gap: 8px;}body.category-tuyen-dung .hm-badge-new,body.category-tuyen-dung .hm-badge-hot {display: inline-flex;align-items: center;justify-content: center;padding: 6px 16px;border-radius: 999px;font-size: 14px;font-weight: 700;color: #fff;}body.category-tuyen-dung .hm-badge-new {background: var(--hm-orange);}body.category-tuyen-dung .hm-badge-hot {background: var(--hm-red);}/* ========================================================= 5. RESPONSIVE ========================================================= */@media (max-width: 1024px) {/* filter xếp dọc */body.category-tuyen-dung .hm-job-archive__filter {grid-template-columns: 1fr;}body.category-tuyen-dung .hm-job-archive__search-input,body.category-tuyen-dung .hm-job-archive__select {padding: 10px 16px;border-right: none;border-bottom: 1px solid var(--hm-border);}/* 2 cột job xếp dọc */body.category-tuyen-dung .hm-job-archive__columns {grid-template-columns: 1fr;}body.category-tuyen-dung .hm-job-archive__column:nth-child(2) {border-left: none;border-top: 1px solid var(--hm-border);}body.category-tuyen-dung .hm-job-archive__column {padding: 18px 18px 12px;}body.category-tuyen-dung .hm-job-card__title {font-size: 16px;}}@media (max-width: 640px) {body.category-tuyen-dung #content.hm-job-archive .section-content {padding: 24px 0 50px;}/* Job card xếp dọc, badge xuống dưới */body.category-tuyen-dung .hm-job-card {flex-direction: column;align-items: flex-start;}body.category-tuyen-dung .hm-job-card__badges {margin-top: 8px;}}/********************************************** * FIX 1 – Chiều cao 3 ô filter phải đều nhau **********************************************/body.category-tuyen-dung .hm-job-archive__filter {height: 60px;/* cố định như TrueMoney */}body.category-tuyen-dung .hm-job-archive__search-input input,body.category-tuyen-dung .hm-job-archive__select select {height: 60px;line-height: 60px;padding: 0 0 0 4px !important;}/* Icon search căn giữa */body.category-tuyen-dung .hm-job-archive__search-input {display: flex;align-items: center;}/* Nút tìm kiếm bo tròn đều */body.category-tuyen-dung .hm-job-archive__submit {width: 100%;border-radius: 10px;}/************************************/* Đưa meta xuống dưới tiêu đề */body.category-tuyen-dung .hm-job-card {display: flex;flex-direction: column;align-items: flex-start;gap: 6px; /* khoảng cách đẹp giữa title – meta – badge */}body.category-tuyen-dung .hm-job-card__title {margin-bottom: 4px;}/* Meta xuống 1 dòng – đặt ngay dưới title */body.category-tuyen-dung .hm-job-card__meta {order: 2; /* ép meta nằm dưới title */margin-bottom: 6px;}/* Badge nằm dưới meta */body.category-tuyen-dung .hm-job-card__badges {order: 3;}/* Style meta như Truemoney – gọn */body.category-tuyen-dung .hm-job-card__meta {display: flex;gap: 20px;white-space: nowrap;}/************************************************************ *SINGLE TUYỂN DỤNG – HOME MONEY *Layout 2 cột giống TrueMoney ************************************************************//* Nền chung cho trang tuyển dụng */.hm-single-job {background: #f5f7fb;}.hm-single-job .hm-job-container {max-width: 1180px;margin: 0 auto;padding: 40px 0 70px;color: #111827;font-size: 15px;}/* Xóa padding mặc định row của Flatsome nếu có */.hm-single-job .hm-job-main-row {margin-left: 0;margin-right: 0;}/* Cột trái – phải */.hm-single-job .hm-job-left {padding-right: 30px;}.hm-single-job .hm-job-right {padding-left: 30px;}/* ========================================================= HEADER BÊN TRÁI ========================================================= */.hm-single-job .hm-job-header {margin-bottom: 24px;}.hm-single-job .hm-job-department {margin: 0 0 4px;font-size: 13px;font-weight: 700;text-transform: uppercase;letter-spacing: .09em;color: #6b7280;}.hm-single-job .hm-job-title {margin: 0 0 8px;font-size: 32px;line-height: 1.25;font-weight: 800;}/* Subtitle dưới title: Phòng ban / Hình thức */.hm-single-job .hm-job-subtitle {display: inline-flex;align-items: center;gap: 8px;font-size: 15px;color: #4b5563;margin-bottom: 10px;}.hm-single-job .hm-job-subtitle-item {display: inline-flex;align-items: center;}.hm-single-job .hm-job-dot {color: #9ca3af;}/* Badge NEW / HOT */.hm-single-job .hm-job-badges {display: inline-flex;align-items: center;gap: 10px;margin-top: 4px;}.hm-single-job .hm-badge {display: inline-flex;align-items: center;justify-content: center;min-width: 60px;padding: 6px 18px;border-radius: 999px;font-size: 13px;font-weight: 700;color: #fff;text-transform: uppercase;}.hm-single-job .hm-badge-new {background: #ff9b30;}.hm-single-job .hm-badge-hot {background: #ff2c1f;}/* ========================================================= LƯỚI 4 Ô THÔNG TIN NHANH ========================================================= */.hm-single-job .hm-job-meta-grid {margin-top: 20px;margin-bottom: 30px;padding: 18px 22px;background: #f4fbf7;border-radius: 14px;border: 1px solid #d1fae5;display: grid;grid-template-columns: repeat(2, minmax(0, 1fr));grid-row-gap: 16px;grid-column-gap: 30px;}.hm-single-job .hm-job-meta-item {position: relative;padding-left: 26px;}.hm-single-job .hm-job-meta-item::before {content: "";position: absolute;left: 0;top: 10px;width: 12px;height: 12px;border-radius: 999px;border: 2px solid #10b981;background: #e0ffef;box-sizing: border-box;}.hm-single-job .hm-job-meta-label {font-size: 13px;font-weight: 600;text-transform: uppercase;letter-spacing: .06em;color: #6b7280;margin-bottom: 2px;}.hm-single-job .hm-job-meta-value {font-size: 15px;font-weight: 500;color: #111827;}/* ========================================================= NỘI DUNG CHI TIẾT BÊN TRÁI ========================================================= */.hm-single-job .hm-job-content {background: #fff;border-radius: 14px;padding: 24px 26px 28px;box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);}.hm-single-job .hm-job-section-title {margin: 0 0 12px;font-size: 22px;font-weight: 800;}.hm-single-job .hm-job-section-body {line-height: 1.7;color: #374151;}/* Bỏ margin thừa do Flatsome chèn vào content */.hm-single-job .hm-job-section-body > *:first-child {margin-top: 0;}/* ========================================================= SIDEBAR PHẢI – THÔNG TIN CHUNG + FORM ========================================================= */.hm-single-job .hm-job-sidebar-card {background: #fff;border-radius: 14px;padding: 20px 22px 24px;box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);margin-bottom: 20px;}.hm-single-job .hm-job-sidebar-title {margin: 0 0 14px;font-size: 18px;font-weight: 800;}/* Danh sách thông tin tóm tắt */.hm-single-job .hm-job-summary-list {list-style: none;padding: 0;margin: 0 0 18px;font-size: 14px;}.hm-single-job .hm-job-summary-list li {display: flex;justify-content: space-between;align-items: baseline;padding: 6px 0;border-bottom: 1px solid #f3f4f6;}.hm-single-job .hm-job-summary-list li:last-child {border-bottom: none;}.hm-single-job .hm-job-summary-list span {color: #6b7280;}.hm-single-job .hm-job-summary-list strong {font-weight: 600;}/* Nút ỨNG TUYỂN NGAY */.hm-single-job .hm-job-apply-btn.button {width: 100%;margin: 0;border-radius: 999px;background: #00b74f;text-transform: uppercase;letter-spacing: .08em;font-weight: 700;font-size: 14px;padding: 11px 0;}.hm-single-job .hm-job-apply-btn.button:hover {filter: brightness(0.96);}/* Form ứng tuyển */.hm-single-job .hm-job-apply-form-inner {font-size: 14px;}/* Đồng bộ input của Contact Form 7 trong card */.hm-single-job .hm-job-apply-form-inner input[type="text"],.hm-single-job .hm-job-apply-form-inner input[type="email"],.hm-single-job .hm-job-apply-form-inner input[type="tel"],.hm-single-job .hm-job-apply-form-inner textarea,.hm-single-job .hm-job-apply-form-inner select {width: 100%;border-radius: 10px;border: 1px solid #d1d5db;padding: 8px 10px;font-size: 14px;}.hm-single-job .hm-job-apply-form-inner input[type="submit"],.hm-single-job .hm-job-apply-form-inner button[type="submit"] {background: #00b74f;border-radius: 999px;border: none;padding: 10px 18px;color: #fff;font-weight: 700;text-transform: uppercase;letter-spacing: .06em;cursor: pointer;}/* ========================================================= RESPONSIVE ========================================================= *//* Tablet & mobile: 1 cột, sidebar xuống dưới */@media (max-width: 980px) {.hm-single-job .hm-job-left,.hm-single-job .hm-job-right {padding-left: 0;padding-right: 0;}.hm-single-job .hm-job-right {margin-top: 24px;}.hm-single-job .hm-job-meta-grid {grid-template-columns: 1fr;}}/* Mobile nhỏ hơn */@media (max-width: 640px) {.hm-single-job .hm-job-container {padding: 24px 0 50px;}.hm-single-job .hm-job-title {font-size: 26px;}.hm-single-job .hm-job-content {padding: 20px 18px 24px;}.hm-single-job .hm-job-sidebar-card {padding: 18px 16px 22px;}}/* ========== SECTION CHUNG ========== */.hm-products-section{padding:60px 0 80px;background:#fff;}.hm-products-container{max-width:1200px;margin:0 auto;padding:0 15px;}.hm-products-title{text-align:center;font-size:32px;font-weight:700;margin:0 0 8px;color:#222;}.hm-products-title span{color:#00b74f;}.hm-products-subtitle{text-align:center;font-size:18px;color:#666;margin-bottom:30px;}/* ========== DESKTOP (>=992px) ========== */@media (min-width: 992px) {/* Hiển thị layout desktop, ẩn mobile */.hm-pawn-desktop {display: block;}.hm-pawn-mobile {display: none;}.hm-pawn-row {display: flex;gap: 14px;align-items: stretch;}/* Card cơ bản: mỗi card cao cố định, chiếm 1 phần */.hm-pawn-card {flex: 1 1 0;/* mỗi card = 1 phần */height: 340px;/* FIX chiều cao cho tất cả card */display: flex;border-radius: 24px;overflow: hidden;cursor: pointer;background: #f2f2f2;color: #555;box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);filter: grayscale(1);transition:flex 0.35s ease,background 0.35s ease,box-shadow 0.35s ease,filter 0.35s ease,transform 0.35s ease;}.hm-pawn-card:hover {transform: translateY(-2px);}/* Card active: chiếm 4/6 chiều ngang, gradient */.hm-pawn-card.is-active {flex: 4 1 0;/* tỷ lệ 4 : 1 : 1-> 4/6 + 1/6 + 1/6 */background: linear-gradient(to right, #c50500, #ff6a00, #00b74f);color: #ffffff;filter: grayscale(0);transform: translateY(-4px);box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);}.hm-pawn-inner {width: 100%;height: 100%; /* full chiều cao card */display: flex;align-items: center;justify-content: space-between;gap: 20px;padding: 30px 28px;box-sizing: border-box;}.hm-pawn-text {flex: 1 1 55%;}.hm-pawn-icon {width: 56px;height: 56px;border-radius: 50%;background: rgba(255, 255, 255, 0.18);display: flex;align-items: center;justify-content: center;font-size: 26px;margin-bottom: 14px;}.hm-pawn-card:not(.is-active) .hm-pawn-icon {background: #ffffff;}.hm-pawn-text h3 {font-size: 20px;font-weight: 700;margin-bottom: 10px;color: #000;}/* Danh sách & nút (dùng cho card active) */.hm-pawn-list {list-style: none;margin: 0 0 18px;padding: 0;font-size: 15px;}.hm-pawn-list li {position: relative;padding-left: 18px;margin-bottom: 6px;}.hm-pawn-list li::before {content: "•";position: absolute;left: 0;top: 0;}.hm-pawn-btn {display: inline-flex;align-items: center;justify-content: center;padding: 8px 24px;border-radius: 999px;background: #ffffff;color: #c50500;font-size: 14px;font-weight: 700;text-decoration: none;text-transform: uppercase;}/* Ảnh bên phải */.hm-pawn-image {flex: 1 1 45%;display: flex;align-items: center;justify-content: center;}.hm-pawn-image img {max-width: 100%;max-height: 220px;/* tránh ảnh cao hơn card */height: auto;display: block;}/* Card xám: chỉ icon + title, NHƯNG chiều cao vẫn 340px vì đã cố định ở .hm-pawn-card */.hm-pawn-card:not(.is-active) .hm-pawn-inner {justify-content: flex-start;}.hm-pawn-card:not(.is-active) .hm-pawn-list,.hm-pawn-card:not(.is-active) .hm-pawn-btn,.hm-pawn-card:not(.is-active) .hm-pawn-image {display: none;/* ẩn nội dung thừa, không ảnh hưởng chiều cao vì card đã height:340px */}}/* ========== MOBILE ========== */.hm-pawn-mobile {display: none;}/* breakpoint */@media (max-width: 991.98px) {.hm-pawn-desktop {display: none;}.hm-pawn-mobile {display: block;}.hm-pawn-section {padding: 40px 0;}/* Banner */.hm-m-banner {border-radius: 20px;overflow: hidden;background: linear-gradient(to right, #c50500, #ff6a00, #00b74f);box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);margin-bottom: 14px;}.hm-m-banner-image img {width: 100%;display: block;}/* Tabs (3 icon) */.hm-m-tabs {display: flex;justify-content: center;gap: 12px;margin-bottom: 14px;}.hm-m-tab {width: 48px;height: 48px;border-radius: 50%;border: none;background: #f0f0f0;display: flex;align-items: center;justify-content: center;font-size: 22px;cursor: pointer;transition: background 0.2s ease, transform 0.2s ease;}.hm-m-tab.active {background: #333333;color: #ffffff;transform: translateY(-2px);}/* Content dưới banner */.hm-m-content h3 {font-size: 18px;font-weight: 700;text-align: center;margin-bottom: 10px;}.hm-m-list {list-style: none;padding: 0 6px;margin: 0 0 14px;font-size: 14px;}.hm-m-list li {position: relative;padding-left: 16px;margin-bottom: 6px;}.hm-m-list li::before {content: "•";position: absolute;left: 0;top: 0;}.hm-m-btn {display: block;width: 100%;text-align: center;padding: 10px 0;border-radius: 999px;background: #c50500;color: #ffffff;text-decoration: none;font-weight: 700;text-transform: uppercase;margin-top: 4px;}}/* Đảm bảo mỗi card có vị trí tương đối để đặt ảnh nền */.hm-pawn-desktop .hm-pawn-card {position: relative;overflow: hidden;}/* Card KHÔNG active: dùng ảnh làm nền mờ ở bên phải / dưới */.hm-pawn-desktop .hm-pawn-card:not(.is-active) .hm-pawn-image {position: absolute;right: -10%;/* đẩy nhẹ sang phải cho đẹp */bottom: -25px;/* hạ xuống đáy */width: 140%;/* cho ảnh to phủ nền */max-width: none;opacity: 0.18;/* độ mờ – muốn mờ hơn thì giảm xuống 0.1–0.15 */filter: grayscale(100%); /* chuyển trắng đen */display: block !important;pointer-events: none;/* không bắt click */}.hm-pawn-desktop .hm-pawn-card:not(.is-active) .hm-pawn-image img {width: 100%;height: auto;}/* Card ACTIVE: giữ nguyên layout cũ – ảnh không mờ */.hm-pawn-desktop .hm-pawn-card.is-active .hm-pawn-image {position: relative;right: 0;bottom: 0;width: auto;max-width: 50%;/* hoặc theo CSS cũ của mày */opacity: 1;filter: none;pointer-events: auto;}/* ===== SECTION NHỮNG CON SỐ BIẾT NÓI — HOME MONEY ===== */.hm-stats-section {position: relative;padding: 20px 0 20px;background: #00b74f;color: #ffffff;overflow: hidden;}/* ===== TIÊU ĐỀ ===== */.hm-stats-heading {text-align: center;font-size: 42px; /* TO HƠN */font-weight: 800;margin-bottom: 10px;letter-spacing: 0.5px;color: #fff;}.hm-stats-subheading {text-align: center;font-size: 18px; /* TO HƠN */opacity: 0.95;max-width: 810px;margin: 0 auto 40px;line-height: 1.5;}/* ===== BỐ CỤC 2 CỘT ===== */.hm-stats-content {display: flex;align-items: center;justify-content: center;gap: 60px;}/* ===== HÌNH NHÂN VIÊN ===== */.hm-stats-visual img {max-width: 420px;width: 100%;height: auto;}/* ===== GRID SỐ LIỆU ===== */.hm-stats-grid {display: grid;grid-template-columns: repeat(2, 1fr);border: 1px solid rgba(255, 255, 255, 0.35);}.hm-stat-item {padding: 15px 20px;border-right: 1px solid rgba(255, 255, 255, 0.35);border-bottom: 1px solid rgba(255, 255, 255, 0.35);text-align: center;}.hm-stat-item:nth-child(2),.hm-stat-item:nth-child(4) {border-right: none;}.hm-stat-item:nth-child(3),.hm-stat-item:nth-child(4) {border-bottom: none;}/* ICON VÒNG TRÒN */.hm-stat-icon {width: 60px;height: 60px;border-radius: 50%;border: 2px solid rgba(255, 255, 255, 0.8);display: flex;justify-content: center;align-items: center;font-size: 30px;margin-bottom: 14px;margin: auto;background: #fadb86fc;}/* SỐ & LABEL */.hm-stat-number {font-size: 36px; /* TO HƠN */font-weight: 800;margin-bottom: 6px;}.hm-stat-label {font-size: 18px; /* TO HƠN */opacity: 0.98;font-weight: 500;}/* ===== MOBILE ===== */@media (max-width: 992px) {.hm-stats-content {flex-direction: column;gap: 30px;}.hm-stats-heading {font-size: 32px;}.hm-stats-subheading {font-size: 16px;}.hm-stats-grid {width: 100%;}.hm-stat-item {text-align: center;padding: 24px 10px;}.hm-stat-icon {margin: 0 auto 12px;}}/* Hover nhún nhẹ cho từng ô số liệu */.hm-stat-item {transition: transform 0.3s ease, box-shadow 0.3s ease;}.hm-stat-item:hover {transform: translateY(-6px);box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);}/* Số phóng nhẹ khi hover */.hm-stat-number {display: inline-block;transition: transform 0.3s ease;}.hm-stat-item:hover .hm-stat-number {transform: scale(1.08);}.icloud-loan-section {padding: 60px 15px;background: linear-gradient(135deg, #0b3d2e, #00b74f);color: #fff;}.icloud-container {max-width: 1200px;margin: auto;display: flex;gap: 40px;align-items: stretch;}.icloud-left {flex: 6;}.icloud-left h2 {font-size: 30px;margin-bottom: 15px;color: #fff;text-align: center;}.icloud-desc {font-size: 16px;line-height: 1.7;margin-bottom: 20px;color: #fff;}.icloud-benefit {list-style: none;padding: 0;margin-bottom: 20px;color: #fff;}.icloud-benefit li {margin-bottom: 10px;font-size: 15px;color: #fff;}.icloud-highlight {background: rgba(255,255,255,0.15);padding: 12px 15px;border-radius: 6px;font-weight: 600;color: #fff;}.icloud-right {flex: 4;background: #fff;color: #333;padding: 30px;border-radius: 10px;box-shadow: 0 10px 30px rgba(0,0,0,0.25);margin-top: 20px;}.icloud-right h3 {margin-bottom: 20px;color: #00b74f;text-align: center;}.icloud-form input,.icloud-form select,.icloud-form textarea {width: 100%;margin-bottom: 12px;padding: 12px;border-radius: 6px;border: 1px solid #ddd;}.icloud-form button {width: 100%;padding: 14px;background: #00b74f;color: #fff;border: none;border-radius: 6px;font-size: 16px;font-weight: bold;cursor: pointer;}.icloud-form button:hover {background: #009e42;}.icloud-note {text-align: center;margin-top: 10px;font-size: 13px;color: #666;}/* Responsive */@media (max-width: 768px) {.icloud-container {flex-direction: column;}}.wpcf7 input::placeholder,.wpcf7 textarea::placeholder {color: #999 !important;opacity: 1 !important;}.wpcf7 input:focus::placeholder,.wpcf7 textarea:focus::placeholder {color: #bbb !important;}.icloud-right .wpcf7 input,.icloud-right .wpcf7 select,.icloud-right .wpcf7 textarea {background: #fff;color: #333;}.money-input {text-align: left;font-weight: 600;}/* ===== 4 INPUT 1 HÀNG ===== */.hm-form-row-4 {display: grid;grid-template-columns: repeat(4, 1fr);gap: 16px;margin-bottom: 16px;}/* Mobile */@media (max-width: 1024px) {.hm-form-row-4 {grid-template-columns: repeat(2, 1fr);}}@media (max-width: 640px) {.hm-form-row-4 {grid-template-columns: 1fr;}}/* =============================== HOME MONEY THANK YOU PAGE=============================== */.hm-thankyou-wrap {min-height: 80vh;display: flex;align-items: center;justify-content: center;background: linear-gradient(135deg, #f0fbf6, #e8f8f1);padding: 24px;}.hm-thankyou-box {max-width: 520px;width: 100%;background: #ffffff;border-radius: 22px;padding: 36px 32px;text-align: center;box-shadow: 0 20px 40px rgba(0,0,0,.08);}.hm-thankyou-icon {width: 64px;height: 64px;background: linear-gradient(135deg, #16a34a, #22c55e);color: #fff;font-size: 34px;font-weight: 900;border-radius: 50%;display: flex;align-items: center;justify-content: center;margin: 0 auto 18px;}.hm-thankyou-box h1 {font-size: 30px;font-weight: 900;margin-bottom: 12px;color: #111;}.hm-thankyou-desc {font-size: 16px;color: #374151;line-height: 1.6;margin-bottom: 16px;}.hm-thankyou-note {background: #f9fafb;border-radius: 12px;padding: 10px 12px;font-size: 14px;color: #065f46;font-weight: 600;margin-bottom: 22px;}.hm-thankyou-actions {display: flex;gap: 12px;flex-direction: column;}.hm-btn {display: block;text-decoration: none;padding: 14px;border-radius: 14px;font-size: 16px;font-weight: 800;transition: all .25s ease;}.hm-btn-primary {background: linear-gradient(135deg, #16a34a, #22c55e);color: #fff;}.hm-btn-primary:hover {box-shadow: 0 10px 24px rgba(22,163,74,.35);transform: translateY(-1px);}.hm-btn-outline {border: 2px solid #16a34a;color: #16a34a;}.hm-btn-outline:hover {background: #16a34a;color: #fff;}.hm-thankyou-trust {margin-top: 18px;font-size: 13px;color: #6b7280;}/* Mobile */@media (max-width: 480px) {.hm-thankyou-box {padding: 28px 22px;}.hm-thankyou-box h1 {font-size: 24px;}}#hm-f88-solution {background: #fff;padding: 60px 0;}.hm-solution-wrap {max-width: 1200px;margin: auto;padding: 0 16px;text-align: center;}.hm-solution-wrap h2 {font-size: 28px;font-weight: 700;margin-bottom: 10px;}.hm-solution-desc {color: #777;margin-bottom: 36px;}.hm-solution-grid {display: grid;grid-template-columns: repeat(5, 1fr);gap: 20px;}.hm-solution-item {background: #fff;border-radius: 16px;padding: 26px 16px;box-shadow: 0 6px 20px rgba(0,0,0,.06);}.hm-solution-item img {height: 48px;margin-bottom: 14px;}.hm-solution-item p {font-weight: 600;font-size: 15px;line-height: 1.4;}/* TABLET */@media (max-width: 1024px) {.hm-solution-grid {grid-template-columns: repeat(3, 1fr);}}/* MOBILE */@media (max-width: 600px) {.hm-solution-grid {grid-template-columns: repeat(2, 1fr);}}#hm-loan-detail {background: #fff;}.hm-loan-wrap {max-width: 1100px;margin: auto;padding: 0 16px;}/* TABS *//* ===== LOAN TABS – CENTER & HIGHLIGHT ===== */.hm-loan-tabs {display: flex;justify-content: center; /* RA GIỮA */align-items: center;gap: 60px;margin-bottom: 50px;border-bottom: 1px solid #e5e5e5;}.hm-loan-tab {position: relative;padding: 16px 10px;cursor: pointer;font-size: 16px;font-weight: 600;color: #777;display: flex;align-items: center;gap: 10px;}/* ICON MẶC ĐỊNH */.hm-loan-tab .icon {font-size: 18px;opacity: .6;}/* TAB ACTIVE */.hm-loan-tab.active {color: #00b74f;}/* ICON ACTIVE */.hm-loan-tab.active .icon {opacity: 1;}/* GẠCH XANH PHÍA TRÊN – CHUẨN F88 */.hm-loan-tab.active::before {content: "";position: absolute;top: -1px;left: 0;width: 100%;height: 4px;background: #00b74f;}/* TEXT */.hm-loan-tab .text {white-space: nowrap;}/* MOBILE */@media (max-width: 768px) {.hm-loan-tabs {gap: 30px;}}/* CONTENT */.hm-loan-content {display: none;}.hm-loan-content.active {display: block;}.hm-loan-content h2 {font-size: 32px;font-weight: 700;margin-bottom: 20px;}.hm-loan-text {max-width: 820px;color: #444;}.hm-loan-text p {margin-bottom: 14px;line-height: 1.6;}.hm-loan-text ul {padding-left: 20px;}.hm-loan-text li {margin-bottom: 8px;}/* BUTTON */.hm-loan-btn {display: inline-block;margin-top: 24px;padding: 14px 28px;background: #00b74f;color: #fff;font-weight: 700;text-decoration: none;border-radius: 6px;}/* MOBILE */@media (max-width: 768px) {.hm-loan-tabs {flex-direction: column;}.hm-loan-tab {padding: 14px 20px;}.hm-loan-content h2 {font-size: 24px;}}/* ===== FIX 4 STEP LAYOUT (LIKE F88) ===== */.hm-4step {padding: 60px 0;background: #fff;}.hm-4step-wrap {max-width: 1200px;margin: 0 auto;padding: 0 16px;}.hm-4step-title {text-align: center;font-size: 28px;font-weight: 700;margin-bottom: 40px;}/* GRID: ÉP 4 CỘT 1 HÀNG */.hm-4step-grid {display: grid;grid-template-columns: repeat(4, 1fr);gap: 24px;align-items: stretch;}/* CARD */.hm-step-card {background: #fff;border-radius: 16px;padding: 32px 24px;box-shadow: 0 6px 24px rgba(0,0,0,.08);text-align: center;/* QUAN TRỌNG */min-height: 380px;display: flex;flex-direction: column;}/* STEP TITLE */.hm-step-card h3 {font-size: 30px;font-weight: 700;line-height: 21px;color: #00b74f;margin-bottom: 16px;}/* ICON */.hm-step-icon {font-size: 42px;margin-bottom: 20px;}/* STEP NAME */.hm-step-card h4 {font-size: 18px;font-weight: 700;margin-bottom: 10px;}/* DESC */.hm-step-card p {font-size: 15px;line-height: 1.6;color: #555;}/* TABLET */@media (max-width: 1024px) {.hm-4step-grid {grid-template-columns: repeat(2, 1fr);}}/* MOBILE */@media (max-width: 600px) {.hm-4step-grid {grid-template-columns: 1fr;}}/* ===== WHO CAN LOAN – F88 STYLE ===== */#hm-who-can-loan {background: #fff;padding: 80px 0;}.hm-who-wrap {max-width: 1200px;margin: 0 auto;padding: 0 16px;display: grid;grid-template-columns: 1fr 1.2fr;gap: 60px;align-items: center;}/* LEFT */.hm-who-left h2 {font-size: 32px;font-weight: 700;margin-top: 80px;}.hm-who-left p {font-size: 16px;color: #666;max-width: 420px;line-height: 1.6;}/* RIGHT */.hm-who-right {display: flex;flex-direction: column;gap: 20px;}/* ITEM */.hm-who-item {background: #fff9ec; /* vàng nhạt như F88 */border-radius: 16px;padding: 20px 24px;display: flex;align-items: center;gap: 20px;}/* ICON */.hm-who-icon {font-size: 32px;width: 48px;text-align: center;}/* TEXT */.hm-who-text {font-size: 16px;font-weight: 600;color: #00b74f;line-height: 1.5;}/* TABLET */@media (max-width: 1024px) {.hm-who-wrap {grid-template-columns: 1fr;gap: 40px;}}/* MOBILE */@media (max-width: 600px) {.hm-who-left h2 {font-size: 26px;}.hm-who-item {padding: 16px;}}/* =============================== HOME MONEY - SOLUTION (5 CARDS) Desktop luôn 1 hàng================================ */.hm-solution2{background:#fff;padding:20px 0;}.hm-solution2__wrap{max-width:1200px;margin:0 auto;padding:0 16px;text-align:center;}.hm-solution2__title{font-size:30px;font-weight:800;margin:0 0 10px;color:#1f2937;}.hm-solution2__desc{margin:0 0 40px;color:#6b7280;font-size:16px;}/* DESKTOP: ÉP 5 CARD 1 HÀNG (FLEX) */.hm-solution2__row{display:flex;gap:22px;justify-content:center;align-items:stretch;flex-wrap:nowrap; /* KHÓA - không rớt hàng */}/* CARD */.hm-solution2__card{flex:0 0 calc(20% - 18px); /* 5 cột */background:#fff;border-radius:18px;padding:26px 16px;box-shadow:0 10px 28px rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.04);display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:170px;}/* ICON: xanh + đỏ */.hm-solution2__icon{width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:14px;background:rgba(0,183,79,.08); /* nền xanh nhạt */}.hm-solution2__icon svg{width:44px;height:44px;fill:none;stroke:#00b74f;/* xanh chủ đạo */stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}/* điểm nhấn đỏ: kim đồng hồ / check / chấm */.hm-solution2__icon svg path:last-child,.hm-solution2__icon svg circle{stroke:#c50500;/* đỏ HomeMoney */}/* TEXT */.hm-solution2__text{font-weight:700;color:#374151;font-size:15px;line-height:1.35;}/* HOVER nhẹ */.hm-solution2__card:hover{border-color:rgba(0,183,79,.25);box-shadow:0 14px 38px rgba(0,0,0,.08);}/* TABLET */@media (max-width:1024px){.hm-solution2__row{flex-wrap:wrap;}.hm-solution2__card{flex:0 0 calc(33.333% - 16px);}}/* MOBILE */@media (max-width:640px){.hm-solution2__card{flex:0 0 calc(50% - 12px);}}@media (max-width:420px){.hm-solution2__card{flex:0 0 100%;}}.hm-map-wrap { height: 450px !important; }.hm-list { max-height: 450px !important; }@media (max-width: 768px) {.hm-map-wrap { height: 300px !important; }.hm-list { max-height: 300px !important; }}/* ===== HOME MONEY CONTACT - FORM/CTA BEAUTIFY PATCH ===== *//* Khối bottom: canh đều và đẹp hơn */.hm-bottom{margin-top:18px;align-items:stretch;}/* Card chung */.hm-formbox,.hm-cta{border-radius:22px !important;box-shadow:0 18px 50px rgba(17,24,39,.10) !important;}/* FORM CARD */.hm-formbox{padding:24px 22px !important;}.hm-formbox h2{font-size:28px !important;line-height:1.2;}.hm-formbox p{font-size:15px !important;}/* Form layout: grid chuẩn, không bị “dài loằng ngoằng” */.hm-form{display:grid !important;grid-template-columns: 1fr 1fr;gap:14px !important;}.hm-field{ width:auto !important; }.hm-field.full{ grid-column:1 / -1; }.hm-field label{font-size:13px !important;font-weight:900 !important;margin-top:2px;}.hm-field input,.hm-field select,.hm-field textarea{border-radius:14px !important;padding:12px 14px !important;border:1px solid rgba(17,24,39,.14) !important;box-shadow: 0 1px 0 rgba(17,24,39,.02);transition: box-shadow .18s ease, border-color .18s ease, transform .18s ease;}.hm-field input:focus,.hm-field select:focus,.hm-field textarea:focus{outline:none !important;border-color: rgba(0,183,79,.55) !important;box-shadow: 0 0 0 4px rgba(0,183,79,.14) !important;transform: translateY(-1px);}.hm-field textarea{min-height:130px !important;}.hm-btn{margin-top:4px;border-radius:16px !important;padding:14px 16px !important;font-size:14px;}/* CTA CARD: có header + bullet + nút đẹp */.hm-cta{padding:24px 22px !important;position:relative;overflow:hidden;}.hm-cta:before{content:"";position:absolute;width:260px; height:260px;border-radius:50%;right:-120px; top:-120px;background: radial-gradient(circle at center, rgba(0,183,79,.22), rgba(0,183,79,0));}.hm-cta h3{font-size:24px !important;line-height:1.2;}.hm-cta p{font-size:15px !important;margin-bottom:12px !important;}/* Bullet lợi ích */.hm-benefits{margin:12px 0 18px;padding:0;list-style:none;display:grid;gap:10px;}.hm-benefits li{display:flex;gap:10px;align-items:flex-start;color:var(--hm-text);font-weight:800;}.hm-dot{width:22px; height:22px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:rgba(0,183,79,.12);border:1px solid rgba(0,183,79,.22);flex:0 0 22px;}.hm-dot svg{ width:14px; height:14px; fill: var(--hm-green); }/* Nút CTA: full width, đồng bộ */.hm-actions{display:grid !important;grid-template-columns: 1fr;gap:10px !important;margin-top:6px;}.hm-pill{justify-content:flex-start !important;padding:12px 14px !important;border-radius:16px !important;font-size:14px !important;}.hm-pill.primary{box-shadow: 0 14px 28px rgba(0,183,79,.22);}/* Note đẹp hơn */.hm-note{margin-top:14px !important;font-size:12.8px !important;color:rgba(17,24,39,.65) !important;}/* Responsive */@media (max-width: 980px){.hm-form{ grid-template-columns: 1fr; }}/* =========================HOME MONEY CONTACT - v2 (Flatsome Safe Layout)========================= */:root{--hm-green:#00b74f;--hm-green2:#0ad65c;--hm-text:#111827;--hm-muted:#6b7280;--hm-border:rgba(17,24,39,.10);--hm-shadow:0 10px 30px rgba(17,24,39,.08);--hm-radius:18px;}.hm-contact,.hm-contact *{ box-sizing:border-box; }.hm-contact{width:100%;padding: 0px;}.hm-contact .hm-inner{width:100%;max-width:1200px;margin:0 auto;padding:0 16px;}.hm-hero{text-align:center;margin-bottom:22px;}.hm-hero h1{margin:0 0 10px;font-size:34px;line-height:1.2;font-weight:900;color:var(--hm-text);}.hm-hero p{margin:0;font-size:16px;color:var(--hm-muted);}/* ===== CARD LIST (FLEX - CHỐNG LỖI BỊ ÉP CỘT) ===== */.hm-cards{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;}/* Desktop: 4 cards / row */.hm-card{flex: 0 0 calc(25% - 12px);max-width: calc(25% - 12px);background:#fff;border:1px solid var(--hm-border);box-shadow:var(--hm-shadow);border-radius:var(--hm-radius);padding:18px 16px;position:relative;overflow:hidden;min-height:128px;transition:transform .18s ease, box-shadow .18s ease;}.hm-card:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(17,24,39,.12);}.hm-card:before{content:"";position:absolute;width:150px; height:150px;right:-55px; top:-65px;border-radius:50%;background:linear-gradient(135deg, rgba(0,183,79,.22), rgba(10,214,92,.06));}.hm-card a{display:block;text-decoration:none !important;color:inherit !important;position:relative;z-index:1;}.hm-top{display:flex;gap:12px;align-items:center;margin-bottom:10px;}.hm-ic{width:46px; height:46px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--hm-green), var(--hm-green2));box-shadow:0 10px 22px rgba(0,183,79,.22);flex:0 0 46px;}.hm-ic svg{ width:22px; height:22px; fill:#fff; }.hm-title{margin:0;font-size:18px;font-weight:900;color:var(--hm-text);line-height:1.2;}.hm-sub{margin:2px 0 0;font-size:13px;color:var(--hm-muted);line-height:1.35;}.hm-value{margin:0;font-size:18px;font-weight:900;color:#0b3b22;}.hm-hint{margin-top:6px;font-size:12px;font-weight:800;color:rgba(0,183,79,.95);}/* ===== ADDRESS BOX ===== */.hm-address{margin-top:18px;background:linear-gradient(135deg, rgba(0,183,79,.12), rgba(10,214,92,.05));border:1px solid rgba(0,183,79,.18);border-radius:var(--hm-radius);padding:18px 16px;display:flex;gap:14px;align-items:flex-start;}.hm-address .hm-ic{background:linear-gradient(135deg, #ff6a00, #ff8c3a);box-shadow:0 10px 22px rgba(255,106,0,.22);}.hm-address h3{margin:0 0 6px;font-size:20px;font-weight:900;color:var(--hm-text);}.hm-address p{margin:0;font-weight:800;color:var(--hm-text);}.hm-address small{display:block;margin-top:6px;color:var(--hm-muted);font-weight:700;}/* ===== FORM + CTA ===== */.hm-bottom{margin-top:16px;display:flex;flex-wrap:wrap;gap:16px;}.hm-formbox{flex: 1 1 640px;background:#fff;border:1px solid var(--hm-border);border-radius:var(--hm-radius);box-shadow:var(--hm-shadow);padding:18px 16px;}.hm-formbox h2{margin:0 0 6px;font-size:26px;font-weight:900;color:var(--hm-text);}.hm-formbox p{margin:0 0 14px;color:var(--hm-muted);}.hm-form{display:flex;flex-wrap:wrap;gap:12px;}.hm-field{width:calc(50% - 6px);display:flex;flex-direction:column;gap:6px;}.hm-field.full{ width:100%; }.hm-field label{font-size:13px;font-weight:900;color:var(--hm-text);}.hm-field input,.hm-field select,.hm-field textarea{width:100%;border-radius:12px;border:1px solid rgba(17,24,39,.14);padding:11px 12px;font-size:14px;background:#fff;outline:none;}.hm-field textarea{ min-height:110px; resize:vertical; }.hm-btn{width:100%;border:none;cursor:pointer;border-radius:14px;padding:12px 14px;font-weight:900;letter-spacing:.2px;color:#fff;background:linear-gradient(135deg, var(--hm-green), var(--hm-green2));box-shadow:0 12px 26px rgba(0,183,79,.25);transition:transform .15s ease;}.hm-btn:hover{ transform:translateY(-1px); }.hm-cta{flex: 1 1 360px;border-radius:var(--hm-radius);padding:18px 16px;background:linear-gradient(135deg, rgba(0,183,79,.14), rgba(10,214,92,.06));border:1px solid rgba(0,183,79,.18);display:flex;flex-direction:column;justify-content:space-between;}.hm-cta h3{margin:0 0 6px;font-size:22px;font-weight:900;color:var(--hm-text);}.hm-cta p{margin:0 0 14px;color:var(--hm-muted);font-weight:700;}.hm-actions{display:flex;flex-wrap:wrap;gap:10px;}.hm-pill{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 12px;border-radius:999px;font-weight:900;font-size:13px;text-decoration:none !important;border:1px solid rgba(0,183,79,.22);background:#fff;color:var(--hm-text) !important;}.hm-pill.primary{border:none;color:#fff !important;background:linear-gradient(135deg, var(--hm-green), var(--hm-green2));}.hm-note{margin-top:12px;font-size:13px;color:var(--hm-muted);line-height:1.55;}/* ===== Responsive ===== */@media (max-width: 1024px){.hm-card{flex: 0 0 calc(50% - 8px);max-width: calc(50% - 8px);}}@media (max-width: 560px){.hm-hero h1{ font-size:26px; }.hm-card{flex: 0 0 100%;max-width: 100%;}.hm-field{ width:100%; }}/* ========================= HOMEMONEY LANDING PAGE========================= */.hmn-loan-page {--hmn-primary: #00b74f;--hmn-primary-dark: #009640;--hmn-red: #c50500;--hmn-text: #1f2937;--hmn-muted: #667085;--hmn-bg: #f6f8fb;--hmn-border: #e8edf3;color: var(--hmn-text);background: #fff;}/* ========================= FONT FIX FOR FLATSOME========================= */.hmn-loan-page,.hmn-loan-page * {font-family: var(--flatsome-body-font-family) !important;}.hmn-loan-page h1,.hmn-loan-page h2,.hmn-loan-page h3,.hmn-loan-page h4,.hmn-loan-page h5,.hmn-loan-page h6 {font-family: var(--flatsome-body-font-family) !important;font-weight: 700 !important;letter-spacing: 0 !important;text-transform: none !important;line-height: 1.3;}.hmn-loan-page * {box-sizing: border-box;}.hmn-container {max-width: 1180px;margin: 0 auto;padding: 0 18px;}/* ========================= HERO========================= */.hmn-hero {padding: 20px 0;overflow: hidden;background:radial-gradient(circle at top right,rgba(0,183,79,.10),transparent 28%),radial-gradient(circle at bottom left,rgba(0,183,79,.08),transparent 28%),linear-gradient(135deg,#ffffff 0%,#f5fff8 100%);}.hmn-hero-grid {display: grid;grid-template-columns: 1.08fr .92fr;gap: 42px;align-items: center;}.hmn-badge {display: inline-flex;align-items: center;gap: 8px;padding: 10px 16px;border-radius: 999px;background: rgba(0,183,79,.10);color: var(--hmn-primary);font-size: 13px;font-weight: 700;margin-bottom: 18px;}.hmn-hero h1 {font-size: 52px;color: #111827;margin: 0 0 20px;}.hmn-hero p {font-size: 18px;line-height: 1.8;color: var(--hmn-muted);max-width: 680px;}/* ========================= BUTTON========================= */.hmn-hero-actions {display: flex;flex-wrap: wrap;gap: 14px;margin: 34px 0;}.hmn-btn {display: inline-flex;align-items: center;justify-content: center;min-height: 54px;padding: 0 28px;border-radius: 14px;text-decoration: none !important;font-weight: 700;transition: all .25s ease;}.hmn-btn-primary {background: linear-gradient(135deg,var(--hmn-primary),#00d15b);color: #fff !important;box-shadow:0 14px 32px rgba(0,183,79,.28);}.hmn-btn-primary:hover {transform: translateY(-2px);}.hmn-btn-outline {background: #fff;border: 1px solid var(--hmn-border);color: var(--hmn-text) !important;}.hmn-btn-outline:hover {border-color: var(--hmn-primary);color: var(--hmn-primary) !important;}/* ========================= STATS========================= */.hmn-stats {display: grid;grid-template-columns: repeat(3,1fr);gap: 16px;max-width: 620px;}.hmn-stats div {background: #fff;border: 1px solid var(--hmn-border);border-radius: 18px;padding: 20px;box-shadow:0 10px 24px rgba(0,0,0,.04);}.hmn-stats strong {display: block;font-size: 26px;font-weight: 700;color: var(--hmn-primary);margin-bottom: 5px;}.hmn-stats span {font-size: 14px;color: var(--hmn-muted);}/* ========================= FORM========================= */.hmn-form-card {background: #fff;border: 1px solid var(--hmn-border);border-radius: 28px;padding: 34px;box-shadow:0 24px 60px rgba(0,0,0,.08);}.hmn-form-card h2 {font-size: 28px;margin-bottom: 10px;color: #111827;}.hmn-form-card p {color: var(--hmn-muted);margin-bottom: 22px;}.hmn-form-card input,.hmn-form-card select {width: 100%;height: 54px;border-radius: 14px;border: 1px solid var(--hmn-border);background: #fff;padding: 0 16px;margin-bottom: 14px;outline: none;transition: .2s ease;}.hmn-form-card input:focus,.hmn-form-card select:focus {border-color: var(--hmn-primary);box-shadow:0 0 0 4px rgba(0,183,79,.12);}.hmn-form-card button {width: 100%;height: 56px;border: 0;border-radius: 14px;background: linear-gradient(135deg,var(--hmn-primary),#00d15b);color: #fff;font-size: 16px;font-weight: 700;cursor: pointer;box-shadow:0 14px 32px rgba(0,183,79,.24);}.hmn-form-card small {display: block;margin-top: 12px;text-align: center;color: var(--hmn-muted);}/* ========================= SECTION========================= */.hmn-section {padding: 84px 0;}.hmn-title {text-align: center;max-width: 760px;margin: 0 auto 46px;}.hmn-title span {display: inline-block;color: var(--hmn-primary);font-size: 13px;font-weight: 700;margin-bottom: 10px;}.hmn-title h2 {font-size: 42px;color: #111827;margin: 0 0 14px;}.hmn-title p {font-size: 17px;line-height: 1.8;color: var(--hmn-muted);}/* ========================= GRID========================= */.hmn-benefit-grid,.hmn-product-grid,.hmn-step-grid {display: grid;gap: 24px;}.hmn-benefit-grid {grid-template-columns: repeat(4,1fr);}.hmn-product-grid {grid-template-columns: repeat(3,1fr);}.hmn-step-grid {grid-template-columns: repeat(4,1fr);}/* ========================= CARD========================= */.hmn-card,.hmn-product-card,.hmn-step {position: relative;background: #fff;border: 1px solid var(--hmn-border);border-radius: 24px;padding: 28px;transition: all .25s ease;box-shadow:0 10px 24px rgba(0,0,0,.04);}.hmn-card:hover,.hmn-product-card:hover,.hmn-step:hover {transform: translateY(-5px);box-shadow:0 24px 50px rgba(0,0,0,.08);}.hmn-icon {width: 58px;height: 58px;border-radius: 18px;display: flex;align-items: center;justify-content: center;background:rgba(0,183,79,.10);color: var(--hmn-primary);font-size: 28px;margin-bottom: 18px;}.hmn-card h3,.hmn-product-card h3,.hmn-step h3 {font-size: 22px;color: #111827;margin-bottom: 12px;}.hmn-card p,.hmn-product-card p,.hmn-step p {font-size: 15px;line-height: 1.8;color: var(--hmn-muted);}/* ========================= PRODUCTS========================= */.hmn-products,.hmn-faq {background: var(--hmn-bg);}.hmn-product-card.highlight {border: 2px solid var(--hmn-primary);box-shadow:0 24px 60px rgba(0,183,79,.14);}.hmn-product-card label {position: absolute;top: 18px;right: 18px;padding: 7px 12px;border-radius: 999px;background: var(--hmn-primary);color: #fff;font-size: 12px;font-weight: 700;}/* ========================= STEP========================= */.hmn-step {overflow: hidden;}.hmn-step::before {content: "";position: absolute;top: -50px;right: -50px;width: 120px;height: 120px;border-radius: 50%;background:rgba(0,183,79,.06);}.hmn-step-number {position: absolute;top: 20px;right: 22px;font-size: 42px;font-weight: 700;color:rgba(0,183,79,.08);}.hmn-step-icon {width: 62px;height: 62px;border-radius: 18px;display: flex;align-items: center;justify-content: center;background: linear-gradient(135deg,var(--hmn-primary),#00d15b);color: #fff;font-size: 28px;margin-bottom: 18px;box-shadow:0 14px 30px rgba(0,183,79,.22);}/* ========================= FAQ========================= */.hmn-faq-list {max-width: 860px;margin: 0 auto;}.hmn-faq-list details {background: #fff;border: 1px solid var(--hmn-border);border-radius: 18px;padding: 20px 22px;margin-bottom: 14px;}.hmn-faq-list summary {cursor: pointer;font-weight: 700;color: #111827;}.hmn-faq-list p {margin-top: 14px;color: var(--hmn-muted);line-height: 1.8;}/* ========================= CTA========================= */.hmn-cta {padding: 84px 0;text-align: center;background:radial-gradient(circle at top left,rgba(255,255,255,.10),transparent 30%),linear-gradient(135deg,var(--hmn-primary),var(--hmn-primary-dark));color: #fff;}.hmn-cta h2 {font-size: 42px;color: #fff;margin-bottom: 14px;}.hmn-cta p {font-size: 17px;color: rgba(255,255,255,.88);margin-bottom: 28px;}/* ========================= RESPONSIVE========================= */@media (max-width: 991px) {.hmn-hero-grid,.hmn-benefit-grid,.hmn-product-grid,.hmn-step-grid {grid-template-columns: 1fr 1fr;}.hmn-hero h1 {font-size: 42px;}}@media (max-width: 640px) {.hmn-hero {padding: 60px 0;}.hmn-hero-grid,.hmn-benefit-grid,.hmn-product-grid,.hmn-step-grid,.hmn-stats {grid-template-columns: 1fr;}.hmn-hero h1 {font-size: 34px;}.hmn-title h2 {font-size: 30px;}.hmn-form-card {padding: 24px;}}.label-new.menu-item > a:after{content:"Mới";}.label-hot.menu-item > a:after{content:"Thịnh hành";}.label-sale.menu-item > a:after{content:"Giảm giá";}.label-popular.menu-item > a:after{content:"Phổ biến";}</style><style id="kirki-inline-styles">/* vietnamese */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/home/homemoney.vn/public_html/wp-content/fonts/lexend/wlpwgwvFAVdoq2_v9KQU4Wc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/home/homemoney.vn/public_html/wp-content/fonts/lexend/wlpwgwvFAVdoq2_v9aQU4Wc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/home/homemoney.vn/public_html/wp-content/fonts/lexend/wlpwgwvFAVdoq2_v-6QU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/home/homemoney.vn/public_html/wp-content/fonts/lexend/wlpwgwvFAVdoq2_v9KQU4Wc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/home/homemoney.vn/public_html/wp-content/fonts/lexend/wlpwgwvFAVdoq2_v9aQU4Wc.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/home/homemoney.vn/public_html/wp-content/fonts/lexend/wlpwgwvFAVdoq2_v-6QU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* vietnamese */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/home/homemoney.vn/public_html/wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep8ltA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/home/homemoney.vn/public_html/wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp8ltA.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/home/homemoney.vn/public_html/wp-content/fonts/dancing-script/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PH3T4JKR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<a class="skip-link screen-reader-text" href="#main">Chuyển đến nội dung</a>
+
+<div id="wrapper" bis_skin_checked="1">
+
+	
+	<header id="header" class="header has-sticky sticky-jump" style="">
+		<div class="header-wrapper" bis_skin_checked="1">
+			<div id="masthead" class="header-main " bis_skin_checked="1">
+      <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation" bis_skin_checked="1">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo" bis_skin_checked="1">
+            
+<!-- Header logo -->
+<a href="https://homemoney.vn/" title="Home Money – Tài Chính Cho Mọi Nhà" rel="home" bis_size="{&quot;x&quot;:494,&quot;y&quot;:148,&quot;w&quot;:254,&quot;h&quot;:49,&quot;abs_x&quot;:494,&quot;abs_y&quot;:148}">
+		<img width="569" height="110" src="https://homemoney.vn/wp-content/uploads/2024/12/home.png" class="header_logo header-logo" alt="Home Money – Tài Chính Cho Mọi Nhà" bis_size="{&quot;x&quot;:494,&quot;y&quot;:148,&quot;w&quot;:254,&quot;h&quot;:49,&quot;abs_x&quot;:494,&quot;abs_y&quot;:148}" bis_id="bn_k9hrvg3vyxjb76d9ar3ohd"><img width="569" height="110" src="https://homemoney.vn/wp-content/uploads/2024/12/home.png" class="header-logo-dark" alt="Home Money – Tài Chính Cho Mọi Nhà"></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left" bis_skin_checked="1">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+
+		  <i class="icon-menu"></i>
+		  		</a>
+	</li>
+            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow" bis_skin_checked="1">
+            <ul class="header-nav header-nav-main nav nav-left  nav-size-large nav-spacing-medium">
+              <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36 menu-item-design-default"><a href="https://homemoney.vn/ve-chung-toi" class="nav-top-link">Về chúng tôi</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-37 menu-item-design-default has-dropdown"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Cho vay cầm cố<i class="icon-angle-down"></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default" style="">
+	<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="https://homemoney.vn/vay-tien-bang-dang-ky-xe-oto">Đăng ký ô tô</a></li>
+	<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="https://homemoney.vn/dang-ky-xe-may">Đăng ký xe máy</a></li>
+	<li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364"><a href="https://homemoney.vn/vay-tien-qua-icloud">Vay tiền qua iCloud</a></li>
+	<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="https://homemoney.vn/tai-san-khac-dien-thoai-ipad-laptop">Tài sản khác: Điện thoại, ipad, laptop…</a></li>
+</ul>
+</li>
+<li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44 menu-item-design-default has-dropdown"><a href="#" class="nav-top-link" aria-expanded="false" aria-haspopup="menu">Thanh toán hóa đơn<i class="icon-angle-down"></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-default">
+	<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://homemoney.vn/hoa-don-dien-nuoc">Hóa đơn điện nước</a></li>
+	<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://homemoney.vn/hoa-don-truyen-hinh">Hóa đơn truyền hình</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://homemoney.vn/hoa-don-vien-thong-internet">Hóa đơn viễn thông, internet</a></li>
+</ul>
+</li>
+<li id="menu-item-54" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54 menu-item-design-default"><a href="https://homemoney.vn/chuyen-muc/tin-tuc" class="nav-top-link">Tin tức</a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-55 menu-item-design-default"><a href="https://homemoney.vn/chuyen-muc/tuyen-dung" class="nav-top-link">Tuyển Dụng</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35 menu-item-design-default"><a href="https://homemoney.vn/lien-he" class="nav-top-link">Liên hệ</a></li>
+            </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right" bis_skin_checked="1">
+            <ul class="header-nav header-nav-main nav nav-right  nav-size-large nav-spacing-medium">
+              <li class="html header-button-1">
+	<div class="header-button" bis_skin_checked="1">
+		<a href="tel:1900638388" class="button alert reveal-icon" style="border-radius:99px;">
+	<i class="icon-phone" aria-hidden="true"></i>	<span>Hotline: 1900.638.388</span>
+	</a>
+	</div>
+</li>
+            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right" bis_skin_checked="1">
+            <ul class="mobile-nav nav nav-right ">
+                          </ul>
+          </div>
+
+      </div>
+
+            <div class="container" bis_skin_checked="1"><div class="top-divider full-width" bis_skin_checked="1"></div></div>
+      </div>
+
+<div class="header-bg-container fill" bis_skin_checked="1"><div class="header-bg-image fill" bis_skin_checked="1"></div><div class="header-bg-color fill" bis_skin_checked="1"></div></div>		</div>
+	</header>
+
+	
+	<main id="main" class="">
+
+
+<div id="content" role="main" class="content-area" bis_skin_checked="1">
+
+		
+			<div class="slider-wrapper relative" id="slider-750396748" bis_skin_checked="1">
+    <div class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal slider-lazy-load-active is-draggable flickity-enabled" data-flickity-options="{
+            &quot;cellAlign&quot;: &quot;center&quot;,
+            &quot;imagesLoaded&quot;: true,
+            &quot;lazyLoad&quot;: 1,
+            &quot;freeScroll&quot;: false,
+            &quot;wrapAround&quot;: true,
+            &quot;autoPlay&quot;: 4000,
+            &quot;pauseAutoPlayOnHover&quot; : true,
+            &quot;prevNextButtons&quot;: true,
+            &quot;contain&quot; : true,
+            &quot;adaptiveHeight&quot; : true,
+            &quot;dragThreshold&quot; : 10,
+            &quot;percentPosition&quot;: true,
+            &quot;pageDots&quot;: true,
+            &quot;rightToLeft&quot;: false,
+            &quot;draggable&quot;: true,
+            &quot;selectedAttraction&quot;: 0.1,
+            &quot;parallax&quot; : 0,
+            &quot;friction&quot;: 0.6        }" tabindex="0" bis_skin_checked="1">
+        
+
+  
+
+
+
+  
+
+
+     <div class="flickity-viewport" style="height: 482.4px; touch-action: pan-y;" bis_skin_checked="1"><div class="flickity-slider" style="left: 0px; transform: translateX(-100%);" bis_skin_checked="1"><div class="banner has-hover" id="banner-1310359647" style="position: absolute; left: 0%;" bis_skin_checked="1" aria-hidden="true">
+          <div class="banner-inner fill" bis_skin_checked="1">
+        <div class="banner-bg fill" bis_skin_checked="1">
+            <img fetchpriority="high" decoding="async" width="2560" height="987" src="https://homemoney.vn/wp-content/uploads/2025/12/vay-nhanh-bang-dk-xe-oto-1.jpg" class="bg attachment-original size-original" alt="">                                    
+                    </div>
+		
+        <div class="banner-layers container" bis_skin_checked="1">
+            <div class="fill banner-link" bis_skin_checked="1"></div>            
+   <div id="text-box-327586881" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" bis_skin_checked="1">
+                                <div class="text-box-content text dark" bis_skin_checked="1">
+              
+              <div class="text-inner text-center" bis_skin_checked="1">
+                  
+              </div>
+           </div>
+                            
+<style>
+#text-box-327586881 {
+  width: 60%;
+}
+#text-box-327586881 .text-box-content {
+  font-size: 100%;
+}
+@media (min-width:550px) {
+  #text-box-327586881 {
+    width: 60%;
+  }
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style>
+#banner-1310359647 {
+  padding-top: 40%;
+}
+</style>
+  </div><div class="banner has-hover is-selected" id="banner-590522067" style="position: absolute; left: 100%;" bis_skin_checked="1">
+          <div class="banner-inner fill" bis_skin_checked="1">
+        <div class="banner-bg fill" bis_skin_checked="1">
+            <img decoding="async" width="2560" height="987" src="https://homemoney.vn/wp-content/uploads/2025/12/dang-ky-xe-may.jpg" data-src="https://homemoney.vn/wp-content/uploads/2025/12/dang-ky-xe-may.jpg" class="bg attachment-original size-original lazy-load-active" alt="">                                    
+                    </div>
+		
+        <div class="banner-layers container" bis_skin_checked="1">
+            <div class="fill banner-link" bis_skin_checked="1"></div>            
+   <div id="text-box-379658055" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text" bis_skin_checked="1">
+                                <div class="text-box-content text dark" bis_skin_checked="1">
+              
+              <div class="text-inner text-center" bis_skin_checked="1">
+                  
+              </div>
+           </div>
+                            
+<style>
+#text-box-379658055 {
+  width: 60%;
+}
+#text-box-379658055 .text-box-content {
+  font-size: 100%;
+}
+@media (min-width:550px) {
+  #text-box-379658055 {
+    width: 60%;
+  }
+}
+</style>
+    </div>
+ 
+        </div>
+      </div>
+
+            
+<style>
+#banner-590522067 {
+  padding-top: 40%;
+}
+</style>
+  </div></div></div><button class="flickity-button flickity-prev-next-button previous" type="button" aria-label="Previous"><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg></button><button class="flickity-button flickity-prev-next-button next" type="button" aria-label="Next"><svg class="flickity-button-icon" viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></button><ol class="flickity-page-dots"><li class="dot" aria-label="Page dot 1"></li><li class="dot is-selected" aria-label="Page dot 2" aria-current="step"></li></ol></div>
+
+     <div class="loading-spin dark large centered" style="display: none;" bis_skin_checked="1"></div>
+
+	</div>
+
+
+
+	<section class="section" id="section_1251535887">
+		<div class="section-bg fill" bis_skin_checked="1">
+									
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative" bis_skin_checked="1">
+			
+<div class="row" id="row-68867370" bis_skin_checked="1">
+
+	<div id="col-48895477" class="col small-12 large-12" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+
+<section class="hm-pawn-section">
+<div class="hm-pawn-container" bis_skin_checked="1">
+<h3 style="text-align: center; font-size: 30px; background: linear-gradient(to right, #c50500 0%, #00b74f 100%); background-clip: text; color: transparent;"><strong>Dịch vụ nổi bật</strong></h3>
+<p style="text-align: center" ;="">Khám phá các sản phẩm vay và thanh toán hóa đơn đang được nhiều khách hàng sử dụng tại HOME Money <br> <b>Giải pháp tài chính nhanh – an toàn – minh bạch</b></p>
+<p>    <!-- ===== DESKTOP (>=992px) ===== --></p>
+<div class="hm-pawn-desktop" bis_skin_checked="1">
+<div class="hm-pawn-row" bis_skin_checked="1">
+<p>	  <!-- 1. ĐK ô tô --></p>
+<article class="hm-pawn-card is-active" data-service="car">
+<div class="hm-pawn-inner" bis_skin_checked="1">
+<div class="hm-pawn-text" bis_skin_checked="1">
+<div class="hm-pawn-icon" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="🚗" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f697.svg"></div>
+<h3>Vay tiền qua đăng ký ô tô</h3>
+<ul class="hm-pawn-list">
+<li>Cầm cavet ô tô, không giữ xe</li>
+<li>Giải ngân chỉ từ 30 phút</li>
+<li>Hạn mức vay đến 2 tỷ</li>
+<li>Hợp đồng minh bạch – an toàn pháp lý</li>
+</ul>
+<p>              <a href="#dang-ky-oto" class="hm-pawn-btn">ĐĂNG KÝ NGAY</a>
+            </p></div>
+<div class="hm-pawn-image" bis_skin_checked="1">
+              <img class="lazy-load-active" decoding="async" src="https://homemoney.vn/wp-content/uploads/2025/12/xe-oto-fix.png" data-src="https://homemoney.vn/wp-content/uploads/2025/12/xe-oto-fix.png" alt="Vay tiền qua đăng ký ô tô">
+            </div>
+<p></p></div>
+</article>
+<p>        <!-- 2. ĐK xe máy --></p>
+<article class="hm-pawn-card" data-service="bike">
+<div class="hm-pawn-inner" bis_skin_checked="1">
+<div class="hm-pawn-text" bis_skin_checked="1">
+<div class="hm-pawn-icon" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="🏍️" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f3cd.svg"></div>
+<h3>Vay tiền qua đăng ký xe máy</h3>
+<ul class="hm-pawn-list">
+<li>Chỉ cần cavet xe máy, không giữ xe</li>
+<li>Giải ngân nhanh trong ngày</li>
+<li>Cầm cố lên đến 30 triệu</li>
+<li>Chi phí hợp lý – thủ tục đơn giản</li>
+</ul>
+<p>              <a href="#dang-ky-xemay" class="hm-pawn-btn">ĐĂNG KÝ NGAY</a>
+            </p></div>
+<div class="hm-pawn-image" bis_skin_checked="1">
+              <img class="lazy-load-active" decoding="async" src="https://homemoney.vn/wp-content/uploads/2025/12/xe-may-fix.png" data-src="https://homemoney.vn/wp-content/uploads/2025/12/xe-may-fix.png" alt="Vay tiền qua đăng ký xe máy">
+            </div>
+<p></p></div>
+</article>
+<p>		<!-- 3. iCloud --></p>
+<article class="hm-pawn-card" data-service="icloud">
+<div class="hm-pawn-inner" bis_skin_checked="1">
+<div class="hm-pawn-text" bis_skin_checked="1">
+<div class="hm-pawn-icon" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="☁️" src="https://s.w.org/images/core/emoji/17.0.2/svg/2601.svg"></div>
+<h3>Vay tiền qua iCloud</h3>
+<ul class="hm-pawn-list">
+<li>Chỉ cần iPhone/iPad đăng nhập iCloud chính chủ</li>
+<li>Không giữ máy – dùng bình thường</li>
+<li>Duyệt hồ sơ chỉ trong 15 phút</li>
+<li>Hạn mức vay lên đến 20 triệu</li>
+</ul>
+<p>              <a href="#dang-ky-icloud" class="hm-pawn-btn">ĐĂNG KÝ NGAY</a>
+            </p></div>
+<div class="hm-pawn-image" bis_skin_checked="1">
+              <img class="lazy-load-active" decoding="async" src="https://homemoney.vn/wp-content/uploads/2025/12/icloud-fix.png" data-src="https://homemoney.vn/wp-content/uploads/2025/12/icloud-fix.png" alt="Vay tiền qua iCloud">
+            </div>
+<p></p></div>
+</article></div>
+<p></p></div>
+<p>    <!-- ===== MOBILE (<992px) ===== --></p>
+<div class="hm-pawn-mobile" bis_skin_checked="1">
+<p>      <!-- Banner giống TrueMoney --></p>
+<div class="hm-m-banner" bis_skin_checked="1">
+<div class="hm-m-banner-image" bis_skin_checked="1">
+          <img class="lazy-load" decoding="async" id="hmMImage" src="https://homemoney.vn/wp-content/uploads/2025/12/xe-oto-fix.png" data-src="https://homemoney.vn/wp-content/uploads/2025/12/xe-oto-fix.png" alt="Vay tiền qua đăng ký ô tô">
+        </div>
+<p></p></div>
+<p>      <!-- 2 icon chọn dịch vụ --></p>
+<div class="hm-m-tabs-wrapper" bis_skin_checked="1">
+<div class="hm-m-tabs" bis_skin_checked="1">
+		<button class="hm-m-tab active" data-service="car"><br>
+          <img draggable="false" role="img" class="emoji" alt="🚗" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f697.svg"><br>
+        </button><p></p>
+<p>        <button class="hm-m-tab" data-service="bike"><br>
+          <img draggable="false" role="img" class="emoji" alt="🏍️" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f3cd.svg"><br>
+        </button></p>
+<p>		<button class="hm-m-tab" data-service="icloud"><br>
+          <img draggable="false" role="img" class="emoji" alt="☁️" src="https://s.w.org/images/core/emoji/17.0.2/svg/2601.svg"><br>
+        </button></p></div>
+<p></p></div>
+<p>      <!-- Nội dung dưới banner --></p>
+<div class="hm-m-content" bis_skin_checked="1">
+<h3 id="hmMTitle">Vay tiền qua đăng ký ô tô</h3>
+<ul id="hmMList" class="hm-m-list"><li>Cầm cavet ô tô, không giữ xe</li><li>Giải ngân chỉ từ 30 phút</li><li>Hạn mức vay đến 500 triệu</li><li>Hợp đồng minh bạch – an toàn pháp lý</li></ul>
+<p>        <a id="hmMBtn" href="https://homemoney.vn/vay-tien-bang-dang-ky-xe-oto" class="hm-m-btn">ĐĂNG KÝ NGAY</a>
+      </p></div>
+<p></p></div>
+<p></p></div>
+</section>
+
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1251535887 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+</style>
+	</section>
+	
+
+
+	<section class="section" id="section_1540022488">
+		<div class="section-bg fill" bis_skin_checked="1">
+									
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative" bis_skin_checked="1">
+			
+	<div id="text-3028536553" class="text" bis_skin_checked="1">
+		
+<h3 style="text-align: center; font-size: 30px; background: linear-gradient(to right, #c50500 0%, #00b74f 100%); background-clip: text; color: transparent;"><strong>Home Money – Giải pháp tài chính cho mọi nhà</strong></h3>
+<p>Đến với Home Money, khách hàng sẽ được hỗ trợ tài chính nhanh chóng trong vòng chỉ từ 15 phút với<br>
+quy trình đơn giản, nhanh chóng và minh bạch<br>
+		
+<style>
+#text-3028536553 {
+  text-align: center;
+}
+</style>
+	</p></div>
+	
+<div class="row" id="row-2006481003" bis_skin_checked="1">
+
+	<div id="col-137561779" class="col medium-3 small-6 large-3 tip-top" title="Giải ngân nhanh chóng" data-animate="fadeInUp" bis_skin_checked="1" data-animate-transform="true" data-animate-transition="true" data-animated="true">
+				<div class="col-inner text-center dark" style="background-color:rgb(255, 255, 255);" bis_skin_checked="1">
+			
+	<div class="is-border" style="border-color:rgb(239, 239, 239);border-radius:15px;border-width:1px 1px 1px 1px;" bis_skin_checked="1">
+	</div>
+			
+
+		<div class="icon-box featured-box icon-box-top text-left" bis_skin_checked="1">
+					<div class="icon-box-img" style="width: 133px" bis_skin_checked="1">
+				<div class="icon" bis_skin_checked="1">
+					<div class="icon-inner" style="color:rgb(255, 0, 0);" bis_skin_checked="1">
+						<img decoding="async" width="300" height="180" src="https://homemoney.vn/wp-content/uploads/2024/12/da-dang-goi-vay-300x180.png" data-src="https://homemoney.vn/wp-content/uploads/2024/12/da-dang-goi-vay-300x180.png" class="attachment-medium size-medium lazy-load-active" alt="" srcset="https://homemoney.vn/wp-content/uploads/2024/12/da-dang-goi-vay-300x180.png 300w, https://homemoney.vn/wp-content/uploads/2024/12/da-dang-goi-vay.png 500w" data-srcset="https://homemoney.vn/wp-content/uploads/2024/12/da-dang-goi-vay-300x180.png 300w, https://homemoney.vn/wp-content/uploads/2024/12/da-dang-goi-vay.png 500w" sizes="(max-width: 300px) 100vw, 300px">					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset" bis_skin_checked="1">
+									
+	<div id="text-1169658699" class="text" bis_skin_checked="1">
+		
+<h3>Giải ngân nhanh chóng</h3>
+		
+<style>
+#text-1169658699 {
+  text-align: center;
+  color: rgb(0,0,0);
+}
+#text-1169658699 > * {
+  color: rgb(0,0,0);
+}
+</style>
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+				
+<style>
+#col-137561779 > .col-inner {
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+</style>
+	</div>
+
+	
+
+	<div id="col-325339328" class="col medium-3 small-6 large-3 tip-top" title="Chi phí vay cạnh tranh" data-animate="fadeInUp" bis_skin_checked="1" data-animate-transform="true" data-animate-transition="true" data-animated="true">
+				<div class="col-inner text-center dark" style="background-color:rgb(255, 253, 253);" bis_skin_checked="1">
+			
+	<div class="is-border" style="border-radius:15px;border-width:1px 1px 1px 1px;" bis_skin_checked="1">
+	</div>
+			
+
+		<div class="icon-box featured-box icon-box-top text-left" bis_skin_checked="1">
+					<div class="icon-box-img" style="width: 133px" bis_skin_checked="1">
+				<div class="icon" bis_skin_checked="1">
+					<div class="icon-inner" style="color:rgb(255, 0, 0);" bis_skin_checked="1">
+						<img decoding="async" width="300" height="180" src="https://homemoney.vn/wp-content/uploads/2024/12/vay-canh-tranh-300x180.png" data-src="https://homemoney.vn/wp-content/uploads/2024/12/vay-canh-tranh-300x180.png" class="attachment-medium size-medium lazy-load-active" alt="" srcset="https://homemoney.vn/wp-content/uploads/2024/12/vay-canh-tranh-300x180.png 300w, https://homemoney.vn/wp-content/uploads/2024/12/vay-canh-tranh.png 500w" data-srcset="https://homemoney.vn/wp-content/uploads/2024/12/vay-canh-tranh-300x180.png 300w, https://homemoney.vn/wp-content/uploads/2024/12/vay-canh-tranh.png 500w" sizes="auto, (max-width: 300px) 100vw, 300px">					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset" bis_skin_checked="1">
+									
+	<div id="text-3391604770" class="text" bis_skin_checked="1">
+		
+<h3>Chi phí vay cạnh tranh</h3>
+		
+<style>
+#text-3391604770 {
+  text-align: center;
+  color: rgb(0,0,0);
+}
+#text-3391604770 > * {
+  color: rgb(0,0,0);
+}
+</style>
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+				
+<style>
+#col-325339328 > .col-inner {
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+</style>
+	</div>
+
+	
+
+	<div id="col-1330052299" class="col medium-3 small-6 large-3 tip-top" title="Hợp đồng minh bạch" data-animate="fadeInUp" bis_skin_checked="1" data-animate-transform="true" data-animate-transition="true" data-animated="true">
+				<div class="col-inner text-center dark" style="background-color:rgb(255, 255, 255);" bis_skin_checked="1">
+			
+	<div class="is-border" style="border-radius:15px;border-width:1px 1px 1px 1px;" bis_skin_checked="1">
+	</div>
+			
+
+		<div class="icon-box featured-box icon-box-top text-left" bis_skin_checked="1">
+					<div class="icon-box-img" style="width: 133px" bis_skin_checked="1">
+				<div class="icon" bis_skin_checked="1">
+					<div class="icon-inner" style="color:rgb(255, 0, 0);" bis_skin_checked="1">
+						<img decoding="async" width="300" height="180" src="https://homemoney.vn/wp-content/uploads/2024/12/hop-dong-minh-bach-300x180.png" data-src="https://homemoney.vn/wp-content/uploads/2024/12/hop-dong-minh-bach-300x180.png" class="attachment-medium size-medium lazy-load-active" alt="" srcset="https://homemoney.vn/wp-content/uploads/2024/12/hop-dong-minh-bach-300x180.png 300w, https://homemoney.vn/wp-content/uploads/2024/12/hop-dong-minh-bach.png 500w" data-srcset="https://homemoney.vn/wp-content/uploads/2024/12/hop-dong-minh-bach-300x180.png 300w, https://homemoney.vn/wp-content/uploads/2024/12/hop-dong-minh-bach.png 500w" sizes="auto, (max-width: 300px) 100vw, 300px">					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset" bis_skin_checked="1">
+									
+	<div id="text-981155544" class="text" bis_skin_checked="1">
+		
+<h3>Hợp đồng minh bạch</h3>
+		
+<style>
+#text-981155544 {
+  text-align: center;
+  color: rgb(0,0,0);
+}
+#text-981155544 > * {
+  color: rgb(0,0,0);
+}
+</style>
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+				
+<style>
+#col-1330052299 > .col-inner {
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+</style>
+	</div>
+
+	
+
+	<div id="col-1219928257" class="col medium-3 small-6 large-3 tip-top" title="Bảo mật thông tin" data-animate="fadeInUp" bis_skin_checked="1" data-animate-transform="true" data-animate-transition="true" data-animated="true">
+				<div class="col-inner text-center dark" style="background-color:rgb(255, 255, 255);" bis_skin_checked="1">
+			
+	<div class="is-border" style="border-radius:15px;border-width:1px 1px 1px 1px;" bis_skin_checked="1">
+	</div>
+			
+
+		<div class="icon-box featured-box icon-box-top text-left" bis_skin_checked="1">
+					<div class="icon-box-img" style="width: 135px" bis_skin_checked="1">
+				<div class="icon" bis_skin_checked="1">
+					<div class="icon-inner" style="color:rgb(255, 0, 0);" bis_skin_checked="1">
+						<img decoding="async" width="300" height="180" src="https://homemoney.vn/wp-content/uploads/2024/12/bao-mat-thong-tin-300x180.png" data-src="https://homemoney.vn/wp-content/uploads/2024/12/bao-mat-thong-tin-300x180.png" class="attachment-medium size-medium lazy-load-active" alt="" srcset="https://homemoney.vn/wp-content/uploads/2024/12/bao-mat-thong-tin-300x180.png 300w, https://homemoney.vn/wp-content/uploads/2024/12/bao-mat-thong-tin.png 500w" data-srcset="https://homemoney.vn/wp-content/uploads/2024/12/bao-mat-thong-tin-300x180.png 300w, https://homemoney.vn/wp-content/uploads/2024/12/bao-mat-thong-tin.png 500w" sizes="auto, (max-width: 300px) 100vw, 300px">					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset" bis_skin_checked="1">
+									
+	<div id="text-2883472583" class="text" bis_skin_checked="1">
+		
+<h3>Bảo mật thông tin</h3>
+		
+<style>
+#text-2883472583 {
+  text-align: center;
+  color: rgb(0,0,0);
+}
+#text-2883472583 > * {
+  color: rgb(0,0,0);
+}
+</style>
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+				
+<style>
+#col-1219928257 > .col-inner {
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+</style>
+	</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1540022488 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(246, 246, 246);
+}
+</style>
+	</section>
+	
+
+	<section class="section" id="section_36212816">
+		<div class="section-bg fill" bis_skin_checked="1">
+									
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative" bis_skin_checked="1">
+			
+
+<section class="hm-stats-section">
+<div class="hm-stats-container" bis_skin_checked="1">
+<h2 class="hm-stats-heading">Những con số biết nói</h2>
+<p class="hm-stats-subheading">
+      Hãy tham khảo các số liệu để xem HomeMoney đã mang lại những giá trị gì cho khách hàng.
+    </p>
+<div class="hm-stats-content" bis_skin_checked="1">
+      <!-- CỘT HÌNH ẢNH BÊN TRÁI --><p></p>
+<div class="hm-stats-visual" bis_skin_checked="1">
+        <!-- Thay ảnh này bằng ảnh nhân viên / thương hiệu HomeMoney của ông --><br>
+        <img class="lazy-load-active" decoding="async" src="https://homemoney.vn/wp-content/uploads/2025/12/hmn-girl-1.png" data-src="https://homemoney.vn/wp-content/uploads/2025/12/hmn-girl-1.png" text="HomeMoney&quot;" alt="Đội ngũ HomeMoney">
+      </div>
+<p>      <!-- CỘT SỐ LIỆU BÊN PHẢI --></p>
+<div class="hm-stats-grid" bis_skin_checked="1">
+<div class="hm-stat-item" bis_skin_checked="1">
+<div class="hm-stat-icon" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="📦" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f4e6.svg"></div>
+<div class="hm-stat-number" data-target="95" data-suffix="%" bis_skin_checked="1">95%</div>
+<div class="hm-stat-label" bis_skin_checked="1">Hồ sơ được hỗ trợ</div>
+<p></p></div>
+<div class="hm-stat-item" bis_skin_checked="1">
+<div class="hm-stat-icon" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="💰" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f4b0.svg"></div>
+<div class="hm-stat-number" data-target="100" data-suffix="+ tỷ" bis_skin_checked="1">100+ tỷ</div>
+<div class="hm-stat-label" bis_skin_checked="1">Giải ngân</div>
+<p></p></div>
+<div class="hm-stat-item" bis_skin_checked="1">
+<div class="hm-stat-icon" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="👥" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f465.svg"></div>
+<div class="hm-stat-number" data-target="10000" data-suffix="+" bis_skin_checked="1">10,000+</div>
+<div class="hm-stat-label" bis_skin_checked="1">Khách hàng</div>
+<p></p></div>
+<div class="hm-stat-item" bis_skin_checked="1">
+<div class="hm-stat-icon" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="🏢" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f3e2.svg"></div>
+<div class="hm-stat-number" data-target="10" data-suffix="+" bis_skin_checked="1">10+</div>
+<div class="hm-stat-label" bis_skin_checked="1">Điểm giao dịch</div>
+<p></p></div>
+<p></p></div>
+<p></p></div>
+<p></p></div>
+</section>
+
+		</div>
+
+		
+<style>
+#section_36212816 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+</style>
+	</section>
+	
+
+	<section class="section" id="section_1421966534">
+		<div class="section-bg fill" bis_skin_checked="1">
+									
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative" bis_skin_checked="1">
+			
+<div class="row" id="row-428088512" bis_skin_checked="1">
+
+	<div id="col-2067395595" class="col small-12 large-12" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+	<div id="text-2598695240" class="text" bis_skin_checked="1">
+		
+<h3 style="font-size: 30px; background: linear-gradient(to right, #c50500 0%, #00b74f 30%); background-clip: text; color: transparent;"><strong>Tin tức nổi bật</strong></h3>
+		
+<style>
+#text-2598695240 {
+  text-align: left;
+}
+</style>
+	</div>
+	
+
+
+    <section class="home-news-section">
+        <div class="row align-middle home-news-heading" bis_skin_checked="1">
+            <div class="col small-12 large-auto text-right show-for-medium" bis_skin_checked="1">
+                <a href="https://homemoney.vn/chuyen-muc/tin-tuc" class="home-news-more">
+                    XEM THÊM →
+                </a>
+            </div>
+        </div>
+
+                <div class="row home-news-row-top" bis_skin_checked="1">
+                            <div class="col small-12 medium-6 large-6" bis_skin_checked="1">
+                    <a href="https://homemoney.vn/vay-nhanh-2-ty-bang-dang-ky-o-to-tai-home-money.html" class="news-item news-item-large" style="background-image:url('https://homemoney.vn/wp-content/uploads/2026/05/vay-nhanh-2-ty-bang-dang-ky-o-to-home-money-1-1024x572.png');">
+                        <div class="news-item-inner" bis_skin_checked="1">
+                            <div class="news-item-cat" bis_skin_checked="1">Tin tức</div>
+                            <h3 class="news-item-title">
+                                Vay nhanh đến 2 tỷ bằng đăng ký ô Tô: Giải pháp khơi thông dòng vốn cho Doanh nghiệp và Hộ kinh doanh                            </h3>
+                            <div class="news-item-meta" bis_skin_checked="1">
+                                20/05/2026                            </div>
+                        </div>
+                    </a>
+                </div>
+                            <div class="col small-12 medium-6 large-6" bis_skin_checked="1">
+                    <a href="https://homemoney.vn/giai-phap-vay-nhanh-tu-home-money.html" class="news-item news-item-large" style="background-image:url('https://homemoney.vn/wp-content/uploads/2026/05/gia-phap-vay-nhanh-vuot-qua-kho-khan-cung-home-money-1024x572.png');">
+                        <div class="news-item-inner" bis_skin_checked="1">
+                            <div class="news-item-cat" bis_skin_checked="1">Tin tức</div>
+                            <h3 class="news-item-title">
+                                Giải pháp vay nhanh an toàn từ Home Money: Vượt qua cú sốc đứt gãy dòng tiền                            </h3>
+                            <div class="news-item-meta" bis_skin_checked="1">
+                                19/05/2026                            </div>
+                        </div>
+                    </a>
+                </div>
+                    </div>
+
+                    <div class="row home-news-row-bottom" bis_skin_checked="1">
+                                    <div class="col small-12 medium-4 large-4" bis_skin_checked="1">
+                        <a href="https://homemoney.vn/home-money-vay-nhanh-ca-tuan.html" class="news-item news-item-small" style="background-image:url('https://homemoney.vn/wp-content/uploads/2026/05/vay-nhanh-ca-tuan-768x429.png');">
+                            <div class="news-item-inner" bis_skin_checked="1">
+                                <h3 class="news-item-title">
+                                    Home Money hỗ trợ vay nhanh cả tuần: Trợ thủ đắc lực cho mọi nhu cầu tài chính khẩn cấp                                </h3>
+                                <div class="news-item-meta" bis_skin_checked="1">
+                                    16/05/2026                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="col small-12 medium-4 large-4" bis_skin_checked="1">
+                        <a href="https://homemoney.vn/vay-tien-tan-nha-ha-noi-home-money.html" class="news-item news-item-small" style="background-image:url('https://homemoney.vn/wp-content/uploads/2026/05/vay-tien-tan-nhan-home-money-768x429.png');">
+                            <div class="news-item-inner" bis_skin_checked="1">
+                                <h3 class="news-item-title">
+                                    Giải pháp vay tiền tận nhà mùa nắng nóng tại Hà Nội: Home Money                                </h3>
+                                <div class="news-item-meta" bis_skin_checked="1">
+                                    15/05/2026                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                    <div class="col small-12 medium-4 large-4" bis_skin_checked="1">
+                        <a href="https://homemoney.vn/giai-phap-ha-nhiet-tai-chinh-mua-he.html" class="news-item news-item-small" style="background-image:url('https://homemoney.vn/wp-content/uploads/2026/05/ha-nhiet-tai-chinh-mua-he-768x429.png');">
+                            <div class="news-item-inner" bis_skin_checked="1">
+                                <h3 class="news-item-title">
+                                    Giải Pháp “Hạ Nhiệt” Tài Chính Mùa Hè: Vượt Qua Áp Lực Chi Tiêu Nhanh Chóng                                </h3>
+                                <div class="news-item-meta" bis_skin_checked="1">
+                                    14/05/2026                                </div>
+                            </div>
+                        </a>
+                    </div>
+                            </div>
+            </section>
+
+    
+
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1421966534 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+
+	<section class="section" id="section_2115109526">
+		<div class="section-bg fill" bis_skin_checked="1">
+									
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative" bis_skin_checked="1">
+			
+<div class="row" id="row-1560508243" bis_skin_checked="1">
+
+	<div id="col-867105739" class="col small-12 large-12" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+	<div id="text-4285769310" class="text" bis_skin_checked="1">
+		
+<h3 style="text-align: center; font-size: 30px; background: linear-gradient(to right, #c50500 0%, #00b74f 100%); background-clip: text; color: transparent;"><strong>Khách hàng nói gì về Home Money</strong></h3>
+		
+<style>
+#text-4285769310 {
+  text-align: center;
+}
+</style>
+	</div>
+	
+<div class="row" id="row-268898716" bis_skin_checked="1">
+
+	<div id="col-454391519" class="col medium-4 small-12 large-4" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+  <div class="icon-box testimonial-box icon-box-center text-center" bis_skin_checked="1">
+                <div class="icon-box-img testimonial-image circle" style="width: 121px" bis_skin_checked="1">
+              <img decoding="async" width="150" height="150" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20150%20150%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2025/02/22115548_viec-lam-nhan-vien-van-phong-150x150.jpg" class="lazy-load attachment-thumbnail size-thumbnail" alt="" srcset="" data-srcset="https://homemoney.vn/wp-content/uploads/2025/02/22115548_viec-lam-nhan-vien-van-phong-150x150.jpg 150w, https://homemoney.vn/wp-content/uploads/2025/02/22115548_viec-lam-nhan-vien-van-phong-300x300.jpg 300w, https://homemoney.vn/wp-content/uploads/2025/02/22115548_viec-lam-nhan-vien-van-phong.jpg 550w" sizes="auto, (max-width: 150px) 100vw, 150px">        </div>
+                <div class="icon-box-text p-last-0" bis_skin_checked="1">
+          <div class="star-rating" bis_skin_checked="1"><span style="width:100%"><strong class="rating"></strong></span></div>  				<div class="testimonial-text line-height-small italic test_text first-reset last-reset is-italic" bis_skin_checked="1">
+            
+<p>Trước đây khi chưa tiếp xúc với dịch vụ hỗ trợ tài chính của Home Money. Mình cứ nghĩ dịch vụ cho vay tiền toàn mấy anh chị hổ báo, xăm trổ, thiếu lịch sự. Nhưng sau khi sử dụng dịch vụ bên mình, mình cảm thấy rất hài lòng vì mọi nhân viên đều rất lịch sự và thân thiện, rất nhiệt tình hỗ trợ mình</p>
+          </div>
+          <div class="testimonial-meta pt-half" bis_skin_checked="1">
+             <strong class="testimonial-name test_name">Chị Hồng My</strong>
+             <span class="testimonial-name-divider"> / </span>             <span class="testimonial-company test_company">Nhân viên văn phòng</span>
+          </div>
+        </div>
+  </div>
+
+  
+		</div>
+					</div>
+
+	
+
+	<div id="col-1048629784" class="col medium-4 small-12 large-4" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+  <div class="icon-box testimonial-box icon-box-center text-center" bis_skin_checked="1">
+                <div class="icon-box-img testimonial-image circle" style="width: 121px" bis_skin_checked="1">
+              <img decoding="async" width="150" height="150" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20150%20150%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2025/02/img20180616113219382-1-150x150.jpg" class="lazy-load attachment-thumbnail size-thumbnail" alt="" srcset="" data-srcset="https://homemoney.vn/wp-content/uploads/2025/02/img20180616113219382-1-150x150.jpg 150w, https://homemoney.vn/wp-content/uploads/2025/02/img20180616113219382-1-300x300.jpg 300w, https://homemoney.vn/wp-content/uploads/2025/02/img20180616113219382-1.jpg 426w" sizes="auto, (max-width: 150px) 100vw, 150px">        </div>
+                <div class="icon-box-text p-last-0" bis_skin_checked="1">
+          <div class="star-rating" bis_skin_checked="1"><span style="width:100%"><strong class="rating"></strong></span></div>  				<div class="testimonial-text line-height-small italic test_text first-reset last-reset is-italic" bis_skin_checked="1">
+            
+<p>Năm ngoái, tôi được bạn bè giới thiệu về dịch vụ vay của Home Money khi đang cần đóng học phí đại học cho con trai. Tôi thấy thủ tục vay rất dễ dàng và giải ngân nhanh chóng. Nhân viên ở phòng giao dịch giải thích rất rõ ràng. Chưa đến nửa tiếng là tôi đã được giải ngân 1 khoản để đóng học phí cho con.</p>
+          </div>
+          <div class="testimonial-meta pt-half" bis_skin_checked="1">
+             <strong class="testimonial-name test_name">Anh Hoàng</strong>
+             <span class="testimonial-name-divider"> / </span>             <span class="testimonial-company test_company">Xe ôm công nghệ</span>
+          </div>
+        </div>
+  </div>
+
+  
+		</div>
+					</div>
+
+	
+
+	<div id="col-1805339073" class="col medium-4 small-12 large-4" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+  <div class="icon-box testimonial-box icon-box-center text-center" bis_skin_checked="1">
+                <div class="icon-box-img testimonial-image circle" style="width: 121px" bis_skin_checked="1">
+              <img decoding="async" width="150" height="150" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20150%20150%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2025/02/nguoi_ban_hang_can_trang_bi_nhieu_ky_nang_de_tu_van_hieu_qua_hon-150x150.jpg" class="lazy-load attachment-thumbnail size-thumbnail" alt="" srcset="" data-srcset="https://homemoney.vn/wp-content/uploads/2025/02/nguoi_ban_hang_can_trang_bi_nhieu_ky_nang_de_tu_van_hieu_qua_hon-150x150.jpg 150w, https://homemoney.vn/wp-content/uploads/2025/02/nguoi_ban_hang_can_trang_bi_nhieu_ky_nang_de_tu_van_hieu_qua_hon-300x300.jpg 300w, https://homemoney.vn/wp-content/uploads/2025/02/nguoi_ban_hang_can_trang_bi_nhieu_ky_nang_de_tu_van_hieu_qua_hon.jpg 600w" sizes="auto, (max-width: 150px) 100vw, 150px">        </div>
+                <div class="icon-box-text p-last-0" bis_skin_checked="1">
+          <div class="star-rating" bis_skin_checked="1"><span style="width:100%"><strong class="rating"></strong></span></div>  				<div class="testimonial-text line-height-small italic test_text first-reset last-reset is-italic" bis_skin_checked="1">
+            
+<p>Hồi trước khi không kịp xoay vốn cho shop thì tôi sẽ tìm đến người thân và bạn bè, xấu hổ lắm. Vay bên cầm đồ bên ngoài thì lãi rất cao. Khi tiếp cận với Home Money thì việc xoay vốn dễ hơn rất nhiều. Chi phí rất ổn, ngoài ra tôi có thể trả góp mỗi tháng. Giải ngân nhanh, chưa đến 30 phút là có thể vay được.</p>
+          </div>
+          <div class="testimonial-meta pt-half" bis_skin_checked="1">
+             <strong class="testimonial-name test_name">Chị Xuân</strong>
+             <span class="testimonial-name-divider"> / </span>             <span class="testimonial-company test_company">Chủ Shop thời trang</span>
+          </div>
+        </div>
+  </div>
+
+  
+		</div>
+					</div>
+
+	
+
+<style>
+#row-268898716 > .col > .col-inner {
+  padding: 20px 0px 0px 0px;
+}
+</style>
+</div>
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_2115109526 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(246, 246, 246);
+}
+</style>
+	</section>
+	
+
+	<section class="section" id="section_1455626460">
+		<div class="section-bg fill" bis_skin_checked="1">
+									<div class="section-bg-overlay absolute fill" bis_skin_checked="1"></div>
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative" bis_skin_checked="1">
+			
+	<div id="text-2291774786" class="text" bis_skin_checked="1">
+		
+<p><strong><span style="font-size: 170%;">Chúng tôi được tin tưởng bởi những đối tác hàng đầu</span></strong></p>
+<p>Home Money đã và đang nhận được sự tín nhiệm từ các nhiều đối tác hàng đầu trong lĩnh vực tài chính và công nghệ<br>
+		
+<style>
+#text-2291774786 {
+  text-align: center;
+  color: rgb(255,255,255);
+}
+#text-2291774786 > * {
+  color: rgb(255,255,255);
+}
+</style>
+	</p></div>
+	
+<div class="row" id="row-1370990746" bis_skin_checked="1">
+
+	<div id="col-1054335534" class="col small-12 large-12" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+<div class="row row-dashed" id="row-1001874972" bis_skin_checked="1">
+
+	<div id="col-1019552472" class="col small-12 large-12" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+<div class="slider-wrapper relative" id="slider-937732589" bis_skin_checked="1">
+    <div class="slider slider-nav-simple slider-nav-large slider-nav-dark slider-style-normal slider-show-nav" data-flickity-options="{
+            &quot;cellAlign&quot;: &quot;center&quot;,
+            &quot;imagesLoaded&quot;: true,
+            &quot;lazyLoad&quot;: 1,
+            &quot;freeScroll&quot;: true,
+            &quot;wrapAround&quot;: true,
+            &quot;autoPlay&quot;: 6000,
+            &quot;pauseAutoPlayOnHover&quot; : true,
+            &quot;prevNextButtons&quot;: false,
+            &quot;contain&quot; : true,
+            &quot;adaptiveHeight&quot; : true,
+            &quot;dragThreshold&quot; : 10,
+            &quot;percentPosition&quot;: true,
+            &quot;pageDots&quot;: false,
+            &quot;rightToLeft&quot;: false,
+            &quot;draggable&quot;: true,
+            &quot;selectedAttraction&quot;: 0.1,
+            &quot;parallax&quot; : 0,
+            &quot;friction&quot;: 0.6        }" bis_skin_checked="1">
+        
+<div class="ux-logo has-hover align-middle ux_logo inline-block" style="max-width: 100%!important; width: 280px!important" bis_skin_checked="1"><div class="ux-logo-link block image-" title="" href="" style="padding: 15px;" bis_skin_checked="1"><img decoding="async" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2024/12/vib-1.png" title="" alt="" class="lazy-load ux-logo-image block" style="height:100px;"></div></div>
+<div class="ux-logo has-hover align-middle ux_logo inline-block" style="max-width: 100%!important; width: 280px!important" bis_skin_checked="1"><div class="ux-logo-link block image-color" title="" href="" style="padding: 15px;" bis_skin_checked="1"><img decoding="async" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2024/12/hubspot-1.png" title="" alt="" class="lazy-load ux-logo-image block" style="height:100px;"></div></div>
+<div class="ux-logo has-hover align-middle ux_logo inline-block" style="max-width: 100%!important; width: 280px!important" bis_skin_checked="1"><div class="ux-logo-link block image-" title="" href="" style="padding: 15px;" bis_skin_checked="1"><img decoding="async" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2024/12/op.png" title="" alt="" class="lazy-load ux-logo-image block" style="height:100px;"></div></div>
+<div class="ux-logo has-hover align-middle ux_logo inline-block" style="max-width: 100%!important; width: 280px!important" bis_skin_checked="1"><div class="ux-logo-link block image-color" title="" href="" style="padding: 15px;" bis_skin_checked="1"><img decoding="async" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2025/02/cpgroup.png" title="" alt="" class="lazy-load ux-logo-image block" style="height:100px;"></div></div>
+<div class="ux-logo has-hover align-middle ux_logo inline-block" style="max-width: 100%!important; width: 280px!important" bis_skin_checked="1"><div class="ux-logo-link block image-" title="" href="" style="padding: 15px;" bis_skin_checked="1"><img decoding="async" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2025/02/TMW.png" title="" alt="" class="lazy-load ux-logo-image block" style="height:100px;"></div></div>
+     </div>
+
+     <div class="loading-spin dark large centered" style="display: none;" bis_skin_checked="1"></div>
+
+	</div>
+
+
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_1455626460 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #00b74f;
+}
+#section_1455626460 .section-bg-overlay {
+  background-color: rgba(255, 255, 255, 0.221);
+}
+</style>
+	</section>
+	
+
+	<section class="section" id="section_1515274135">
+		<div class="section-bg fill" bis_skin_checked="1">
+									
+			
+
+		</div>
+
+		
+
+		<div class="section-content relative" bis_skin_checked="1">
+			
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root{--hm-red:#e60023;--hm-border:#e9e9e9;--hm-muted:#666;--hm-radius:14px}
+  .hm-pgd-wrap{max-width:1200px;margin:0 auto}
+  .hm-pgd-panel{background:#fff;border:1px solid var(--hm-border);border-radius:var(--hm-radius);overflow:hidden}
+  .hm-pgd-top{padding:14px;display:flex;justify-content:space-between;gap:10px;align-items:center;border-bottom:1px solid var(--hm-border)}
+  .hm-pgd-top .hm-title{font-weight:800;font-size:20px}
+  .hm-pgd-top .hm-note{color:#666;font-size:14px}
+  .hm-pgd-grid{display:flex;gap:0}
+  .hm-left{flex:0 0 42%;min-width:320px}
+  .hm-right{flex:1;min-width:320px;border-left:1px solid var(--hm-border)}
+  .hm-list{max-height:560px;overflow:auto;padding:10px}
+  .hm-item{border:1px solid var(--hm-border);border-radius:12px;padding:12px;margin:10px 6px;cursor:pointer;transition:.15s}
+  .hm-item.active{border-color:rgba(230,0,35,.35);box-shadow:0 12px 26px rgba(230,0,35,.12)}
+  .hm-row{display:flex;gap:10px}
+  .hm-pin{width:30px;height:30px;border-radius:999px;background:rgba(230,0,35,.12);display:flex;align-items:center;justify-content:center;color:var(--hm-red);font-weight:900}
+  .hm-name{font-weight:900;font-size:16px}
+  .hm-meta{margin-top:6px;color:var(--hm-muted);font-size:14px;line-height:1.4}
+  .hm-link{margin-top:10px;display:inline-block;color:var(--hm-red);font-weight:800;text-decoration:none}
+  .hm-link:hover{text-decoration:underline}
+  .hm-map-wrap{height:640px}
+  #hm-map{height:100%;width:100%}</p>
+<p>  @media (max-width:980px){
+    .hm-pgd-grid{flex-direction:column}
+    .hm-right{border-left:none;border-top:1px solid var(--hm-border)}
+    .hm-map-wrap{height:420px}
+    .hm-list{max-height:360px}
+    .hm-pgd-top{flex-direction:column;align-items:flex-start}
+  }
+</style>
+<div class="hm-pgd-wrap" bis_skin_checked="1">
+<div class="hm-pgd-panel" bis_skin_checked="1">
+<div class="hm-pgd-top" bis_skin_checked="1">
+<div class="hm-title" bis_skin_checked="1">Phòng giao dịch Home Money</div>
+<div class="hm-note" bis_skin_checked="1">Bấm vào cơ sở để xem vị trí trên bản đồ</div>
+<p></p></div>
+<div class="hm-pgd-grid" bis_skin_checked="1">
+<div class="hm-left" bis_skin_checked="1">
+<div class="hm-list" id="hm-list" bis_skin_checked="1">
+      <div class="hm-item active" data-id="cs1" bis_skin_checked="1">
+        <div class="hm-row" bis_skin_checked="1">
+          <div class="hm-pin" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="📍" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f4cd.svg"></div>
+          <div bis_skin_checked="1">
+            <div class="hm-name" bis_skin_checked="1">Cơ sở 1 - Đại La</div>
+            <div class="hm-meta" bis_skin_checked="1"><b>Địa chỉ:</b> Số 9A Đại La, Phường Trương Định, Quận Hai Bà Trưng, Thành Phố Hà Nội</div>
+            <div class="hm-meta" bis_skin_checked="1"><b>Hotline:</b> 1900 638 388</div>
+            <div class="hm-meta" bis_skin_checked="1"><b>Giờ mở cửa:</b> 08:00 - 20:00</div>
+            <a class="hm-link" href="javascript:void(0)">XEM VỊ TRÍ</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="hm-item " data-id="cs2" bis_skin_checked="1">
+        <div class="hm-row" bis_skin_checked="1">
+          <div class="hm-pin" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="📍" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f4cd.svg"></div>
+          <div bis_skin_checked="1">
+            <div class="hm-name" bis_skin_checked="1">Cơ sở 2 - Trâu Quỳ</div>
+            <div class="hm-meta" bis_skin_checked="1"><b>Địa chỉ:</b> 58 Ngô Xuân Quảng, Phường Trâu Quỳ, Huyện Gia Lâm, Hà Nội</div>
+            <div class="hm-meta" bis_skin_checked="1"><b>Hotline:</b> 1900 638 388</div>
+            <div class="hm-meta" bis_skin_checked="1"><b>Giờ mở cửa:</b> 08:00 - 20:00</div>
+            <a class="hm-link" href="javascript:void(0)">XEM VỊ TRÍ</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="hm-item " data-id="cs3" bis_skin_checked="1">
+        <div class="hm-row" bis_skin_checked="1">
+          <div class="hm-pin" bis_skin_checked="1"><img draggable="false" role="img" class="emoji" alt="📍" src="https://s.w.org/images/core/emoji/17.0.2/svg/1f4cd.svg"></div>
+          <div bis_skin_checked="1">
+            <div class="hm-name" bis_skin_checked="1">Cơ sở 3 - Đại Kim</div>
+            <div class="hm-meta" bis_skin_checked="1"><b>Địa chỉ:</b> L7-78 Khu Đô Thị Mới Đại Kim, Phường Đại Kim, Quận Hoàng Mai, Hà Nội</div>
+            <div class="hm-meta" bis_skin_checked="1"><b>Hotline:</b> 1900 638 388</div>
+            <div class="hm-meta" bis_skin_checked="1"><b>Giờ mở cửa:</b> 08:00 - 20:00</div>
+            <a class="hm-link" href="javascript:void(0)">XEM VỊ TRÍ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<p></p></div>
+<div class="hm-right" bis_skin_checked="1">
+<div class="hm-map-wrap" bis_skin_checked="1">
+<div id="hm-map" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative;" bis_skin_checked="1"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);" bis_skin_checked="1"><div class="leaflet-pane leaflet-tile-pane" bis_skin_checked="1"><div class="leaflet-layer " style="z-index: 1; opacity: 1;" bis_skin_checked="1"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 15; transform: translate3d(-4950px, -3141px, 0px) scale(16);" bis_skin_checked="1"></div><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 19; transform: translate3d(-125px, -81px, 0px) scale(1);" bis_skin_checked="1"><img alt="" src="https://c.tile.openstreetmap.org/16/52036/28855.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(359px, 156px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/16/52036/28854.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(359px, -100px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/16/52035/28855.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(103px, 156px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/16/52037/28855.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(615px, 156px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/16/52036/28856.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(359px, 412px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/16/52035/28854.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(103px, -100px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/16/52037/28854.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(615px, -100px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/16/52035/28856.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(103px, 412px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/16/52037/28856.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(615px, 412px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/16/52034/28855.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-153px, 156px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/16/52038/28855.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(871px, 156px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/16/52034/28854.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-153px, -100px, 0px); opacity: 1;"><img alt="" src="https://a.tile.openstreetmap.org/16/52038/28854.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(871px, -100px, 0px); opacity: 1;"><img alt="" src="https://b.tile.openstreetmap.org/16/52034/28856.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-153px, 412px, 0px); opacity: 1;"><img alt="" src="https://c.tile.openstreetmap.org/16/52038/28856.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(871px, 412px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-overlay-pane" bis_skin_checked="1"></div><div class="leaflet-pane leaflet-shadow-pane" bis_skin_checked="1"></div><div class="leaflet-pane leaflet-marker-pane" bis_skin_checked="1"><div class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" tabindex="0" role="button" style="margin-left: -23px; margin-top: -46px; width: 46px; height: 46px; transform: translate3d(347px, 225px, 0px); z-index: 225;" bis_skin_checked="1">
+      <div style="width:46px;height:46px;border-radius:999px;background:#fff;border:4px solid rgba(230,0,35,.18);
+      display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px rgba(0,0,0,.18)" bis_skin_checked="1">
+        <div style="width:32px;height:32px;border-radius:999px;background:#e60023;color:#fff;font-weight:900;font-size:11px;
+        display:flex;align-items:center;justify-content:center" bis_skin_checked="1">HOME</div>
+      </div>
+    </div></div><div class="leaflet-pane leaflet-tooltip-pane" bis_skin_checked="1"></div><div class="leaflet-pane leaflet-popup-pane" bis_skin_checked="1"><div class="leaflet-popup  leaflet-zoom-animated" style="opacity: 1; transform: translate3d(347px, 179px, 0px); bottom: -7px; left: -174px;" bis_skin_checked="1"><div class="leaflet-popup-content-wrapper" bis_skin_checked="1"><div class="leaflet-popup-content" style="width: 301px;" bis_skin_checked="1">
+      <div style="font-family:system-ui;min-width:220px" bis_skin_checked="1">
+        <div style="font-weight:900;margin-bottom:6px" bis_skin_checked="1">Cơ sở 1 - Đại La</div>
+        <div style="font-size:13px;line-height:1.35" bis_skin_checked="1">
+          <div bis_skin_checked="1"><b>Địa chỉ:</b> Số 9A Đại La, Phường Trương Định, Quận Hai Bà Trưng, Thành Phố Hà Nội</div>
+          <div bis_skin_checked="1"><b>Hotline:</b> 1900 638 388</div>
+          <div bis_skin_checked="1"><b>Giờ:</b> 08:00 - 20:00</div>
+        </div>
+      </div>
+    </div></div><div class="leaflet-popup-tip-container" bis_skin_checked="1"><div class="leaflet-popup-tip" bis_skin_checked="1"></div></div><a class="leaflet-popup-close-button" role="button" aria-label="Close popup" href="#close"><span aria-hidden="true">×</span></a></div></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(1.33213e+07px, 7.38703e+06px, 0px) scale(32768);" bis_skin_checked="1"></div></div><div class="leaflet-control-container" bis_skin_checked="1"><div class="leaflet-top leaflet-left" bis_skin_checked="1"><div class="leaflet-control-zoom leaflet-bar leaflet-control" bis_skin_checked="1"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in" aria-disabled="false"><span aria-hidden="true">+</span></a><a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out" aria-disabled="false"><span aria-hidden="true">−</span></a></div></div><div class="leaflet-top leaflet-right" bis_skin_checked="1"></div><div class="leaflet-bottom leaflet-left" bis_skin_checked="1"></div><div class="leaflet-bottom leaflet-right" bis_skin_checked="1"><div class="leaflet-control-attribution leaflet-control" bis_skin_checked="1"><a href="https://leafletjs.com" title="A JavaScript library for interactive maps"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" class="leaflet-attribution-flag"><path fill="#4C7BE1" d="M0 0h12v4H0z"></path><path fill="#FFD500" d="M0 4h12v3H0z"></path><path fill="#E0BC00" d="M0 7h12v1H0z"></path></svg> Leaflet</a> <span aria-hidden="true">|</span> © OpenStreetMap</div></div></div></div>
+<p></p></div>
+<p></p></div>
+<p></p></div>
+<p></p></div>
+</div>
+
+		</div>
+
+		
+<style>
+#section_1515274135 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+</style>
+	</section>
+	
+
+	<section class="section" id="section_460549250">
+		<div class="section-bg fill" bis_skin_checked="1">
+									
+			
+	<div class="is-border" style="border-color:rgb(197, 5, 0);border-width:0px 0px 4px 0px;" bis_skin_checked="1">
+	</div>
+
+		</div>
+
+		
+
+		<div class="section-content relative" bis_skin_checked="1">
+			
+<div class="row" id="row-2138170206" bis_skin_checked="1">
+
+	<div id="col-1181387301" class="col medium-4 small-12 large-4" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+
+		<div class="icon-box featured-box icon-box-left text-left" style="margin:30px 0px 0px 0px;" bis_skin_checked="1">
+					<div class="icon-box-img" style="width: 65px" bis_skin_checked="1">
+				<div class="icon" bis_skin_checked="1">
+					<div class="icon-inner" bis_skin_checked="1">
+						<img decoding="async" width="60" height="60" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2025/04/ico-phone.png" class="lazy-load attachment-medium size-medium" alt="">					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset" bis_skin_checked="1">
+									
+	<div id="text-2982376354" class="text" bis_skin_checked="1">
+		
+<p>1900.638.388</p>
+		
+<style>
+#text-2982376354 {
+  font-size: 1.8rem;
+  line-height: 2.3;
+  text-align: left;
+  color: #00b74f;
+}
+#text-2982376354 > * {
+  color: #00b74f;
+}
+</style>
+	</div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-143576826" class="col background_row medium-4 small-12 large-4" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+
+		<div class="icon-box featured-box icon-box-left text-left" style="margin:30px 0px 0px 0px;" bis_skin_checked="1">
+					<div class="icon-box-img" style="width: 60px" bis_skin_checked="1">
+				<div class="icon" bis_skin_checked="1">
+					<div class="icon-inner" bis_skin_checked="1">
+						<img decoding="async" width="60" height="60" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2025/04/ico-location.png" class="lazy-load attachment-medium size-medium" alt="">					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset" bis_skin_checked="1">
+									
+	<div id="text-2531408261" class="text" bis_skin_checked="1">
+		
+<p>Địa điểm tin cậy<br>
+		
+<style>
+#text-2531408261 {
+  font-size: 1.75rem;
+  line-height: 2.3;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+#text-2531408261 > * {
+  color: rgb(255, 255, 255);
+}
+</style>
+	</p></div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+					</div>
+
+	
+
+	<div id="col-315313330" class="col medium-4 small-12 large-4" bis_skin_checked="1">
+				<div class="col-inner" bis_skin_checked="1">
+			
+			
+
+		<div class="icon-box featured-box icon-box-left text-left" style="margin:30px 0px 0px 0px;" bis_skin_checked="1">
+					<div class="icon-box-img" style="width: 65px" bis_skin_checked="1">
+				<div class="icon" bis_skin_checked="1">
+					<div class="icon-inner" bis_skin_checked="1">
+						<img decoding="async" width="60" height="60" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="https://homemoney.vn/wp-content/uploads/2025/04/ico-mail.png" class="lazy-load attachment-medium size-medium" alt="">					</div>
+				</div>
+			</div>
+				<div class="icon-box-text last-reset" bis_skin_checked="1">
+									
+	<div id="text-164430845" class="text" bis_skin_checked="1">
+		
+<p>Gửi email hỗ trợ<br>
+		
+<style>
+#text-164430845 {
+  font-size: 1.8rem;
+  line-height: 2.3;
+  color: #00b74f;
+}
+#text-164430845 > * {
+  color: #00b74f;
+}
+</style>
+	</p></div>
+	
+		</div>
+	</div>
+	
+	
+		</div>
+					</div>
+
+	
+</div>
+		</div>
+
+		
+<style>
+#section_460549250 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  min-height: 50px;
+}
+</style>
+	</section>
+	
+
+			
+		
+</div>
+
+
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+	
+<!-- FOOTER 1 -->
+<div class="footer-widgets footer footer-1" bis_skin_checked="1">
+		<div class="row large-columns-4 mb-0" bis_skin_checked="1">
+	   		<div id="custom_html-5" class="widget_text col pb-0 widget widget_custom_html" bis_skin_checked="1"><span class="widget-title">VỀ HOME MONEY</span><div class="is-divider small" bis_skin_checked="1"></div><div class="textwidget custom-html-widget" bis_skin_checked="1"><img src="https://homemoney.vn/wp-content/uploads/2024/12/home.png"><br>
+<b>Địa chỉ:</b> Số 9A Đại La, Phường Trương Định, Quận Hai Bà Trưng, TP Hà Nội<br>
+<b>Email:</b> hello@homemoney.vn<br>
+<b>Điện thoại:</b> 1900.638.388</div></div><div id="nav_menu-2" class="col pb-0 widget widget_nav_menu" bis_skin_checked="1"><span class="widget-title">Chính sách hoạt động</span><div class="is-divider small" bis_skin_checked="1"></div><div class="menu-menu-footer-container" bis_skin_checked="1"><ul id="menu-menu-footer" class="menu"><li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a href="https://homemoney.vn/dieu-khoan-va-dieu-kien">Điều khoản và điều kiện</a></li>
+<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-430"><a href="https://homemoney.vn/chinh-sach-quyen-rieng-tu">Chính sách quyền riêng tư</a></li>
+<li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="https://homemoney.vn/chinh-sach-cookie">Chính sách Cookie</a></li>
+<li id="menu-item-492" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-492"><a href="https://homemoney.vn/chuyen-muc/tin-tuc/chuong-trinh-khuyen-mai">Chương trình khuyến mãi</a></li>
+<li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-428"><a href="https://homemoney.vn/gioi-thieu-khach-vay">Giới thiệu khách vay</a></li>
+</ul></div></div><div id="custom_html-3" class="widget_text col pb-0 widget widget_custom_html" bis_skin_checked="1"><span class="widget-title">Khoản vay phổ biến</span><div class="is-divider small" bis_skin_checked="1"></div><div class="textwidget custom-html-widget" bis_skin_checked="1"><div class="indexstyled__StyledFooterWithSub-sc-u4gevz-8 fKUsnt" bis_skin_checked="1"><a href="#"><div class="indexstyled__StyledText-sc-ue7ujg-0 blJiCe  " cursor="pointer" color="#000" bis_skin_checked="1"><p class="text">Khoản vay 10 triệu</p></div></a><div class="indexstyled__StyledText-sc-ue7ujg-0 hupLqN  " cursor="pointer" color="#98A2B3" bis_skin_checked="1"><p class="text">Thủ tục dễ dàng</p></div><img src="https://homemoney.vn/wp-content/uploads/2024/12/arrow-right.png" alt="icon-arrow-right"></div>
+<div class="indexstyled__StyledFooterWithSub-sc-u4gevz-8 fKUsnt" bis_skin_checked="1"><a href="#"><div class="indexstyled__StyledText-sc-ue7ujg-0 blJiCe  " cursor="pointer" color="#000" bis_skin_checked="1"><p class="text">Khoản vay 20 triệu</p></div></a><div class="indexstyled__StyledText-sc-ue7ujg-0 hupLqN  " cursor="pointer" color="#98A2B3" bis_skin_checked="1"><p class="text">Thủ tục dễ dàng</p></div><img src="https://homemoney.vn/wp-content/uploads/2024/12/arrow-right.png" alt="icon-arrow-right"></div>
+<div class="indexstyled__StyledFooterWithSub-sc-u4gevz-8 fKUsnt" bis_skin_checked="1"><a href="#"><div class="indexstyled__StyledText-sc-ue7ujg-0 blJiCe  " cursor="pointer" color="#000" bis_skin_checked="1"><p class="text">Khoản vay 30 triệu</p></div></a><div class="indexstyled__StyledText-sc-ue7ujg-0 hupLqN  " cursor="pointer" color="#98A2B3" bis_skin_checked="1"><p class="text">Thủ tục dễ dàng</p></div><img src="https://homemoney.vn/wp-content/uploads/2024/12/arrow-right.png" alt="icon-arrow-right"></div></div></div><div id="custom_html-4" class="widget_text col pb-0 widget widget_custom_html" bis_skin_checked="1"><span class="widget-title">Kết nối với Home Money</span><div class="is-divider small" bis_skin_checked="1"></div><div class="textwidget custom-html-widget" bis_skin_checked="1"><div class="flex flex-wrap justify-start items-center gap-2" bis_skin_checked="1"><a href="https://www.youtube.com/channel/" target="_blank"> <img src="https://homemoney.vn/wp-content/uploads/2024/12/youtube.png" alt="Home Money youtube"></a><a href="https://vt.tiktok.com/ZSXUJGb8C/" target="_blank" class="bg-white rounded-[50%]"> <img src="https://homemoney.vn/wp-content/uploads/2024/12/tiktok.png" alt="Home Money-tiktok"> </a><a href="https://www.facebook.com/profile.php?id=" target="_blank"> <img src="https://homemoney.vn/wp-content/uploads/2024/12/facebook.png" alt="Home Money facebook"> </a><a href="https://zalo.me/0583199117" target="_blank"> <img src="https://homemoney.vn/wp-content/uploads/2024/12/zalo.png" alt="Home Money facebook"> </a></div>
+<br>
+<div bis_skin_checked="1">
+<h3 style="float: left; font-size: 20px; background: linear-gradient(to right, #c50500 0%, #00b74f 100%); 
+    background-clip: text;
+    color: transparent;"><strong>Chứng chỉ</strong></h3>
+	</div>
+<br>
+<a href="https://www.dmca.com/Protection/Status.aspx?ID=e305ae24-ffdf-4af2-88d1-9e71f7354194&amp;refurl=https://localhost/Homemoney/" title="DMCA.com Protection Status" class="dmca-badge" bis_size="{&quot;x&quot;:1477,&quot;y&quot;:5061,&quot;w&quot;:179,&quot;h&quot;:17,&quot;abs_x&quot;:1477,&quot;abs_y&quot;:5061}"> <img src="https://images.dmca.com/Badges/DMCA_logo-std-btn180w.png?ID=e305ae24-ffdf-4af2-88d1-9e71f7354194" alt="DMCA.com Protection Status" bis_size="{&quot;x&quot;:1477,&quot;y&quot;:5038,&quot;w&quot;:179,&quot;h&quot;:66,&quot;abs_x&quot;:1477,&quot;abs_y&quot;:5038}" bis_id="bn_o2irkcfvccx2gfl8bai13u"></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script></div></div>		</div>
+</div>
+
+<!-- FOOTER 2 -->
+
+
+
+<div class="absolute-footer dark medium-text-center small-text-center" bis_skin_checked="1">
+  <div class="container clearfix" bis_skin_checked="1">
+
+    
+    <div class="footer-primary pull-left" bis_skin_checked="1">
+            <div class="copyright-footer" bis_skin_checked="1">
+        Copyright 2026 © <strong>Home Group</strong>      </div>
+          </div>
+  </div>
+</div>
+
+<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link" aria-label="Lên đầu trang"><i class="icon-angle-up"></i></a>
+
+</footer>
+
+</div>
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide" bis_skin_checked="1">
+
+	
+	<div class="sidebar-menu no-scrollbar " bis_skin_checked="1">
+
+		
+					<ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1">
+				<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper" bis_skin_checked="1">
+		<div class="searchform-wrapper ux-search-box relative is-normal" bis_skin_checked="1"><form method="get" class="searchform" action="https://homemoney.vn/" role="search">
+		<div class="flex-row relative" bis_skin_checked="1">
+			<div class="flex-col flex-grow" bis_skin_checked="1">
+	   	   <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search…" autocomplete="off">
+			</div>
+			<div class="flex-col" bis_skin_checked="1">
+				<button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Nộp">
+					<i class="icon-search"></i>				</button>
+			</div>
+		</div>
+    <div class="live-search-results text-left z-top" bis_skin_checked="1"><div class="autocomplete-suggestions" bis_skin_checked="1" style="position: absolute; display: none; max-height: 300px; z-index: 9999;"></div></div>
+</form>
+</div>	</div>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://homemoney.vn/ve-chung-toi">Về chúng tôi</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-37 has-child" aria-expanded="false"><a href="#">Cho vay cầm cố</a>
+<button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button><ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="https://homemoney.vn/vay-tien-bang-dang-ky-xe-oto">Đăng ký ô tô</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="https://homemoney.vn/dang-ky-xe-may">Đăng ký xe máy</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364"><a href="https://homemoney.vn/vay-tien-qua-icloud">Vay tiền qua iCloud</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="https://homemoney.vn/tai-san-khac-dien-thoai-ipad-laptop">Tài sản khác: Điện thoại, ipad, laptop…</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-44 has-child" aria-expanded="false"><a href="#">Thanh toán hóa đơn</a>
+<button class="toggle" aria-label="Chuyển đổi"><i class="icon-angle-down"></i></button><ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://homemoney.vn/hoa-don-dien-nuoc">Hóa đơn điện nước</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://homemoney.vn/hoa-don-truyen-hinh">Hóa đơn truyền hình</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://homemoney.vn/hoa-don-vien-thong-internet">Hóa đơn viễn thông, internet</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-54"><a href="https://homemoney.vn/chuyen-muc/tin-tuc">Tin tức</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-55"><a href="https://homemoney.vn/chuyen-muc/tuyen-dung">Tuyển Dụng</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://homemoney.vn/lien-he">Liên hệ</a></li>
+<li><a class="element-error tooltip" title="WooCommerce needed">-</a></li><li class="header-newsletter-item has-icon">
+
+  <a href="#header-newsletter-signup" class="tooltip" title="Sign up for Newsletter">
+
+    <i class="icon-envelop"></i>
+    <span class="header-newsletter-title">
+      Newsletter    </span>
+  </a>
+
+</li>
+<li class="html header-social-icons ml-0">
+	<div class="social-icons follow-icons" bis_skin_checked="1"><a href="http://url" target="_blank" data-label="Facebook" class="icon plain facebook tooltip" title="Theo dõi trên Facebook" aria-label="Theo dõi trên Facebook" rel="noopener nofollow"><i class="icon-facebook"></i></a><a href="http://url" target="_blank" data-label="Instagram" class="icon plain instagram tooltip" title="Theo dõi trên Instagram" aria-label="Theo dõi trên Instagram" rel="noopener nofollow"><i class="icon-instagram"></i></a><a href="http://url" data-label="Twitter" target="_blank" class="icon plain twitter tooltip" title="Theo dõi trên Twitter" aria-label="Theo dõi trên Twitter" rel="noopener nofollow"><i class="icon-twitter"></i></a><a href="mailto:your@email" data-label="E-mail" target="_blank" class="icon plain email tooltip" title="Gửi email cho chúng tôi" aria-label="Gửi email cho chúng tôi" rel="nofollow noopener"><i class="icon-envelop"></i></a></div></li>
+			</ul>
+		
+		
+	</div>
+
+	
+</div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/flatsome-child/*","/wp-content/themes/flatsome/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // dữ liệu chung cho 3 dịch vụ
+  const SERVICES = {
+    icloud: {
+      title: "Vay tiền qua iCloud",
+      bullets: [
+        "Chỉ cần iPhone/iPad đăng nhập iCloud chính chủ",
+        "Không giữ máy – dùng bình thường",
+        "Duyệt hồ sơ chỉ trong 15 phút",
+        "Hạn mức vay lên đến 20 triệu",
+      ],
+      image: "https://homemoney.vn/wp-content/uploads/2025/12/icloud-fix.png",
+      link: "https://homemoney.vn/vay-tien-qua-icloud",
+    },
+    bike: {
+      title: "Vay tiền qua đăng ký xe máy",
+      bullets: [
+        "Chỉ cần cavet xe máy, không giữ xe",
+        "Giải ngân nhanh trong ngày",
+        "Cầm cố lên đến 30 triệu",
+        "Chi phí hợp lý – thủ tục đơn giản",
+      ],
+      image: "https://homemoney.vn/wp-content/uploads/2025/12/xe-may-fix.png",
+      link: "https://homemoney.vn/dang-ky-xe-may",
+    },
+    car: {
+      title: "Vay tiền qua đăng ký ô tô",
+      bullets: [
+        "Cầm cavet ô tô, không giữ xe",
+        "Giải ngân chỉ từ 30 phút",
+        "Hạn mức vay đến 500 triệu",
+        "Hợp đồng minh bạch – an toàn pháp lý",
+      ],
+      image: "https://homemoney.vn/wp-content/uploads/2025/12/xe-oto-fix.png",
+      link: "https://homemoney.vn/vay-tien-bang-dang-ky-xe-oto",
+    },
+  };
+
+  /* ===== DESKTOP: đổi card active ===== */
+  const desktopCards = document.querySelectorAll(".hm-pawn-card");
+
+  function setActive(serviceKey) {
+    desktopCards.forEach((card) => {
+      card.classList.toggle(
+        "is-active",
+        card.getAttribute("data-service") === serviceKey
+      );
+    });
+
+    // update mobile cùng lúc
+    updateMobile(serviceKey);
+  }
+
+  desktopCards.forEach((card) => {
+    card.addEventListener("click", () => {
+      const key = card.getAttribute("data-service");
+      setActive(key);
+    });
+  });
+
+  /* ===== MOBILE: tabs + banner ===== */
+  const mTabs = document.querySelectorAll(".hm-m-tab");
+  const mImage = document.getElementById("hmMImage");
+  const mTitle = document.getElementById("hmMTitle");
+  const mList = document.getElementById("hmMList");
+  const mBtn = document.getElementById("hmMBtn");
+
+  function updateMobile(serviceKey) {
+    const data = SERVICES[serviceKey];
+    if (!data) return;
+
+    mTabs.forEach((t) => {
+      t.classList.toggle(
+        "active",
+        t.getAttribute("data-service") === serviceKey
+      );
+    });
+
+    mImage.src = data.image;
+    mImage.alt = data.title;
+    mTitle.textContent = data.title;
+    mBtn.href = data.link;
+
+    // build bullets
+    mList.innerHTML = "";
+    data.bullets.forEach((b) => {
+      const li = document.createElement("li");
+      li.textContent = b;
+      mList.appendChild(li);
+    });
+  }
+
+  mTabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const key = tab.getAttribute("data-service");
+      setActive(key); // sẽ tự gọi updateMobile luôn
+    });
+  });
+
+  // khởi tạo mobile lúc load
+  updateMobile("car");
+});
+
+
+
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const section = document.querySelector('.hm-stats-section');
+  const numbers = document.querySelectorAll('.hm-stat-number');
+  if (!section || !numbers.length) return;
+
+  // Hàm đếm số
+  function animateNumber(el) {
+    const target = parseInt(el.dataset.target, 10);
+    const suffix = el.dataset.suffix || '';
+    const duration = 1500; // ms
+    const startTime = performance.now();
+
+    function update(now) {
+      const progress = Math.min((now - startTime) / duration, 1);
+      const current = Math.floor(target * progress);
+
+      // Format có dấu phẩy nếu số lớn
+      const formatted = current.toLocaleString('en-US');
+      el.textContent = formatted + suffix;
+
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      }
+    }
+
+    requestAnimationFrame(update);
+  }
+
+  // Dùng IntersectionObserver để chỉ chạy khi section xuất hiện
+  let hasAnimated = false;
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !hasAnimated) {
+        hasAnimated = true;
+        numbers.forEach(el => animateNumber(el));
+        observer.disconnect();
+      }
+    });
+  }, {
+    threshold: 0.3
+  });
+
+  observer.observe(section);
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const desktopCards = document.querySelectorAll('.hm-pawn-desktop .hm-pawn-card');
+
+  desktopCards.forEach(card => {
+    card.addEventListener('click', () => {
+      // bỏ active cũ
+      desktopCards.forEach(c => c.classList.remove('is-active'));
+      // set active mới
+      card.classList.add('is-active');
+    });
+  });
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const inputs = document.querySelectorAll(".money-input");
+
+  inputs.forEach(input => {
+    input.addEventListener("input", function () {
+      let value = this.value.replace(/,/g, '').replace(/\D/g, '');
+      if (!value) {
+        this.value = '';
+        return;
+      }
+      this.value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    });
+
+    // Trước khi submit thì bỏ dấu phẩy
+    input.form?.addEventListener("submit", function () {
+      input.value = input.value.replace(/,/g, '');
+    });
+  });
+});
+</script>
+<script>
+const provinceData = {
+  "Hà Nội": [
+    "Ba Đình","Hoàn Kiếm","Đống Đa","Hai Bà Trưng","Cầu Giấy","Thanh Xuân",
+    "Hoàng Mai","Long Biên","Nam Từ Liêm","Bắc Từ Liêm","Hà Đông",
+    "Sóc Sơn","Đông Anh","Gia Lâm","Thanh Trì","Hoài Đức","Đan Phượng",
+    "Phúc Thọ","Thạch Thất","Quốc Oai","Chương Mỹ","Thanh Oai",
+    "Thường Tín","Phú Xuyên","Ba Vì","Mỹ Đức","Ứng Hòa","Mê Linh"
+  ],
+  "TP Hồ Chí Minh": [
+    "Quận 1","Quận 3","Quận 4","Quận 5","Quận 6","Quận 7","Quận 8",
+    "Quận 10","Quận 11","Quận 12","Bình Thạnh","Gò Vấp","Phú Nhuận",
+    "Tân Bình","Tân Phú","Bình Tân","Thủ Đức","Bình Chánh","Củ Chi",
+    "Hóc Môn","Nhà Bè","Cần Giờ"
+  ],
+  "Đà Nẵng": [
+    "Hải Châu","Thanh Khê","Sơn Trà","Ngũ Hành Sơn",
+    "Liên Chiểu","Cẩm Lệ","Hòa Vang","Hoàng Sa"
+  ],
+  "Hải Phòng": [
+    "Hồng Bàng","Ngô Quyền","Lê Chân","Hải An","Kiến An",
+    "Đồ Sơn","Dương Kinh","Thủy Nguyên","An Dương",
+    "An Lão","Kiến Thụy","Tiên Lãng","Vĩnh Bảo","Cát Hải","Bạch Long Vĩ"
+  ],
+  "Cần Thơ": [
+    "Ninh Kiều","Bình Thủy","Cái Răng","Ô Môn","Thốt Nốt",
+    "Phong Điền","Cờ Đỏ","Thới Lai","Vĩnh Thạnh"
+  ],
+  "An Giang": ["Long Xuyên","Châu Đốc","An Phú","Tân Châu","Phú Tân","Châu Phú","Chợ Mới","Thoại Sơn","Tri Tôn","Tịnh Biên"],
+  "Bà Rịa - Vũng Tàu": ["Vũng Tàu","Bà Rịa","Châu Đức","Xuyên Mộc","Long Điền","Đất Đỏ","Côn Đảo"],
+  "Bắc Giang": ["Bắc Giang","Yên Thế","Tân Yên","Lạng Giang","Lục Nam","Lục Ngạn","Sơn Động","Hiệp Hòa","Việt Yên"],
+  "Bắc Kạn": ["Bắc Kạn","Ba Bể","Chợ Đồn","Chợ Mới","Na Rì","Ngân Sơn","Pác Nặm"],
+  "Bạc Liêu": ["Bạc Liêu","Hồng Dân","Phước Long","Vĩnh Lợi","Giá Rai","Đông Hải","Hòa Bình"],
+  "Bắc Ninh": ["Bắc Ninh","Yên Phong","Quế Võ","Tiên Du","Thuận Thành","Gia Bình","Lương Tài"],
+  "Bến Tre": ["Bến Tre","Châu Thành","Chợ Lách","Mỏ Cày Bắc","Mỏ Cày Nam","Giồng Trôm","Bình Đại","Ba Tri","Thạnh Phú"],
+  "Bình Định": ["Quy Nhơn","An Nhơn","Tuy Phước","Phù Cát","Phù Mỹ","Hoài Nhơn","Hoài Ân","Tây Sơn","Vĩnh Thạnh"],
+  "Bình Dương": ["Thủ Dầu Một","Dĩ An","Thuận An","Bến Cát","Tân Uyên","Bàu Bàng","Dầu Tiếng","Phú Giáo","Bắc Tân Uyên"],
+  "Bình Phước": ["Đồng Xoài","Phước Long","Bình Long","Bù Đăng","Bù Gia Mập","Chơn Thành","Hớn Quản","Lộc Ninh","Phú Riềng"],
+  "Bình Thuận": ["Phan Thiết","La Gi","Tuy Phong","Bắc Bình","Hàm Thuận Bắc","Hàm Thuận Nam","Tánh Linh","Đức Linh","Phú Quý"],
+  "Cà Mau": ["Cà Mau","U Minh","Thới Bình","Trần Văn Thời","Cái Nước","Đầm Dơi","Năm Căn","Phú Tân","Ngọc Hiển"],
+  "Cao Bằng": ["Cao Bằng","Bảo Lạc","Bảo Lâm","Hà Quảng","Hòa An","Nguyên Bình","Quảng Hòa","Thạch An","Trùng Khánh"],
+  "Đắk Lắk": ["Buôn Ma Thuột","Buôn Hồ","Ea Kar","Ea H'leo","Krông Ana","Krông Bông","Krông Buk","Krông Năng","Lắk","M'Đrắk"],
+  "Đắk Nông": ["Gia Nghĩa","Cư Jút","Đắk Glong","Đắk Mil","Đắk R'lấp","Đắk Song","Krông Nô","Tuy Đức"],
+  "Điện Biên": ["Điện Biên Phủ","Mường Lay","Điện Biên","Điện Biên Đông","Mường Ảng","Mường Chà","Nậm Pồ","Tủa Chùa","Tuần Giáo"],
+  "Đồng Nai": ["Biên Hòa","Long Khánh","Nhơn Trạch","Long Thành","Trảng Bom","Vĩnh Cửu","Định Quán","Tân Phú","Thống Nhất","Cẩm Mỹ"],
+  "Đồng Tháp": ["Cao Lãnh","Sa Đéc","Hồng Ngự","Tam Nông","Thanh Bình","Tháp Mười","Cao Lãnh","Lấp Vò","Lai Vung","Châu Thành"],
+  "Gia Lai": ["Pleiku","An Khê","Ayun Pa","Chư Păh","Chư Prông","Chư Sê","Đắk Đoa","Đắk Pơ","Đức Cơ","Ia Grai","KBang","Kông Chro","Krông Pa","Mang Yang","Phú Thiện"],
+  "Hà Giang": ["Hà Giang","Bắc Mê","Bắc Quang","Đồng Văn","Hoàng Su Phì","Mèo Vạc","Quản Bạ","Quang Bình","Vị Xuyên","Xín Mần","Yên Minh"],
+  "Hà Nam": ["Phủ Lý","Bình Lục","Duy Tiên","Kim Bảng","Lý Nhân","Thanh Liêm"],
+  "Hà Tĩnh": ["Hà Tĩnh","Hồng Lĩnh","Cẩm Xuyên","Can Lộc","Đức Thọ","Hương Khê","Hương Sơn","Kỳ Anh","Lộc Hà","Nghi Xuân","Thạch Hà","Vũ Quang"],
+  "Hải Dương": ["Hải Dương","Chí Linh","Bình Giang","Cẩm Giàng","Gia Lộc","Kim Thành","Kinh Môn","Nam Sách","Ninh Giang","Thanh Hà","Thanh Miện","Tứ Kỳ"],
+  "Hậu Giang": ["Vị Thanh","Ngã Bảy","Châu Thành","Châu Thành A","Long Mỹ","Phụng Hiệp","Vị Thủy"],
+  "Hòa Bình": ["Hòa Bình","Cao Phong","Đà Bắc","Kim Bôi","Kỳ Sơn","Lạc Sơn","Lạc Thủy","Mai Châu","Tân Lạc","Yên Thủy"],
+  "Hưng Yên": ["Hưng Yên","Ân Thi","Khoái Châu","Kim Động","Mỹ Hào","Phù Cừ","Tiên Lữ","Văn Giang","Văn Lâm","Yên Mỹ"],
+  "Khánh Hòa": ["Nha Trang","Cam Ranh","Ninh Hòa","Cam Lâm","Diên Khánh","Khánh Sơn","Khánh Vĩnh","Trường Sa"],
+  "Kiên Giang": ["Rạch Giá","Hà Tiên","Phú Quốc","An Biên","An Minh","Châu Thành","Giang Thành","Giồng Riềng","Gò Quao","Hòn Đất","Kiên Hải","Kiên Lương","Tân Hiệp","U Minh Thượng","Vĩnh Thuận"],
+  "Kon Tum": ["Kon Tum","Đắk Glei","Đắk Hà","Đắk Tô","Ia H'Drai","Kon Plông","Kon Rẫy","Ngọc Hồi","Sa Thầy","Tu Mơ Rông"],
+  "Lai Châu": ["Lai Châu","Mường Tè","Nậm Nhùn","Phong Thổ","Sìn Hồ","Tam Đường","Tân Uyên","Than Uyên"],
+  "Lâm Đồng": ["Đà Lạt","Bảo Lộc","Bảo Lâm","Cát Tiên","Đạ Huoai","Đạ Tẻh","Đam Rông","Di Linh","Đơn Dương","Đức Trọng","Lạc Dương","Lâm Hà"],
+  "Lạng Sơn": ["Lạng Sơn","Bắc Sơn","Bình Gia","Cao Lộc","Chi Lăng","Đình Lập","Hữu Lũng","Lộc Bình","Tràng Định","Văn Lãng","Văn Quan"],
+  "Lào Cai": ["Lào Cai","Bảo Thắng","Bảo Yên","Bắc Hà","Bát Xát","Mường Khương","Sa Pa","Si Ma Cai","Văn Bàn"],
+  "Long An": ["Tân An","Kiến Tường","Bến Lức","Cần Đước","Cần Giuộc","Châu Thành","Đức Hòa","Đức Huệ","Mộc Hóa","Tân Hưng","Tân Thạnh","Tân Trụ","Thạnh Hóa","Thủ Thừa","Vĩnh Hưng"],
+  "Nam Định": ["Nam Định","Giao Thủy","Hải Hậu","Mỹ Lộc","Nam Trực","Nghĩa Hưng","Trực Ninh","Vụ Bản","Xuân Trường","Ý Yên"],
+  "Nghệ An": ["Vinh","Cửa Lò","Hoàng Mai","Thái Hòa","Anh Sơn","Con Cuông","Diễn Châu","Đô Lương","Hưng Nguyên","Kỳ Sơn","Nam Đàn","Nghi Lộc","Nghĩa Đàn","Quế Phong","Quỳ Châu","Quỳ Hợp","Quỳnh Lưu","Tân Kỳ","Thanh Chương","Tương Dương","Yên Thành"],
+  "Ninh Bình": ["Ninh Bình","Tam Điệp","Gia Viễn","Hoa Lư","Kim Sơn","Nho Quan","Yên Khánh","Yên Mô"],
+  "Ninh Thuận": ["Phan Rang - Tháp Chàm","Bác Ái","Ninh Hải","Ninh Phước","Ninh Sơn","Thuận Bắc","Thuận Nam"],
+  "Phú Thọ": ["Việt Trì","Phú Thọ","Cẩm Khê","Đoan Hùng","Hạ Hòa","Lâm Thao","Phù Ninh","Tam Nông","Tân Sơn","Thanh Ba","Thanh Sơn","Thanh Thủy","Yên Lập"],
+  "Phú Yên": ["Tuy Hòa","Đông Hòa","Sông Cầu","Sơn Hòa","Sông Hinh","Tây Hòa","Tuy An","Phú Hòa"],
+  "Quảng Bình": ["Đồng Hới","Ba Đồn","Bố Trạch","Lệ Thủy","Minh Hóa","Quảng Ninh","Tuyên Hóa"],
+  "Quảng Nam": ["Tam Kỳ","Hội An","Điện Bàn","Đại Lộc","Đông Giang","Duy Xuyên","Hiệp Đức","Nam Giang","Nam Trà My","Nông Sơn","Phú Ninh","Phước Sơn","Quế Sơn","Tây Giang","Thăng Bình","Tiên Phước"],
+  "Quảng Ngãi": ["Quảng Ngãi","Bình Sơn","Ba Tơ","Đức Phổ","Lý Sơn","Minh Long","Mộ Đức","Nghĩa Hành","Sơn Hà","Sơn Tây","Sơn Tịnh","Trà Bồng","Tư Nghĩa"],
+  "Quảng Ninh": ["Hạ Long","Cẩm Phả","Uông Bí","Móng Cái","Bình Liêu","Ba Chẽ","Cô Tô","Đầm Hà","Hải Hà","Hoành Bồ","Quảng Yên","Tiên Yên","Vân Đồn"],
+  "Quảng Trị": ["Đông Hà","Quảng Trị","Cam Lộ","Cồn Cỏ","Đakrông","Gio Linh","Hải Lăng","Hướng Hóa","Triệu Phong","Vĩnh Linh"],
+  "Sóc Trăng": ["Sóc Trăng","Châu Thành","Cù Lao Dung","Kế Sách","Long Phú","Mỹ Tú","Mỹ Xuyên","Ngã Năm","Thạnh Trị","Trần Đề","Vĩnh Châu"],
+  "Sơn La": ["Sơn La","Bắc Yên","Mai Sơn","Mộc Châu","Mường La","Phù Yên","Quỳnh Nhai","Sông Mã","Sốp Cộp","Thuận Châu","Vân Hồ","Yên Châu"],
+  "Tây Ninh": ["Tây Ninh","Bến Cầu","Châu Thành","Dương Minh Châu","Gò Dầu","Hòa Thành","Tân Biên","Tân Châu","Trảng Bàng"],
+  "Thái Bình": ["Thái Bình","Đông Hưng","Hưng Hà","Kiến Xương","Quỳnh Phụ","Thái Thụy","Tiền Hải","Vũ Thư"],
+  "Thái Nguyên": ["Thái Nguyên","Phổ Yên","Sông Công","Đại Từ","Định Hóa","Đồng Hỷ","Phú Bình","Võ Nhai"],
+  "Thanh Hóa": ["Thanh Hóa","Bỉm Sơn","Sầm Sơn","Bá Thước","Cẩm Thủy","Đông Sơn","Hà Trung","Hậu Lộc","Hoằng Hóa","Lang Chánh","Mường Lát","Nga Sơn","Ngọc Lặc","Như Thanh","Như Xuân","Nông Cống","Quan Hóa","Quan Sơn","Quảng Xương","Thạch Thành","Thiệu Hóa","Thọ Xuân","Thường Xuân","Triệu Sơn","Vĩnh Lộc","Yên Định"],
+  "Thừa Thiên Huế": ["Huế","A Lưới","Nam Đông","Phong Điền","Phú Lộc","Phú Vang","Quảng Điền"],
+  "Tiền Giang": ["Mỹ Tho","Gò Công","Cai Lậy","Cái Bè","Châu Thành","Chợ Gạo","Gò Công Đông","Gò Công Tây","Tân Phú Đông","Tân Phước"],
+  "Trà Vinh": ["Trà Vinh","Càng Long","Cầu Kè","Cầu Ngang","Châu Thành","Duyên Hải","Tiểu Cần"],
+  "Tuyên Quang": ["Tuyên Quang","Chiêm Hóa","Hàm Yên","Lâm Bình","Na Hang","Sơn Dương","Yên Sơn"],
+  "Vĩnh Long": ["Vĩnh Long","Bình Minh","Bình Tân","Long Hồ","Mang Thít","Tam Bình","Trà Ôn","Vũng Liêm"],
+  "Vĩnh Phúc": ["Vĩnh Yên","Phúc Yên","Bình Xuyên","Lập Thạch","Sông Lô","Tam Đảo","Tam Dương","Vĩnh Tường","Yên Lạc"],
+  "Yên Bái": ["Yên Bái","Nghĩa Lộ","Lục Yên","Mù Cang Chải","Trạm Tấu","Trấn Yên","Văn Chấn","Văn Yên","Yên Bình"]
+};
+
+const provinceSelect = document.getElementById("hm-province");
+const districtSelect = document.getElementById("hm-district");
+
+Object.keys(provinceData).forEach(province => {
+  const opt = document.createElement("option");
+  opt.value = province;
+  opt.textContent = province;
+  provinceSelect.appendChild(opt);
+});
+
+provinceSelect.addEventListener("change", function () {
+  districtSelect.innerHTML = '<option value="">— Vui lòng chọn —</option>';
+  (provinceData[this.value] || []).forEach(d => {
+    const opt = document.createElement("option");
+    opt.value = d;
+    opt.textContent = d;
+    districtSelect.appendChild(opt);
+  });
+});
+</script>
+<script>
+const carBrands = [
+  "Toyota","Honda","Hyundai","Kia","Mazda","Ford","Mitsubishi",
+  "Nissan","Suzuki","Isuzu","VinFast","Mercedes-Benz","BMW",
+  "Audi","Lexus","Porsche","Land Rover","Volvo","Subaru","MG",
+  "Volkswagen","Peugeot","Mini","Jeep","Skoda"
+];
+
+const brandSelect = document.getElementById("hang_xe_oto");
+if (brandSelect) {
+  carBrands.forEach(brand => {
+    const opt = document.createElement("option");
+    opt.value = brand;
+    opt.textContent = brand;
+    brandSelect.appendChild(opt);
+  });
+}
+</script>
+<script>
+function scrollToForm() {
+  document.getElementById('form-dang-ky')
+    .scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const tabs = document.querySelectorAll(".hm-loan-tab");
+  const contents = document.querySelectorAll(".hm-loan-content");
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", function () {
+      tabs.forEach(t => t.classList.remove("active"));
+      contents.forEach(c => c.classList.remove("active"));
+
+      tab.classList.add("active");
+      document.getElementById("tab-" + tab.dataset.tab).classList.add("active");
+    });
+  });
+});
+
+</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const mapEl = document.getElementById("hm-map");
+  const listEl = document.getElementById("hm-list");
+
+  if (!mapEl || !listEl) return;
+  if (typeof L === "undefined") {
+    console.error("Leaflet chưa được load");
+    return;
+  }
+
+  const HM_BRANCHES = [
+    {
+      id: "cs1",
+      name: "Cơ sở 1 - Đại La",
+      address: "Số 9A Đại La, Phường Trương Định, Quận Hai Bà Trưng, Thành Phố Hà Nội",
+      hotline: "1900 638 388",
+      hours: "08:00 - 20:00",
+      lat: 21.0046,
+      lng: 105.8447
+    },
+    {
+      id: "cs2",
+      name: "Cơ sở 2 - Trâu Quỳ",
+      address: "58 Ngô Xuân Quảng, Phường Trâu Quỳ, Huyện Gia Lâm, Hà Nội",
+      hotline: "1900 638 388",
+      hours: "08:00 - 20:00",
+      lat: 21.0107,
+      lng: 105.9447
+    },
+    {
+      id: "cs3",
+      name: "Cơ sở 3 - Đại Kim",
+      address: "L7-78 Khu Đô Thị Mới Đại Kim, Phường Đại Kim, Quận Hoàng Mai, Hà Nội",
+      hotline: "1900 638 388",
+      hours: "08:00 - 20:00",
+      lat: 20.9608,
+      lng: 105.8425
+    }
+  ];
+
+  function itemHTML(b, active) {
+    return `
+      <div class="hm-item ${active ? "active" : ""}" data-id="${b.id}">
+        <div class="hm-row">
+          <div class="hm-pin">📍</div>
+          <div>
+            <div class="hm-name">${b.name}</div>
+            <div class="hm-meta"><b>Địa chỉ:</b> ${b.address}</div>
+            <div class="hm-meta"><b>Hotline:</b> ${b.hotline}</div>
+            <div class="hm-meta"><b>Giờ mở cửa:</b> ${b.hours}</div>
+            <a class="hm-link" href="javascript:void(0)">XEM VỊ TRÍ</a>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  function render(activeId) {
+    listEl.innerHTML = HM_BRANCHES.map(b => itemHTML(b, b.id === activeId)).join("");
+  }
+
+  const map = L.map("hm-map", {
+    scrollWheelZoom: false
+  }).setView([21.000, 105.850], 12);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "© OpenStreetMap"
+  }).addTo(map);
+
+  const hmIcon = L.divIcon({
+    className: "",
+    html: `
+      <div style="width:46px;height:46px;border-radius:999px;background:#fff;border:4px solid rgba(230,0,35,.18);
+      display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px rgba(0,0,0,.18)">
+        <div style="width:32px;height:32px;border-radius:999px;background:#e60023;color:#fff;font-weight:900;font-size:11px;
+        display:flex;align-items:center;justify-content:center">HOME</div>
+      </div>
+    `,
+    iconSize: [46, 46],
+    iconAnchor: [23, 46],
+    popupAnchor: [0, -46]
+  });
+
+  let marker = null;
+
+  function selectBranch(id, shouldScroll = false) {
+    const b = HM_BRANCHES.find(x => x.id === id) || HM_BRANCHES[0];
+
+    render(b.id);
+
+    if (marker) marker.remove();
+
+    marker = L.marker([b.lat, b.lng], { icon: hmIcon }).addTo(map);
+
+    marker.bindPopup(`
+      <div style="font-family:system-ui;min-width:220px">
+        <div style="font-weight:900;margin-bottom:6px">${b.name}</div>
+        <div style="font-size:13px;line-height:1.35">
+          <div><b>Địa chỉ:</b> ${b.address}</div>
+          <div><b>Hotline:</b> ${b.hotline}</div>
+          <div><b>Giờ:</b> ${b.hours}</div>
+        </div>
+      </div>
+    `).openPopup();
+
+    map.flyTo([b.lat, b.lng], 16, { duration: 0.8 });
+
+    if (shouldScroll) {
+      const el = listEl.querySelector(`.hm-item[data-id="${b.id}"]`);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }
+
+  listEl.addEventListener("click", function (e) {
+    const item = e.target.closest(".hm-item");
+    if (!item) return;
+    selectBranch(item.getAttribute("data-id"), true);
+  });
+
+  render(HM_BRANCHES[0].id);
+
+  setTimeout(function () {
+    map.invalidateSize();
+    selectBranch(HM_BRANCHES[0].id, false);
+  }, 500);
+
+  window.addEventListener("resize", function () {
+    map.invalidateSize();
+  });
+});
+</script>        <!-- if gom all in one show -->
+                <div id="button-contact-vr" class="" bis_skin_checked="1">
+            <div id="gom-all-in-one" bis_skin_checked="1"><!-- v3 -->
+                
+                
+                
+                
+
+                
+                
+                
+                
+                
+                                    <!-- zalo -->
+                    <div id="zalo-vr" class="button-contact" bis_skin_checked="1">
+                        <div class="phone-vr" bis_skin_checked="1">
+                            <div class="phone-vr-circle-fill" bis_skin_checked="1"></div>
+                            <div class="phone-vr-img-circle" bis_skin_checked="1">
+                                <a target="_blank" href="https://zalo.me/0583199117">
+                                    <img alt="Zalo" src="https://homemoney.vn/wp-content/plugins/button-contact-vr/legacy/img/zalo.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end zalo -->
+                
+                
+                                    <!-- Phone -->
+                    <div id="phone-vr" class="button-contact" bis_skin_checked="1">
+                        <div class="phone-vr" bis_skin_checked="1">
+                            <div class="phone-vr-circle-fill" bis_skin_checked="1"></div>
+                            <div class="phone-vr-img-circle" bis_skin_checked="1">
+                                <a href="tel:1900638388">
+                                    <img alt="Phone" src="https://homemoney.vn/wp-content/plugins/button-contact-vr/legacy/img/phone.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                        <!-- end phone -->
+
+                                                            </div><!-- end v3 class gom-all-in-one -->
+
+            
+        </div>
+
+        <!-- Add custom css and js -->
+        
+        <script type="text/javascript">
+            if (document.querySelector("#all-in-one-vr")) {
+                document.querySelector("#all-in-one-vr").addEventListener("click", function() {
+                    document.querySelector("#button-contact-vr").classList.toggle("active");
+                });
+            }
+
+            jQuery(document).ready(function($) {
+                // $('#all-in-one-vr').click(function() {
+                //     $('#button-contact-vr').toggleClass('active');
+                // })
+                $('#contact-form-vr').click(function() {
+                    $('#popup-form-contact-vr').addClass('active');
+                })
+                $('div#popup-form-contact-vr .bg-popup-vr,div#popup-form-contact-vr .content-popup-vr .close-popup-vr').click(function() {
+                    $('#popup-form-contact-vr').removeClass('active');
+                })
+                $('#contact-showroom').click(function() {
+                    $('#popup-showroom-vr').addClass('active');
+                })
+                $('div#popup-showroom-vr .bg-popup-vr,.content-popup-vr .close-popup-vr').click(function() {
+                    $('#popup-showroom-vr').removeClass('active');
+                })
+            });
+        </script>
+
+        <!-- end Add custom css and js -->
+
+
+        
+        
+        
+        
+                
+        
+                    <!-- location left right -->
+            <style>
+                #button-contact-vr {
+                    right: 0;
+                }
+
+                .phone-bar a {
+                    left: auto;
+                    right: 30px;
+                    padding: 8px 55px 7px 15px;
+                }
+
+                #button-contact-vr.active #gom-all-in-one .button-contact {
+                    margin-left: 100%;
+                }
+            </style>
+        
+                    <!-- location bottom -->
+            <style>
+                #button-contact-vr {
+                    bottom: 10%;
+                }
+            </style>
+        
+        
+                        <script>
+            jQuery(document).ready(function($){
+                $.ajax({
+                    url: 'https://homemoney.vn/wp-admin/admin-ajax.php',
+                    data: {
+                        action: 'province'
+                    },
+                    success(res) {
+                        var province = res.data.data
+
+                        var html = '<option value="">Chọn tỉnh thành</option>';
+
+                        $.each(province, function(i, v) {
+                            html += `<option value="${v.PROVINCE_NAME}" data-id="${v.PROVINCE_ID}">${v.PROVINCE_NAME}</option>`;
+                        });
+
+                        $('#tinh_thanh').html(html)
+                    }
+                });
+
+                $(document).on('change', '#tinh_thanh', function(){
+                    var id = $(this).find(':selected').attr('data-id')
+                    
+                    $.ajax({
+                        url: 'https://homemoney.vn/wp-admin/admin-ajax.php',
+                        data: {
+                            action: 'district',
+                            id: id
+                        },
+                        success(res) {
+                            console.log(res)
+                            var district = res.data.data
+
+                            var html = '<option value="">Chọn quận huyện</option>';
+
+                            $.each(district, function(i, v) {
+                                html += `<option value="${v.DISTRICT_NAME}" data-id="${v.DISTRICT_ID}">${v.DISTRICT_NAME}</option>`;
+                            });
+
+                            $('#quan_huyen').html(html)
+                        }
+                    });
+                })
+
+                $(document).on('change', '#quan_huyen', function(){
+                    var id = $(this).find(':selected').attr('data-id')
+                    
+                    $.ajax({
+                        url: 'https://homemoney.vn/wp-admin/admin-ajax.php',
+                        data: {
+                            action: 'ward',
+                            id: id
+                        },
+                        success(res) {
+                            console.log(res)
+                            var ward = res.data.data
+
+                            var html = '<option value="">Chọn phường xã</option>';
+
+                            $.each(ward, function(i, v) {
+                                html += `<option value="${v.WARDS_NAME}" data-id="${v.WARDS_ID}">${v.WARDS_NAME}</option>`;
+                            });
+
+                            $('#phuong_xa').html(html)
+                        }
+                    });
+                })
+            });
+        </script>
+    <script id="wp-hooks-js" src="https://homemoney.vn/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://homemoney.vn/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://homemoney.vn/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6"></script>
+<script id="contact-form-7-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2024-08-11 13:44:17+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"vi_VN"},"This contact form is placed in the wrong place.":["Bi\u1ec3u m\u1eabu li\u00ean h\u1ec7 n\u00e0y \u0111\u01b0\u1ee3c \u0111\u1eb7t sai v\u1ecb tr\u00ed."],"Error:":["L\u1ed7i:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+//# sourceURL=contact-form-7-js-translations
+</script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/homemoney.vn\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://homemoney.vn/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6"></script>
+<script id="hmn-car-valuation-script-js-extra">
+var hmnCarValuationAjax = {"ajax_url":"https://homemoney.vn/wp-admin/admin-ajax.php","nonce":"89c270f38f"};
+//# sourceURL=hmn-car-valuation-script-js-extra
+</script>
+<script id="hmn-car-valuation-script-js" src="https://homemoney.vn/wp-content/plugins/hmn-car-valuation-full/assets/script.js?ver=1784198535"></script>
+<script id="wpcf7-redirect-script-js-extra">
+var wpcf7r = {"ajax_url":"https://homemoney.vn/wp-admin/admin-ajax.php"};
+//# sourceURL=wpcf7-redirect-script-js-extra
+</script>
+<script id="wpcf7-redirect-script-js" src="https://homemoney.vn/wp-content/plugins/wpcf7-redirect/build/assets/frontend-script.js?ver=2c532d7e2be36f6af233"></script>
+<script id="hm-vaynhanh-js" src="https://homemoney.vn/wp-content/themes/flatsome-child/js/hm-vaynhanh.js?ver=1.0"></script>
+<script id="flatsome-instant-page-js" src="https://homemoney.vn/wp-content/themes/flatsome/inc/extensions/flatsome-instant-page/flatsome-instant-page.js?ver=1.2.1"></script>
+<script id="flatsome-live-search-js" src="https://homemoney.vn/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js?ver=3.19.4"></script>
+<script id="googlesitekit-consent-mode-js" src="https://homemoney.vn/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-8917f4bdb6ac659920cf.js"></script>
+<script id="googlesitekit-events-provider-contact-form-7-js" src="https://homemoney.vn/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-84e9a1056bc4922b7cbd.js" defer=""></script>
+<script id="hoverIntent-js" src="https://homemoney.vn/wp-includes/js/hoverIntent.min.js?ver=1.10.2"></script>
+<script id="flatsome-js-js-extra">
+var flatsomeVars = {"theme":{"version":"3.19.4"},"ajaxurl":"https://homemoney.vn/wp-admin/admin-ajax.php","rtl":"","sticky_height":"70","stickyHeaderHeight":"0","scrollPaddingTop":"0","assets_url":"https://homemoney.vn/wp-content/themes/flatsome/assets/","lightbox":{"close_markup":"\u003Cbutton title=\"%title%\" type=\"button\" class=\"mfp-close\"\u003E\u003Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"\u003E\u003Cline x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"\u003E\u003C/line\u003E\u003Cline x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"\u003E\u003C/line\u003E\u003C/svg\u003E\u003C/button\u003E","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Menu ch\u00ednh","toggleButton":"Chuy\u1ec3n \u0111\u1ed5i"},"options":{"cookie_notice_version":"1","swatches_layout":false,"swatches_disable_deselect":false,"swatches_box_select_event":false,"swatches_box_behavior_selected":false,"swatches_box_update_urls":"1","swatches_box_reset":false,"swatches_box_reset_limited":false,"swatches_box_reset_extent":false,"swatches_box_reset_time":300,"search_result_latency":"0"}};
+//# sourceURL=flatsome-js-js-extra
+</script>
+<script id="flatsome-js-js" src="https://homemoney.vn/wp-content/themes/flatsome/assets/js/flatsome.js?ver=8e60d746741250b4dd4e"></script>
+<script id="flatsome-lazy-js" src="https://homemoney.vn/wp-content/themes/flatsome/inc/extensions/flatsome-lazy-load/flatsome-lazy-load.js?ver=3.19.4"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://homemoney.vn/wp-includes/js/wp-emoji-release.min.js?ver=7.0.1"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://homemoney.vn/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+
+
+</body></html>
