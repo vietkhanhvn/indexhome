@@ -1,6 +1,6 @@
 <?php
 session_start();
-require __DIR__ . '/includes/contact-settings.php';
+require __DIR__ . '/includes/contact-settings.html';
 
 $settings = hm_read_contact_settings();
 $adminPassword = 'Homemoney@2026';
@@ -11,7 +11,7 @@ if (!isset($_SESSION['hm_admin_logged'])) {
     if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['password'])) {
         if (($_POST['password'] ?? '') === $adminPassword) {
             $_SESSION['hm_admin_logged'] = true;
-            header('Location: admin-contact.php');
+            header('Location: admin.html');
             exit;
         }
 
@@ -35,7 +35,7 @@ if (!isset($_SESSION['hm_admin_logged'])) {
                         <h1>Đăng nhập admin</h1>
                         <p>Truy cập khu vực chỉnh sửa liên hệ cho toàn bộ website.</p>
                     </div>
-                    <a href="index.php" class="hm-contact-admin__link">Về trang chủ</a>
+                    <a href="index.html" class="hm-contact-admin__link">Về trang chủ</a>
                 </div>
 
                 <?php if ($error !== '') : ?>
@@ -86,7 +86,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && isset($_POST['save'])) {
                     <h1>Quản lý liên hệ</h1>
                     <p>Thay đổi thông tin Zalo và Facebook ở đây. Các trang frontend sẽ tự động dùng dữ liệu này.</p>
                 </div>
-                <a href="index.php" class="hm-contact-admin__link">Về trang chủ</a>
+                <a href="index.html" class="hm-contact-admin__link">Về trang chủ</a>
             </div>
 
             <?php if ($success !== '') : ?>
