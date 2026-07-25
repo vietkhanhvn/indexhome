@@ -1,4 +1,0 @@
-RewriteEngine On
-
-RewriteRule ^vay-tien-qua-icloud/?$ /vay-tien-qua-icloud.php [R=302,L]
-RewriteRule ^cam-on/?$ /cam-on.php [R=302,L]
