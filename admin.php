@@ -1,6 +1,6 @@
 <?php
 session_start();
-require __DIR__ . '/includes/contact-settings.html';
+require __DIR__ . '/includes/contact-settings.php';
 
 $settings = hm_read_contact_settings();
 $adminPassword = 'Homemoney@2026';
