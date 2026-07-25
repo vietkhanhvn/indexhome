@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Quản lý liên hệ</title>
+  <title>Admin contact</title>
   <link rel="stylesheet" href="includes/contact-admin.css">
 </head>
 <body>
@@ -12,8 +12,8 @@
       <div class="hm-contact-admin__header">
         <div>
           <p class="hm-contact-admin__eyebrow">Admin</p>
-          <h1>Quản lý liên hệ</h1>
-          <p>Điền Zalo và link Facebook rồi bấm lưu. Giá trị này sẽ được dùng cho toàn bộ trang tĩnh.</p>
+          <h1>Trang quản trị</h1>
+          <p>Trang này cho phép bạn đổi Zalo và Facebook trực tiếp trên bản HTML tĩnh.</p>
         </div>
         <a href="index.html" class="hm-contact-admin__link">Về trang chủ</a>
       </div>
@@ -22,18 +22,15 @@
 
       <form id="hm-contact-form" class="hm-contact-admin__form">
         <label for="zalo">Zalo</label>
-        <input id="zalo" class="hm-contact-admin__field" type="text" name="zalo" placeholder="0345345553 hoặc 0909..." required>
+        <input id="zalo" class="hm-contact-admin__field" type="text" name="zalo" placeholder="0345345553" required>
 
         <label for="facebook">Facebook</label>
         <input id="facebook" class="hm-contact-admin__field" type="text" name="facebook" placeholder="https://www.facebook.com/..." required>
 
         <div class="hm-contact-admin__actions">
           <button type="submit" class="hm-contact-admin__btn">Lưu thay đổi</button>
-          <a href="/" class="hm-contact-admin__link">Xem trang chủ</a>
         </div>
       </form>
-
-      <p class="hm-contact-admin__hint">Lưu ý: dữ liệu này được lưu trong trình duyệt hiện tại. Nếu bạn mở website trên thiết bị khác, hãy chỉnh lại trên thiết bị đó.</p>
     </div>
   </div>
 
@@ -52,11 +49,7 @@
     }
 
     function loadDefaults() {
-      const fallback = {
-        zalo: '0345345553',
-        facebook: 'https://www.facebook.com/profile.php?id=100069526895693'
-      };
-
+      const fallback = { zalo: '0345345553', facebook: 'https://www.facebook.com/profile.php?id=100069526895693' };
       try {
         const saved = localStorage.getItem(storageKey);
         if (saved) {
@@ -64,19 +57,14 @@
           return { ...fallback, ...parsed };
         }
       } catch (e) {
-        // ignore and use fallback
+        // ignore
       }
-
       return fallback;
     }
 
-    function populate() {
-      const values = loadDefaults();
-      zaloInput.value = values.zalo || '';
-      facebookInput.value = values.facebook || '';
-    }
-
-    populate();
+    const values = loadDefaults();
+    zaloInput.value = values.zalo || '';
+    facebookInput.value = values.facebook || '';
 
     form.addEventListener('submit', function (event) {
       event.preventDefault();
@@ -84,9 +72,8 @@
         zalo: zaloInput.value.trim(),
         facebook: facebookInput.value.trim()
       };
-
       localStorage.setItem(storageKey, JSON.stringify(settings));
-      setStatus('Đã lưu thành công. Các nút Zalo/Facebook trên website sẽ cập nhật ngay.', 'success');
+      setStatus('Đã lưu xong. Bạn có thể mở trang chủ để xem kết quả.', 'success');
       window.dispatchEvent(new Event('hm-contact-updated'));
     });
   })();
