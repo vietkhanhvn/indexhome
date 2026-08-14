@@ -120,61 +120,47 @@
         modalAlwaysShow: modalAlwaysShowEl.value === '1'
       };
 
-      const formData = new FormData();
-      formData.append('zalo', settings.zalo);
-      formData.append('facebook', settings.facebook);
-      formData.append('modalTitle', settings.modalTitle);
-      formData.append('modalBody', settings.modalBody);
-      formData.append('modalContactText', settings.modalContactText);
-      formData.append('modalButtonLabel', settings.modalButtonLabel);
-      formData.append('modalAlwaysShow', settings.modalAlwaysShow ? '1' : '0');
-
-      // Prefer Vercel serverless endpoint; send JSON. Fall back to existing PHP endpoint if unavailable.
+      // Send JSON only to the Vercel serverless endpoint. No PHP fallback (Vercel doesn't run PHP).
       var primaryEndpoint = '/api/save-contact';
-      var fallbackEndpoint = 'save-contact.php';
 
-      function doJsonPost(url) {
-        return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(settings) });
-      }
-
-      doJsonPost(primaryEndpoint).then(function (res) {
-        if (!res.ok) {
-          // primary failed; try legacy PHP endpoint with formData (server may expect multipart or GET)
-          return fetch(fallbackEndpoint, { method: 'POST', body: formData }).then(function (r) {
-            if (!r.ok) {
-              // try GET fallback to PHP
-              var qs = '?';
-              Object.keys(settings).forEach(function (k) { qs += encodeURIComponent(k) + '=' + encodeURIComponent(settings[k]) + '&'; });
-              return fetch(fallbackEndpoint + qs, { method: 'GET' });
+      fetch(primaryEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(settings) })
+        .then(function (res) {
+          return res.text().then(function (text) {
+            // Always surface status and full body for debugging
+            if (!res.ok) {
+              var msg = 'Server returned status ' + res.status + ' ' + res.statusText + '. Response: ' + (text || '(empty)');
+              setStatus('Lưu thất bại: ' + msg, 'error');
+              console.error('save-contact failed', res.status, text);
+              throw new Error(msg);
             }
-            return r;
+
+            // try parse JSON response
+            try {
+              var json = text ? JSON.parse(text) : null;
+              if (json && json.success) {
+                localStorage.setItem(storageKey, JSON.stringify(settings));
+                setStatus('Đã lưu xong. Bạn có thể mở trang chủ để xem kết quả.', 'success');
+                window.dispatchEvent(new Event('hm-contact-updated'));
+                return json;
+              }
+
+              // if JSON but success=falsae, show message + body
+              var msg2 = (json && json.message) ? json.message : ('Unexpected response: ' + text);
+              setStatus('Lưu thất bại: ' + msg2 + ' (status ' + res.status + ')', 'error');
+              console.error('save-contact unexpected json', json);
+              throw new Error(msg2);
+            } catch (e) {
+              // non-JSON body — show full response text
+              var msg3 = 'Server returned non-JSON response (status ' + res.status + '): ' + (text || '(empty)');
+              setStatus('Lưu thất bại: ' + msg3, 'error');
+              console.error('save-contact non-json', res.status, text);
+              throw new Error(msg3);
+            }
           });
-        }
-        return res;
-      }).then(function (res) {
-        return res.text().then(function (text) {
-          var parsed = null;
-          try {
-            parsed = text ? JSON.parse(text) : null;
-          } catch (e) {
-            console.error('save-contact: response not JSON', res.status, text);
-            throw new Error('Server returned non-JSON response (status ' + res.status + '): ' + (text || 'empty'));
-          }
-          return parsed;
+        }).catch(function (err) {
+          console.error('save-contact error', err);
+          setStatus('Lưu thất bại: ' + (err && err.message ? err.message : 'Lỗi mạng'), 'error');
         });
-      }).then(function (data) {
-        if (data && data.success) {
-          // keep a local copy for instant preview
-          localStorage.setItem(storageKey, JSON.stringify(settings));
-          setStatus('Đã lưu xong. Bạn có thể mở trang chủ để xem kết quả.', 'success');
-          window.dispatchEvent(new Event('hm-contact-updated'));
-        } else {
-          setStatus('Lưu thất bại: ' + (data && data.message ? data.message : 'Lỗi máy chủ'), 'error');
-        }
-      }).catch(function (err) {
-        console.error('save-contact error', err);
-        setStatus('Lưu thất bại: ' + (err && err.message ? err.message : 'Lỗi mạng'), 'error');
-      });
     });
   })();
   </script>
