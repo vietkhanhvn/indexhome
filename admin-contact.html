@@ -129,7 +129,18 @@
       formData.append('modalButtonLabel', settings.modalButtonLabel);
       formData.append('modalAlwaysShow', settings.modalAlwaysShow ? '1' : '0');
 
-      fetch('save-contact.php', { method: 'POST', body: formData }).then(function (res) { return res.json(); }).then(function (data) {
+      // Try POST first, if server blocks POST (405) retry with GET fallback
+      fetch('save-contact.php', { method: 'POST', body: formData }).then(function (res) {
+        if (!res.ok) {
+          // retry with GET fallback
+          var qs = '?';
+          Object.keys(settings).forEach(function (k) {
+            qs += encodeURIComponent(k) + '=' + encodeURIComponent(settings[k]) + '&';
+          });
+          return fetch('save-contact.php' + qs, { method: 'GET' });
+        }
+        return res;
+      }).then(function (res) { return res.json(); }).then(function (data) {
         if (data && data.success) {
           // keep a local copy for instant preview
           localStorage.setItem(storageKey, JSON.stringify(settings));
