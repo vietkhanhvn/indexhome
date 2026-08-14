@@ -27,6 +27,24 @@
         <label for="facebook">Facebook</label>
         <input id="facebook" class="hm-contact-admin__field" type="text" name="facebook" placeholder="https://www.facebook.com/..." required>
 
+        <label for="modalTitle">Tiêu đề modal</label>
+        <input id="modalTitle" class="hm-contact-admin__field" type="text" name="modalTitle" placeholder="THÔNG BÁO">
+
+        <label for="modalBody">Nội dung modal (dòng mới =&gt; \n)</label>
+        <textarea id="modalBody" class="hm-contact-admin__field" name="modalBody" rows="4" placeholder="Nội dung hiển thị trong modal"></textarea>
+
+        <label for="modalContactText">Văn bản liên hệ trong modal</label>
+        <input id="modalContactText" class="hm-contact-admin__field" type="text" name="modalContactText" placeholder="Liên hệ ngay Zalo: 0345...">
+
+        <label for="modalButtonLabel">Nhãn nút đóng</label>
+        <input id="modalButtonLabel" class="hm-contact-admin__field" type="text" name="modalButtonLabel" placeholder="ĐÃ HIỂU, KHÔNG HIỂN THỊ LẠI">
+
+        <label for="modalAlwaysShow">Luôn hiện modal khi tải lại?</label>
+        <select id="modalAlwaysShow" name="modalAlwaysShow" class="hm-contact-admin__field">
+          <option value="1">Có (mặc định)</option>
+          <option value="0">Không</option>
+        </select>
+
         <div class="hm-contact-admin__actions">
           <button type="submit" class="hm-contact-admin__btn">Lưu thay đổi</button>
         </div>
@@ -48,23 +66,47 @@
       statusBox.className = 'hm-contact-admin__alert ' + (type === 'error' ? 'hm-contact-admin__alert--error' : 'hm-contact-admin__alert--success');
     }
 
-    function loadDefaults() {
-      const fallback = { zalo: '0345345553', facebook: 'https://www.facebook.com/profile.php?id=100069526895693' };
-      try {
-        const saved = localStorage.getItem(storageKey);
-        if (saved) {
-          const parsed = JSON.parse(saved);
-          return { ...fallback, ...parsed };
-        }
-      } catch (e) {
-        // ignore
-      }
-      return fallback;
+    // apply settings to form fields
+    function applyValues(values) {
+      const v = values || {};
+      zaloInput.value = v.zalo || '';
+      facebookInput.value = v.facebook || '';
+
+      var modalTitleEl = document.getElementById('modalTitle');
+      var modalBodyEl = document.getElementById('modalBody');
+      var modalContactTextEl = document.getElementById('modalContactText');
+      var modalButtonLabelEl = document.getElementById('modalButtonLabel');
+      var modalAlwaysShowEl = document.getElementById('modalAlwaysShow');
+
+      if (modalTitleEl) modalTitleEl.value = v.modalTitle || '';
+      if (modalBodyEl) modalBodyEl.value = v.modalBody || '';
+      if (modalContactTextEl) modalContactTextEl.value = v.modalContactText || '';
+      if (modalButtonLabelEl) modalButtonLabelEl.value = v.modalButtonLabel || '';
+      if (modalAlwaysShowEl) modalAlwaysShowEl.value = v.modalAlwaysShow ? '1' : '0';
     }
 
-    const values = loadDefaults();
-    zaloInput.value = values.zalo || '';
-    facebookInput.value = values.facebook || '';
+    // Try fetch settings from server first, fallback to localStorage, then defaults
+    (function loadSettings() {
+      const fallback = { zalo: '0345345553', facebook: 'https://www.facebook.com/profile.php?id=100069526895693', modalTitle: '', modalBody: '', modalContactText: '', modalButtonLabel: '', modalAlwaysShow: true };
+      fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
+        if (!res.ok) throw new Error('no-settings');
+        return res.json();
+      }).then(function (json) {
+        applyValues(Object.assign({}, fallback, json));
+      }).catch(function () {
+        try {
+          const saved = localStorage.getItem(storageKey);
+          if (saved) {
+            const parsed = JSON.parse(saved);
+            applyValues(Object.assign({}, fallback, parsed));
+            return;
+          }
+        } catch (e) {
+          // ignore
+        }
+        applyValues(fallback);
+      });
+    })();
 
     form.addEventListener('submit', function (event) {
       event.preventDefault();
@@ -72,9 +114,32 @@
         zalo: zaloInput.value.trim(),
         facebook: facebookInput.value.trim()
       };
-      localStorage.setItem(storageKey, JSON.stringify(settings));
-      setStatus('Đã lưu xong. Bạn có thể mở trang chủ để xem kết quả.', 'success');
-      window.dispatchEvent(new Event('hm-contact-updated'));
+      // Save to server JSON so frontend pages can read from /data/contact-settings.json
+      const formData = new FormData();
+      formData.append('zalo', settings.zalo);
+      formData.append('facebook', settings.facebook);
+      // modal fields
+      formData.append('modalTitle', modalTitleEl ? modalTitleEl.value.trim() : '');
+      formData.append('modalBody', modalBodyEl ? modalBodyEl.value.trim() : '');
+      formData.append('modalContactText', modalContactTextEl ? modalContactTextEl.value.trim() : '');
+      formData.append('modalButtonLabel', modalButtonLabelEl ? modalButtonLabelEl.value.trim() : '');
+      formData.append('modalAlwaysShow', modalAlwaysShowEl ? (modalAlwaysShowEl.value === '1' ? '1' : '0') : '1');
+
+      fetch('save-contact.php', {
+        method: 'POST',
+        body: formData
+      }).then(res => res.json()).then(data => {
+        if (data && data.success) {
+          // keep a local copy for instant preview
+          localStorage.setItem(storageKey, JSON.stringify(settings));
+          setStatus('Đã lưu xong. Bạn có thể mở trang chủ để xem kết quả.', 'success');
+          window.dispatchEvent(new Event('hm-contact-updated'));
+        } else {
+          setStatus('Lưu thất bại: ' + (data.message || 'Lỗi máy chủ'), 'error');
+        }
+      }).catch(err => {
+        setStatus('Lưu thất bại: ' + err.message, 'error');
+      });
     });
   })();
   </script>
