@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/cam-on", "destination": "/cam-on.html" },
-    { "source": "/vay-tien-qua-icloud", "destination": "/vay-tien-qua-icloud.html" },
-    { "source": "/admin", "destination": "/admin.html" },
-    { "source": "/admin-contact", "destination": "/admin-contact.html" }
-  ]
-}
