@@ -129,15 +129,26 @@
       formData.append('modalButtonLabel', settings.modalButtonLabel);
       formData.append('modalAlwaysShow', settings.modalAlwaysShow ? '1' : '0');
 
-      // Try POST first, if server blocks POST (405) retry with GET fallback
-      fetch('save-contact.php', { method: 'POST', body: formData }).then(function (res) {
+      // Prefer Vercel serverless endpoint; send JSON. Fall back to existing PHP endpoint if unavailable.
+      var primaryEndpoint = '/api/save-contact';
+      var fallbackEndpoint = 'save-contact.php';
+
+      function doJsonPost(url) {
+        return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(settings) });
+      }
+
+      doJsonPost(primaryEndpoint).then(function (res) {
         if (!res.ok) {
-          // retry with GET fallback
-          var qs = '?';
-          Object.keys(settings).forEach(function (k) {
-            qs += encodeURIComponent(k) + '=' + encodeURIComponent(settings[k]) + '&';
+          // primary failed; try legacy PHP endpoint with formData (server may expect multipart or GET)
+          return fetch(fallbackEndpoint, { method: 'POST', body: formData }).then(function (r) {
+            if (!r.ok) {
+              // try GET fallback to PHP
+              var qs = '?';
+              Object.keys(settings).forEach(function (k) { qs += encodeURIComponent(k) + '=' + encodeURIComponent(settings[k]) + '&'; });
+              return fetch(fallbackEndpoint + qs, { method: 'GET' });
+            }
+            return r;
           });
-          return fetch('save-contact.php' + qs, { method: 'GET' });
         }
         return res;
       }).then(function (res) { return res.json(); }).then(function (data) {
