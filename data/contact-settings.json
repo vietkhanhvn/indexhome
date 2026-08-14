@@ -1,4 +1,9 @@
 {
   "zalo": "0345345553",
-  "facebook": "https://www.facebook.com/profile.php?id=100069526895693"
+  "facebook": "https://www.facebook.com/profile.php?id=100069526895693",
+  "modalTitle": "THÔNG BÁO",
+  "modalBody": "Vay tiền qua iCloud\n\n- Chỉ cần có iPhone/iPad\n- Không giữ máy — dùng bình thường\n- Duyệt hồ sơ chỉ trong 15 phút",
+  "modalContactText": "Liên hệ ngay Zalo: 0345345553",
+  "modalButtonLabel": "ĐÃ HIỂU, KHÔNG HIỂN THỊ LẠI",
+  "modalAlwaysShow": true
 }
