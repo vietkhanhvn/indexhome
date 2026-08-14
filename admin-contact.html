@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin contact</title>
+  <link rel="stylesheet" href="includes/contact-admin.css">
+</head>
+<body>
+  <div class="hm-contact-admin">
+    <div class="hm-contact-admin__card">
+      <div class="hm-contact-admin__header">
+        <div>
+          <p class="hm-contact-admin__eyebrow">Admin</p>
+          <h1>Trang quản trị</h1>
+          <p>Trang này cho phép bạn đổi Zalo, Facebook và nội dung modal thông báo.</p>
+        </div>
+        <a href="index.html" class="hm-contact-admin__link">Về trang chủ</a>
+      </div>
+
+      <div id="hm-admin-status" class="hm-contact-admin__alert hm-contact-admin__alert--success" style="display:none"></div>
+
+      <form id="hm-contact-form" class="hm-contact-admin__form">
+        <label for="zalo">Zalo</label>
+        <input id="zalo" class="hm-contact-admin__field" type="text" name="zalo" placeholder="0345345553" required>
+
+        <label for="facebook">Facebook</label>
+        <input id="facebook" class="hm-contact-admin__field" type="text" name="facebook" placeholder="https://www.facebook.com/..." required>
+
+        <hr>
+        <h3>Nội dung Modal thông báo</h3>
+        <label for="modalTitle">Tiêu đề</label>
+        <input id="modalTitle" class="hm-contact-admin__field" type="text" name="modalTitle" placeholder="THÔNG BÁO">
+
+        <label for="modalBody">Nội dung (dòng mới = \n)</label>
+        <textarea id="modalBody" class="hm-contact-admin__field" name="modalBody" rows="5" placeholder="Nội dung hiển thị trong modal"></textarea>
+
+        <label for="modalContactText">Văn bản liên hệ</label>
+        <input id="modalContactText" class="hm-contact-admin__field" type="text" name="modalContactText" placeholder="Liên hệ ngay Zalo: 0345...">
+
+        <label for="modalButtonLabel">Nhãn nút đóng</label>
+        <input id="modalButtonLabel" class="hm-contact-admin__field" type="text" name="modalButtonLabel" placeholder="ĐÃ HIỂU, KHÔNG HIỂN THỊ LẠI">
+
+        <label for="modalAlwaysShow">Luôn hiện modal khi tải lại?</label>
+        <select id="modalAlwaysShow" name="modalAlwaysShow" class="hm-contact-admin__field">
+          <option value="1">Có</option>
+          <option value="0">Không</option>
+        </select>
+
+        <div class="hm-contact-admin__actions">
+          <button type="submit" class="hm-contact-admin__btn">Lưu thay đổi</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+  (function () {
+    const storageKey = 'hm-contact-settings';
+    const statusBox = document.getElementById('hm-admin-status');
+    const form = document.getElementById('hm-contact-form');
+    const zaloInput = document.getElementById('zalo');
+    const facebookInput = document.getElementById('facebook');
+    const modalTitleEl = document.getElementById('modalTitle');
+    const modalBodyEl = document.getElementById('modalBody');
+    const modalContactTextEl = document.getElementById('modalContactText');
+    const modalButtonLabelEl = document.getElementById('modalButtonLabel');
+    const modalAlwaysShowEl = document.getElementById('modalAlwaysShow');
+
+    function setStatus(message, type) {
+      statusBox.style.display = 'block';
+      statusBox.textContent = message;
+      statusBox.className = 'hm-contact-admin__alert ' + (type === 'error' ? 'hm-contact-admin__alert--error' : 'hm-contact-admin__alert--success');
+    }
+
+    function applyValues(v) {
+      const values = v || {};
+      zaloInput.value = values.zalo || '';
+      facebookInput.value = values.facebook || '';
+      modalTitleEl.value = values.modalTitle || '';
+      modalBodyEl.value = values.modalBody || '';
+      modalContactTextEl.value = values.modalContactText || '';
+      modalButtonLabelEl.value = values.modalButtonLabel || '';
+      modalAlwaysShowEl.value = values.modalAlwaysShow ? '1' : '0';
+    }
+
+    // load settings from server JSON, fallback to localStorage, then defaults
+    (function loadSettings() {
+      const fallback = { zalo: '0345345553', facebook: 'https://www.facebook.com/profile.php?id=100069526895693', modalTitle: 'THÔNG BÁO', modalBody: '', modalContactText: '', modalButtonLabel: 'ĐÃ HIỂU, KHÔNG HIỂN THỊ LẠI', modalAlwaysShow: true };
+      fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
+        if (!res.ok) throw new Error('no-settings');
+        return res.json();
+      }).then(function (json) {
+        applyValues(Object.assign({}, fallback, json));
+      }).catch(function () {
+        try {
+          const saved = localStorage.getItem(storageKey);
+          if (saved) {
+            const parsed = JSON.parse(saved);
+            applyValues(Object.assign({}, fallback, parsed));
+            return;
+          }
+        } catch (e) {
+          // ignore
+        }
+        applyValues(fallback);
+      });
+    })();
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const settings = {
+        zalo: zaloInput.value.trim(),
+        facebook: facebookInput.value.trim(),
+        modalTitle: modalTitleEl.value.trim(),
+        modalBody: modalBodyEl.value.trim(),
+        modalContactText: modalContactTextEl.value.trim(),
+        modalButtonLabel: modalButtonLabelEl.value.trim(),
+        modalAlwaysShow: modalAlwaysShowEl.value === '1'
+      };
+
+      const formData = new FormData();
+      formData.append('zalo', settings.zalo);
+      formData.append('facebook', settings.facebook);
+      formData.append('modalTitle', settings.modalTitle);
+      formData.append('modalBody', settings.modalBody);
+      formData.append('modalContactText', settings.modalContactText);
+      formData.append('modalButtonLabel', settings.modalButtonLabel);
+      formData.append('modalAlwaysShow', settings.modalAlwaysShow ? '1' : '0');
+
+      fetch('save-contact.php', { method: 'POST', body: formData }).then(function (res) { return res.json(); }).then(function (data) {
+        if (data && data.success) {
+          // keep a local copy for instant preview
+          localStorage.setItem(storageKey, JSON.stringify(settings));
+          setStatus('Đã lưu xong. Bạn có thể mở trang chủ để xem kết quả.', 'success');
+          window.dispatchEvent(new Event('hm-contact-updated'));
+        } else {
+          setStatus('Lưu thất bại: ' + (data && data.message ? data.message : 'Lỗi máy chủ'), 'error');
+        }
+      }).catch(function (err) {
+        setStatus('Lưu thất bại: ' + (err && err.message ? err.message : 'Lỗi mạng'), 'error');
+      });
+    });
+  })();
+  </script>
+</body>
+</html>
