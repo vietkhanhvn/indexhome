@@ -151,7 +151,18 @@
           });
         }
         return res;
-      }).then(function (res) { return res.json(); }).then(function (data) {
+      }).then(function (res) {
+        return res.text().then(function (text) {
+          var parsed = null;
+          try {
+            parsed = text ? JSON.parse(text) : null;
+          } catch (e) {
+            console.error('save-contact: response not JSON', res.status, text);
+            throw new Error('Server returned non-JSON response (status ' + res.status + '): ' + (text || 'empty'));
+          }
+          return parsed;
+        });
+      }).then(function (data) {
         if (data && data.success) {
           // keep a local copy for instant preview
           localStorage.setItem(storageKey, JSON.stringify(settings));
@@ -161,6 +172,7 @@
           setStatus('Lưu thất bại: ' + (data && data.message ? data.message : 'Lỗi máy chủ'), 'error');
         }
       }).catch(function (err) {
+        console.error('save-contact error', err);
         setStatus('Lưu thất bại: ' + (err && err.message ? err.message : 'Lỗi mạng'), 'error');
       });
     });
