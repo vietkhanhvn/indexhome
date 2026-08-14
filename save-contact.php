@@ -2,21 +2,17 @@
 // Write settings to data/contact-settings.json and always return valid JSON.
 header('Content-Type: application/json; charset=utf-8');
 
-// Only accept POST
+// Accept POST or GET (some hosts block POST to custom endpoints). Read from $_REQUEST as a fallback.
 $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
-if (strtoupper($method) !== 'POST') {
-    echo json_encode(['success' => false, 'message' => 'Only POST allowed']);
-    exit(0);
-}
 
-// Collect inputs
-$zalo = isset($_POST['zalo']) ? trim((string)$_POST['zalo']) : '';
-$facebook = isset($_POST['facebook']) ? trim((string)$_POST['facebook']) : '';
-$modalTitle = isset($_POST['modalTitle']) ? trim((string)$_POST['modalTitle']) : '';
-$modalBody = isset($_POST['modalBody']) ? trim((string)$_POST['modalBody']) : '';
-$modalContactText = isset($_POST['modalContactText']) ? trim((string)$_POST['modalContactText']) : '';
-$modalButtonLabel = isset($_POST['modalButtonLabel']) ? trim((string)$_POST['modalButtonLabel']) : '';
-$modalAlwaysShow = isset($_POST['modalAlwaysShow']) ? ((string)$_POST['modalAlwaysShow'] === '1' || $_POST['modalAlwaysShow'] === 'true' ? true : (bool)$_POST['modalAlwaysShow']) : true;
+// Collect inputs from POST or GET (REQUEST covers both)
+$zalo = isset($_REQUEST['zalo']) ? trim((string)$_REQUEST['zalo']) : '';
+$facebook = isset($_REQUEST['facebook']) ? trim((string)$_REQUEST['facebook']) : '';
+$modalTitle = isset($_REQUEST['modalTitle']) ? trim((string)$_REQUEST['modalTitle']) : '';
+$modalBody = isset($_REQUEST['modalBody']) ? trim((string)$_REQUEST['modalBody']) : '';
+$modalContactText = isset($_REQUEST['modalContactText']) ? trim((string)$_REQUEST['modalContactText']) : '';
+$modalButtonLabel = isset($_REQUEST['modalButtonLabel']) ? trim((string)$_REQUEST['modalButtonLabel']) : '';
+$modalAlwaysShow = isset($_REQUEST['modalAlwaysShow']) ? ((string)$_REQUEST['modalAlwaysShow'] === '1' || $_REQUEST['modalAlwaysShow'] === 'true' ? true : (bool)$_REQUEST['modalAlwaysShow']) : true;
 
 $payload = [
     'zalo' => $zalo,
