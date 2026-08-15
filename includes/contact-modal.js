@@ -168,3 +168,11 @@
       }).catch(function () {
         applySettingsToLegacyOverlay(defaults);
       });
+  }
+
+  // reapply when admin saves
+  window.addEventListener('hm-contact-updated', function () {
+    loadAndApply();
+  });
+
+})();
