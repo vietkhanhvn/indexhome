@@ -61,6 +61,55 @@
     }
   }
 
+  // support legacy notice markup in index.html (#hm-notice-overlay)
+  function applySettingsToLegacyOverlay(settings) {
+    var overlay = document.getElementById('hm-notice-overlay');
+    if (!overlay) return false;
+    var box = document.getElementById('hm-notice-box') || overlay.querySelector('#hm-notice-box');
+    if (!box) return false;
+
+    var s = Object.assign({}, defaults, settings || {});
+
+    // title
+    var h3 = box.querySelector('h3');
+    if (h3) h3.textContent = s.modalTitle || defaults.modalTitle;
+
+    // body
+    var desc = box.querySelector('.hm-notice-desc');
+    if (desc) {
+      var text = s.modalBody || '';
+      desc.innerHTML = text.split('\n').map(function (ln) { return '<p>' + ln + '</p>'; }).join('');
+    }
+
+    // contact button (highlight area)
+    var btn = box.querySelector('.hm-zalo-btn');
+    if (btn) {
+      var zaloValue = (s.zalo || '').trim();
+      var href = zaloValue ? 'https://zalo.me/' + encodeURIComponent(zaloValue) : (s.facebook || '');
+      btn.href = href;
+      btn.textContent = s.modalButtonLabel || defaults.modalButtonLabel || btn.textContent;
+    }
+
+    // dismissal behavior: if modalAlwaysShow true, clear the legacy dismissed key so it appears
+    var DISMISS_KEY = 'hm_notice_dismissed_v1';
+    if (s.modalAlwaysShow === false) {
+      // respect existing dismissal state (do nothing)
+      if (!localStorage.getItem(DISMISS_KEY)) overlay.classList.add('show');
+    } else {
+      try { localStorage.removeItem(DISMISS_KEY); } catch (e) {}
+      overlay.classList.add('show');
+    }
+
+    // wire up close/dismiss buttons (id-based in legacy markup)
+    var close = document.getElementById('hm-notice-close');
+    if (close) close.addEventListener('click', function () { overlay.classList.remove('show'); });
+    var dismiss = document.getElementById('hm-notice-dismiss');
+    if (dismiss) dismiss.addEventListener('click', function () { try { localStorage.setItem(DISMISS_KEY, '1'); } catch (e) {} overlay.classList.remove('show'); });
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) overlay.classList.remove('show'); });
+
+    return true;
+  }
+
   function loadAndApply() {
     var modal = document.querySelector('.hm-contact-modal');
     if (!modal) return;
@@ -88,11 +137,34 @@
     document.addEventListener('DOMContentLoaded', loadAndApply);
   } else {
     loadAndApply();
-  }
+      // prefer the new modal markup
+      var modal = document.querySelector('.hm-contact-modal');
+      var saved = parseSaved();
 
-  // reapply when admin saves
-  window.addEventListener('hm-contact-updated', function () {
-    loadAndApply();
-  });
+      if (modal) {
+        if (saved) { applySettingsToModal(modal, saved); return; }
+        fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
+          if (!res.ok) throw new Error('no-settings');
+          return res.json();
+        }).then(function (json) {
+          applySettingsToModal(modal, json);
+        }).catch(function () {
+          applySettingsToModal(modal, defaults);
+        });
+        return;
+      }
 
-})();
+      // fallback: update legacy overlay if present
+      var appliedLegacy = false;
+      if (saved) {
+        appliedLegacy = applySettingsToLegacyOverlay(saved);
+        if (appliedLegacy) return;
+      }
+      fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
+        if (!res.ok) throw new Error('no-settings');
+        return res.json();
+      }).then(function (json) {
+        if (applySettingsToLegacyOverlay(json)) appliedLegacy = true;
+      }).catch(function () {
+        applySettingsToLegacyOverlay(defaults);
+      });
