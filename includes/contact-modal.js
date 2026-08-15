@@ -81,6 +81,21 @@
       desc.innerHTML = text.split('\n').map(function (ln) { return '<p>' + ln + '</p>'; }).join('');
     }
 
+    // contact text (separate from body) - use modalContactText if provided
+    var contactEl = box.querySelector('.hm-notice-contact') || box.querySelector('.hm-contact-modal__contact');
+    if (s.modalContactText) {
+      if (contactEl) {
+        contactEl.textContent = s.modalContactText;
+      } else {
+        var p = document.createElement('p');
+        p.className = 'hm-notice-contact';
+        p.textContent = s.modalContactText;
+        var highlight = box.querySelector('.hm-notice-highlight');
+        if (highlight) highlight.parentNode.insertBefore(p, highlight);
+        else box.appendChild(p);
+      }
+    }
+
     // contact button (highlight area)
     var btn = box.querySelector('.hm-zalo-btn');
     if (btn) {
