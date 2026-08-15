@@ -111,24 +111,35 @@
   }
 
   function loadAndApply() {
-    var modal = document.querySelector('.hm-contact-modal');
-    if (!modal) return;
-
-    // prefer localStorage
     var saved = parseSaved();
-    if (saved) {
-      applySettingsToModal(modal, saved);
+
+    // prefer the new modal markup if present
+    var modal = document.querySelector('.hm-contact-modal');
+    if (modal) {
+      if (saved) { applySettingsToModal(modal, saved); return; }
+      fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
+        if (!res.ok) throw new Error('no-settings');
+        return res.json();
+      }).then(function (json) {
+        applySettingsToModal(modal, json);
+      }).catch(function () {
+        applySettingsToModal(modal, defaults);
+      });
       return;
     }
 
-    // fallback: try server file
+    // fallback: legacy overlay
+    if (saved) {
+      if (applySettingsToLegacyOverlay(saved)) return;
+    }
+
     fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
       if (!res.ok) throw new Error('no-settings');
       return res.json();
     }).then(function (json) {
-      applySettingsToModal(modal, json);
+      if (applySettingsToLegacyOverlay(json)) return;
     }).catch(function () {
-      applySettingsToModal(modal, defaults);
+      applySettingsToLegacyOverlay(defaults);
     });
   }
 
@@ -137,37 +148,6 @@
     document.addEventListener('DOMContentLoaded', loadAndApply);
   } else {
     loadAndApply();
-      // prefer the new modal markup
-      var modal = document.querySelector('.hm-contact-modal');
-      var saved = parseSaved();
-
-      if (modal) {
-        if (saved) { applySettingsToModal(modal, saved); return; }
-        fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
-          if (!res.ok) throw new Error('no-settings');
-          return res.json();
-        }).then(function (json) {
-          applySettingsToModal(modal, json);
-        }).catch(function () {
-          applySettingsToModal(modal, defaults);
-        });
-        return;
-      }
-
-      // fallback: update legacy overlay if present
-      var appliedLegacy = false;
-      if (saved) {
-        appliedLegacy = applySettingsToLegacyOverlay(saved);
-        if (appliedLegacy) return;
-      }
-      fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
-        if (!res.ok) throw new Error('no-settings');
-        return res.json();
-      }).then(function (json) {
-        if (applySettingsToLegacyOverlay(json)) appliedLegacy = true;
-      }).catch(function () {
-        applySettingsToLegacyOverlay(defaults);
-      });
   }
 
   // reapply when admin saves
@@ -179,7 +159,6 @@
   window.addEventListener('storage', function (ev) {
     if (!ev) return;
     if (ev.key === STORAGE_KEY) {
-      // another tab changed settings
       loadAndApply();
     }
   });
