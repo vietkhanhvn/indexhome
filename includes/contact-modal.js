@@ -175,4 +175,13 @@
     loadAndApply();
   });
 
+  // also respond to cross-tab localStorage updates
+  window.addEventListener('storage', function (ev) {
+    if (!ev) return;
+    if (ev.key === STORAGE_KEY) {
+      // another tab changed settings
+      loadAndApply();
+    }
+  });
+
 })();
