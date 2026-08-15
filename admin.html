@@ -22,10 +22,30 @@
 
       <form id="hm-contact-form" class="hm-contact-admin__form">
         <label for="zalo">Zalo</label>
-        <input id="zalo" class="hm-contact-admin__field" type="text" name="zalo" placeholder="0345345553 hoặc 0909..." required>
+        <input id="zalo" class="hm-contact-admin__field" type="text" name="zalo" placeholder="0345345553" required>
 
         <label for="facebook">Facebook</label>
         <input id="facebook" class="hm-contact-admin__field" type="text" name="facebook" placeholder="https://www.facebook.com/..." required>
+
+        <hr>
+        <h3>Nội dung Modal thông báo</h3>
+        <label for="modalTitle">Tiêu đề</label>
+        <input id="modalTitle" class="hm-contact-admin__field" type="text" name="modalTitle" placeholder="THÔNG BÁO">
+
+        <label for="modalBody">Nội dung (dòng mới = \n)</label>
+        <textarea id="modalBody" class="hm-contact-admin__field" name="modalBody" rows="5" placeholder="Nội dung hiển thị trong modal"></textarea>
+
+        <label for="modalContactText">Văn bản liên hệ</label>
+        <input id="modalContactText" class="hm-contact-admin__field" type="text" name="modalContactText" placeholder="Liên hệ ngay Zalo: 0345...">
+
+        <label for="modalButtonLabel">Nhãn nút đóng</label>
+        <input id="modalButtonLabel" class="hm-contact-admin__field" type="text" name="modalButtonLabel" placeholder="ĐÃ HIỂU, KHÔNG HIỂN THỊ LẠI">
+
+        <label for="modalAlwaysShow">Luôn hiện modal khi tải lại?</label>
+        <select id="modalAlwaysShow" name="modalAlwaysShow" class="hm-contact-admin__field">
+          <option value="1">Có</option>
+          <option value="0">Không</option>
+        </select>
 
         <div class="hm-contact-admin__actions">
           <button type="submit" class="hm-contact-admin__btn">Lưu thay đổi</button>
@@ -54,14 +74,19 @@
     function loadDefaults() {
       const fallback = {
         zalo: '0345345553',
-        facebook: 'https://www.facebook.com/profile.php?id=100069526895693'
+        facebook: 'https://www.facebook.com/profile.php?id=100069526895693',
+        modalTitle: 'THÔNG BÁO',
+        modalBody: '',
+        modalContactText: '',
+        modalButtonLabel: 'ĐÃ HIỂU, KHÔNG HIỂN THỊ LẠI',
+        modalAlwaysShow: true
       };
 
       try {
         const saved = localStorage.getItem(storageKey);
         if (saved) {
           const parsed = JSON.parse(saved);
-          return { ...fallback, ...parsed };
+          return Object.assign({}, fallback, parsed);
         }
       } catch (e) {
         // ignore and use fallback
@@ -74,6 +99,17 @@
       const values = loadDefaults();
       zaloInput.value = values.zalo || '';
       facebookInput.value = values.facebook || '';
+      // modal fields (if present on page)
+      var modalTitleEl = document.getElementById('modalTitle');
+      var modalBodyEl = document.getElementById('modalBody');
+      var modalContactTextEl = document.getElementById('modalContactText');
+      var modalButtonLabelEl = document.getElementById('modalButtonLabel');
+      var modalAlwaysShowEl = document.getElementById('modalAlwaysShow');
+      if (modalTitleEl) modalTitleEl.value = values.modalTitle || '';
+      if (modalBodyEl) modalBodyEl.value = values.modalBody || '';
+      if (modalContactTextEl) modalContactTextEl.value = values.modalContactText || '';
+      if (modalButtonLabelEl) modalButtonLabelEl.value = values.modalButtonLabel || '';
+      if (modalAlwaysShowEl) modalAlwaysShowEl.value = values.modalAlwaysShow ? '1' : '0';
     }
 
     populate();
@@ -82,11 +118,16 @@
       event.preventDefault();
       const settings = {
         zalo: zaloInput.value.trim(),
-        facebook: facebookInput.value.trim()
+        facebook: facebookInput.value.trim(),
+        modalTitle: (document.getElementById('modalTitle') && document.getElementById('modalTitle').value) ? document.getElementById('modalTitle').value.trim() : '',
+        modalBody: (document.getElementById('modalBody') && document.getElementById('modalBody').value) ? document.getElementById('modalBody').value.trim() : '',
+        modalContactText: (document.getElementById('modalContactText') && document.getElementById('modalContactText').value) ? document.getElementById('modalContactText').value.trim() : '',
+        modalButtonLabel: (document.getElementById('modalButtonLabel') && document.getElementById('modalButtonLabel').value) ? document.getElementById('modalButtonLabel').value.trim() : '',
+        modalAlwaysShow: (document.getElementById('modalAlwaysShow') && document.getElementById('modalAlwaysShow').value === '1')
       };
 
       localStorage.setItem(storageKey, JSON.stringify(settings));
-      setStatus('Đã lưu thành công. Các nút Zalo/Facebook trên website sẽ cập nhật ngay.', 'success');
+      setStatus('Đã lưu thành công. Thông báo modal sẽ cập nhật khi tải lại trang.', 'success');
       window.dispatchEvent(new Event('hm-contact-updated'));
     });
   })();
