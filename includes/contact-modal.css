@@ -1,0 +1,109 @@
+/* ===== HM CONTACT MODAL ===== */
+.hm-contact-modal {
+  position: fixed;
+  inset: 0;
+ z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.hm-contact-modal.hm-open {
+  opacity: 1;
+  visibility: visible;
+}
+.hm-contact-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+.hm-contact-modal__inner {
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  padding: 36px 32px 28px;
+  max-width: 440px;
+  width: 90%;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+  transform: translateY(20px) scale(0.95);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+.hm-contact-modal.hm-open .hm-contact-modal__inner {
+  transform: translateY(0) scale(1);
+}
+.hm-contact-modal__close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: #999;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+.hm-contact-modal__close:hover {
+  background: #f0f0f0;
+  color: #333;
+}
+.hm-contact-modal__icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+.hm-contact-modal__title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #111;
+  margin: 0 0 12px;
+}
+.hm-contact-modal__body {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 14px;
+  white-space: pre-wrap;
+}
+.hm-contact-modal__contact {
+  font-size: 14px;
+  color: #00b74f;
+  font-weight: 700;
+  margin-bottom: 18px;
+  display: block;
+}
+.hm-contact-modal__button {
+  display: inline-block;
+  padding: 12px 32px;
+  background: linear-gradient(135deg, #00b74f, #00d15b);
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(0, 183, 79, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.hm-contact-modal__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 183, 79, 0.4);
+  color: #fff;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .hm-contact-modal__inner {
+    padding: 28px 20px 22px;
+  }
+  .hm-contact-modal__title {
+    font-size: 18px;
+  }
+}
