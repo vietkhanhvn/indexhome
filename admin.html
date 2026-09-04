@@ -71,16 +71,16 @@
       statusBox.className = 'hm-contact-admin__alert ' + (type === 'error' ? 'hm-contact-admin__alert--error' : 'hm-contact-admin__alert--success');
     }
 
-    function loadDefaults() {
-      const fallback = {
-        zalo: '0345345553',
-        facebook: 'https://www.facebook.com/profile.php?id=100069526895693',
-        modalTitle: 'THÔNG BÁO',
-        modalBody: '',
-        modalContactText: '',
-        modalButtonLabel: 'ĐÃ HIỂU, KHÔNG HIỂN THỊ LẠI',
-        modalAlwaysShow: true
-      };
+function loadDefaults() {
+  const fallback = {
+    zalo: '0345345553',
+    facebook: 'https://www.facebook.com/profile.php?id=100069526895693',
+    modalTitle: 'THÔNG BÁO',
+    modalBody: '',
+    modalContactText: 'Liên hệ ngay Zalo: 0345345553',
+    modalButtonLabel: 'ĐÃ HIỂU',
+    modalAlwaysShow: true  // LUÔN HIỆN
+  };
 
       try {
         const saved = localStorage.getItem(storageKey);
