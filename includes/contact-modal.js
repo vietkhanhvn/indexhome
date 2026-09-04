@@ -1,181 +1,77 @@
 (function () {
-  var STORAGE_KEY = 'hm-contact-settings';
+  const STORAGE_KEY = 'hm-contact-settings';
+  const modal = document.querySelector('.hm-contact-modal');
+  if (!modal) return;
 
-  var defaults = {
-    zalo: '',
-    facebook: '',
+  const titleEl = modal.querySelector('.hm-contact-modal__title');
+  const bodyEl = modal.querySelector('.hm-contact-modal__body');
+  const contactEl = modal.querySelector('.hm-contact-modal__contact');
+  const btnEl = modal.querySelector('.hm-contact-modal__button');
+  const closeEl = modal.querySelector('[data-hm-close]');
+  const backdropEl = modal.querySelector('.hm-contact-modal__backdrop');
+
+  // Mặc định
+  const DEFAULTS = {
+    zalo: '0345345553',
+    facebook: 'https://www.facebook.com/profile.php?id=100069526895693',
     modalTitle: 'THÔNG BÁO',
     modalBody: '',
-    modalContactText: '',
-    modalButtonLabel: 'ĐÃ HIỂU',
+    modalContactText: 'Liên hệ ngay Zalo: 0345345553',
+    modalButtonLabel: 'Vay Vốn Qua iCloud Ngay',
     modalAlwaysShow: true
   };
 
-  function parseSaved() {
+  function loadSettings() {
     try {
-      var raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return null;
-      return JSON.parse(raw);
-    } catch (e) {
-      return null;
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) return Object.assign({}, DEFAULTS, JSON.parse(saved));
+    } catch (e) {}
+    return Object.assign({}, DEFAULTS);
+  }
+
+  function applySettings() {
+    const s = loadSettings();
+    if (titleEl) titleEl.textContent = s.modalTitle || DEFAULTS.modalTitle;
+    if (bodyEl) bodyEl.innerHTML = (s.modalBody || '').replace(/\n/g, '<br>');
+    if (contactEl) {
+      contactEl.textContent = s.modalContactText || '';
+      contactEl.style.display = s.modalContactText ? 'block' : 'none';
+    }
+    if (btnEl) {
+      btnEl.textContent = s.modalButtonLabel || DEFAULTS.modalButtonLabel;
+      btnEl.href = 'https://homemoney.com.vn/vay-tien-qua-icloud';
     }
   }
 
-  function applySettingsToModal(modal, settings) {
-    if (!modal) return;
-    var title = modal.querySelector('.hm-contact-modal__title');
-    var body = modal.querySelector('.hm-contact-modal__body');
-    var contact = modal.querySelector('.hm-contact-modal__contact');
-    var btn = modal.querySelector('.hm-contact-modal__button');
-
-    var s = Object.assign({}, defaults, settings || {});
-
-    if (title) title.textContent = s.modalTitle || '';
-    if (body) {
-      var text = s.modalBody || '';
-      body.innerHTML = text.split('\n').map(function (ln) { return '<p>' + ln + '</p>'; }).join('');
-    }
-    if (contact) contact.textContent = s.modalContactText || '';
-    if (btn) btn.textContent = s.modalButtonLabel || 'ĐÃ HIỂU';
-
-    // show/hide based on modalAlwaysShow
-    if (s.modalAlwaysShow === false) {
-      // do not auto-show
-    } else {
-      modal.classList.add('hm-contact-modal--visible');
-    }
-
-    // close handlers
-    var closeBtn = modal.querySelector('[data-hm-close]') || modal.querySelector('.hm-contact-modal__close');
-    if (closeBtn) {
-      closeBtn.addEventListener('click', function () {
-        modal.classList.remove('hm-contact-modal--visible');
-      });
-    }
-
-    if (btn) {
-      btn.addEventListener('click', function (ev) {
-        ev.preventDefault();
-        modal.classList.remove('hm-contact-modal--visible');
-      });
-    }
+  function closeModal() {
+    modal.setAttribute('aria-hidden', 'true');
+    modal.classList.remove('hm-open');
+    document.body.style.overflow = '';
   }
 
-  // support legacy notice markup in index.html (#hm-notice-overlay)
-  function applySettingsToLegacyOverlay(settings) {
-    var overlay = document.getElementById('hm-notice-overlay');
-    if (!overlay) return false;
-    var box = document.getElementById('hm-notice-box') || overlay.querySelector('#hm-notice-box');
-    if (!box) return false;
-
-    var s = Object.assign({}, defaults, settings || {});
-
-    // title
-    var h3 = box.querySelector('h3');
-    if (h3) h3.textContent = s.modalTitle || defaults.modalTitle;
-
-    // body
-    var desc = box.querySelector('.hm-notice-desc');
-    if (desc) {
-      var text = s.modalBody || '';
-      desc.innerHTML = text.split('\n').map(function (ln) { return '<p>' + ln + '</p>'; }).join('');
-    }
-
-    // contact text (separate from body) - use modalContactText if provided
-    var contactEl = box.querySelector('.hm-notice-contact') || box.querySelector('.hm-contact-modal__contact');
-    if (s.modalContactText) {
-      if (contactEl) {
-        contactEl.textContent = s.modalContactText;
-      } else {
-        var p = document.createElement('p');
-        p.className = 'hm-notice-contact';
-        p.textContent = s.modalContactText;
-        var highlight = box.querySelector('.hm-notice-highlight');
-        if (highlight) highlight.parentNode.insertBefore(p, highlight);
-        else box.appendChild(p);
-      }
-    }
-
-    // contact button (highlight area)
-    var btn = box.querySelector('.hm-zalo-btn');
-    if (btn) {
-      var zaloValue = (s.zalo || '').trim();
-      var href = zaloValue ? 'https://zalo.me/' + encodeURIComponent(zaloValue) : (s.facebook || '');
-      btn.href = href;
-      btn.textContent = s.modalButtonLabel || defaults.modalButtonLabel || btn.textContent;
-    }
-
-    // dismissal behavior: if modalAlwaysShow true, clear the legacy dismissed key so it appears
-    var DISMISS_KEY = 'hm_notice_dismissed_v1';
-    if (s.modalAlwaysShow === false) {
-      // respect existing dismissal state (do nothing)
-      if (!localStorage.getItem(DISMISS_KEY)) overlay.classList.add('show');
-    } else {
-      try { localStorage.removeItem(DISMISS_KEY); } catch (e) {}
-      overlay.classList.add('show');
-    }
-
-    // wire up close/dismiss buttons (id-based in legacy markup)
-    var close = document.getElementById('hm-notice-close');
-    if (close) close.addEventListener('click', function () { overlay.classList.remove('show'); });
-    var dismiss = document.getElementById('hm-notice-dismiss');
-    if (dismiss) dismiss.addEventListener('click', function () { try { localStorage.setItem(DISMISS_KEY, '1'); } catch (e) {} overlay.classList.remove('show'); });
-    overlay.addEventListener('click', function (e) { if (e.target === overlay) overlay.classList.remove('show'); });
-
-    return true;
+  function openModal() {
+    applySettings();
+    modal.setAttribute('aria-hidden', 'false');
+    modal.classList.add('hm-open');
+    document.body.style.overflow = 'hidden';
   }
 
-  function loadAndApply() {
-    var saved = parseSaved();
+  // Đóng modal
+  if (closeEl) closeEl.addEventListener('click', closeModal);
+  if (backdropEl) backdropEl.addEventListener('click', closeModal);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && modal.classList.contains('hm-open')) closeModal();
+  });
 
-    // prefer the new modal markup if present
-    var modal = document.querySelector('.hm-contact-modal');
-    if (modal) {
-      if (saved) { applySettingsToModal(modal, saved); return; }
-      fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
-        if (!res.ok) throw new Error('no-settings');
-        return res.json();
-      }).then(function (json) {
-        applySettingsToModal(modal, json);
-      }).catch(function () {
-        applySettingsToModal(modal, defaults);
-      });
-      return;
-    }
-
-    // fallback: legacy overlay
-    if (saved) {
-      if (applySettingsToLegacyOverlay(saved)) return;
-    }
-
-    fetch('./data/contact-settings.json', { cache: 'no-store' }).then(function (res) {
-      if (!res.ok) throw new Error('no-settings');
-      return res.json();
-    }).then(function (json) {
-      if (applySettingsToLegacyOverlay(json)) return;
-    }).catch(function () {
-      applySettingsToLegacyOverlay(defaults);
-    });
-  }
-
-  // initial run
+  // LUÔN hiện modal khi load trang
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadAndApply);
+    document.addEventListener('DOMContentLoaded', openModal);
   } else {
-    loadAndApply();
-  }
+    openModal();
+ }
 
-  // reapply when admin saves
+  // Lắng nghe sự kiện cập nhật từ admin
   window.addEventListener('hm-contact-updated', function () {
-    loadAndApply();
+    applySettings();
   });
-
-  // also respond to cross-tab localStorage updates
-  window.addEventListener('storage', function (ev) {
-    if (!ev) return;
-    if (ev.key === STORAGE_KEY) {
-      loadAndApply();
-    }
-  });
-
 })();
